@@ -1,0 +1,2363 @@
+{
+  "camion": [
+    {
+      "id": "1",
+      "agenceId": "2",
+      "matricule": "10093-A-13",
+      "date": "6/20/05",
+      "marque": "RENAULT",
+      "intitule": "SCBG",
+      "visiteTechnique": "3/11/22",
+      "permisCirculation": "2/24/22",
+      "equipement": "MG2450",
+      "etat": "Pb des papiers"
+    },
+    {
+      "id": "2",
+      "agenceId": "2",
+      "matricule": "120-A-73",
+      "date": "7/5/04",
+      "marque": "ISUZU",
+      "intitule": "COBOMI",
+      "visiteTechnique": "6/17/22",
+      "permisCirculation": "3/8/22",
+      "equipement": "MG10005"
+    },
+    {
+      "id": "3",
+      "agenceId": "6",
+      "matricule": "13720-A-40",
+      "date": "5/6/96",
+      "marque": "RENAULT",
+      "intitule": "SCBG",
+      "visiteTechnique": "4/21/22",
+      "permisCirculation": "8/26/22",
+      "equipement": "MG1765"
+    },
+    {
+      "id": "4",
+      "agenceId": "2",
+      "matricule": "14165-A-15",
+      "date": "4/10/97",
+      "marque": "RENAULT",
+      "intitule": "CBGN",
+      "visiteTechnique": "5/27/22",
+      "permisCirculation": "12/14/21",
+      "equipement": "MG4131"
+    },
+    {
+      "id": "5",
+      "agenceId": "7",
+      "matricule": "16565-B-7",
+      "date": "4/18/19",
+      "marque": "FUSO",
+      "intitule": "TRANS OPTI FLUX",
+      "visiteTechnique": "2/17/22",
+      "permisCirculation": "3/3/23",
+      "equipement": "VL0548"
+    },
+    {
+      "id": "6",
+      "agenceId": "2",
+      "matricule": "16998-A-13",
+      "date": "7/2/08",
+      "marque": "MITSUBISHI",
+      "intitule": "SCBG",
+      "visiteTechnique": "3/10/22",
+      "permisCirculation": "8/30/22",
+      "equipement": "MG2611"
+    },
+    {
+      "id": "7",
+      "agenceId": "7",
+      "matricule": "17124-B-7",
+      "date": "4/25/19",
+      "marque": "MITSUBI",
+      "intitule": "TRANS OPTI FLUX",
+      "visiteTechnique": "2/21/22",
+      "permisCirculation": "3/30/23",
+      "equipement": "VL0551"
+    },
+    {
+      "id": "8",
+      "agenceId": "6",
+      "matricule": "31935-D-8",
+      "date": "12/13/19",
+      "marque": "IVECO",
+      "intitule": "STE LAGOUASSEM ",
+      "visiteTechnique": "10/27/22",
+      "equipement": "VL0602"
+    },
+    {
+      "id": "9",
+      "agenceId": "7",
+      "matricule": "31940-D-8",
+      "date": "12/13/19",
+      "marque": "IVECO",
+      "intitule": "STE LAGOUASSEM ",
+      "visiteTechnique": "10/27/21",
+      "permisCirculation": "10/30/21",
+      "equipement": "VL0605"
+    },
+    {
+      "id": "10",
+      "agenceId": "1",
+      "matricule": "32093-A-26",
+      "date": "6/30/04",
+      "marque": "Mitsubishi",
+      "intitule": "CBGS",
+      "visiteTechnique": "7/7/22",
+      "permisCirculation": "7/7/22",
+      "equipement": "MG7085",
+      "Matricule": "",
+      "etat": "Pb des papiers"
+    },
+    {
+      "id": "11",
+      "agenceId": "2",
+      "matricule": "32724-A-13",
+      "date": "3/4/13",
+      "marque": "MITSUBISHI",
+      "intitule": "SCBG",
+      "visiteTechnique": "2/11/22",
+      "permisCirculation": "2/18/22",
+      "equipement": "MG2685"
+    },
+    {
+      "id": "12",
+      "agenceId": "4",
+      "matricule": "33248-A-13",
+      "date": "4/15/13",
+      "marque": "MITSUBI",
+      "intitule": "SCBG",
+      "visiteTechnique": "6/26/22",
+      "permisCirculation": "8/11/22",
+      "equipement": "MG2698"
+    },
+    {
+      "id": "13",
+      "agenceId": "2",
+      "matricule": "33250-A-13",
+      "date": "5/14/13",
+      "marque": "MITSUBISHI",
+      "intitule": "SCBG",
+      "visiteTechnique": "3/10/22",
+      "permisCirculation": "2/18/22",
+      "equipement": "MG2700"
+    },
+    {
+      "id": "14",
+      "agenceId": "6",
+      "matricule": "3543-A-26",
+      "date": "5/5/00",
+      "marque": "Isuzu",
+      "intitule": "CBGS",
+      "visiteTechnique": "3/11/22",
+      "permisCirculation": "7/5/22",
+      "equipement": "MG7249"
+    },
+    {
+      "id": "15",
+      "agenceId": "6",
+      "matricule": "3544-A-26",
+      "date": "5/5/00",
+      "marque": "ISUZU",
+      "intitule": "CBGS",
+      "visiteTechnique": "4/27/22",
+      "permisCirculation": "12/10/21",
+      "equipement": "MG7214"
+    },
+    {
+      "id": "18",
+      "agenceId": "4",
+      "matricule": "3551-A-26",
+      "date": "5/5/00",
+      "marque": "ISUZU",
+      "intitule": "CBGS",
+      "visiteTechnique": "5/26/22",
+      "permisCirculation": "7/5/22",
+      "equipement": "MG7198"
+    },
+    {
+      "id": "20",
+      "agenceId": "4",
+      "matricule": "3826-A-7",
+      "date": "5/15/00",
+      "marque": "RENAULT ",
+      "intitule": "SCBG",
+      "visiteTechnique": "3/11/22",
+      "permisCirculation": "10/22/21",
+      "equipement": "MG2173"
+    },
+    {
+      "id": "21",
+      "agenceId": "4",
+      "matricule": "3946-A-26",
+      "date": "6/13/00",
+      "marque": "MITSUBISHI",
+      "intitule": "CBGS",
+      "visiteTechnique": "6/6/22",
+      "permisCirculation": "9/5/22",
+      "equipement": "MG7245"
+    },
+    {
+      "id": "22",
+      "agenceId": "7",
+      "matricule": "3947-A-26",
+      "date": "6/13/00",
+      "marque": "MITSUBICHI FK",
+      "intitule": "CBGS",
+      "visiteTechnique": "4/18/21",
+      "permisCirculation": "7/14/21",
+      "equipement": "MG7048"
+    },
+    {
+      "id": "23",
+      "agenceId": "6",
+      "matricule": "4001-A-7",
+      "date": "6/5/00",
+      "marque": "ISUZU",
+      "intitule": "SCBG",
+      "visiteTechnique": "5/26/22",
+      "equipement": "MG2184"
+    },
+    {
+      "id": "24",
+      "agenceId": "4",
+      "matricule": "4007-A-7",
+      "date": "6/5/00",
+      "marque": "ISUZU",
+      "intitule": "SCBG",
+      "visiteTechnique": "5/3/22",
+      "permisCirculation": "12/31/21",
+      "equipement": "MG2190"
+    },
+    {
+      "id": "25",
+      "agenceId": "2",
+      "matricule": "43710-A-6",
+      "date": "11/9/99",
+      "marque": "RENAULT",
+      "intitule": "SCBG",
+      "visiteTechnique": "4/25/22",
+      "permisCirculation": "11/23/21",
+      "equipement": "MG1921"
+    },
+    {
+      "id": "26",
+      "agenceId": "2",
+      "matricule": "4614-A-15",
+      "date": "6/5/00",
+      "marque": "MITSUBISHI",
+      "intitule": "CBGN",
+      "visiteTechnique": "2/17/22",
+      "permisCirculation": "3/9/22",
+      "equipement": "MG4046"
+    },
+    {
+      "id": "27",
+      "agenceId": "2",
+      "matricule": "4632-A-15",
+      "date": "6/5/00",
+      "marque": "MITSIBISHI",
+      "intitule": "CBGN",
+      "visiteTechnique": "1/26/22",
+      "permisCirculation": "7/11/22",
+      "equipement": "MG4078",
+      "etat": "Pb des papiers"
+    },
+    {
+      "id": "28",
+      "agenceId": "2",
+      "matricule": "56169-E-6",
+      "date": "7/13/19",
+      "marque": "MITSUBICHI",
+      "intitule": "BM TRANS",
+      "visiteTechnique": "2/15/22",
+      "permisCirculation": "7/5/23",
+      "equipement": "VL0569"
+    },
+    {
+      "id": "29",
+      "agenceId": "4",
+      "matricule": "56172-E-6",
+      "date": "7/13/19",
+      "marque": "FUSO",
+      "intitule": "BM TRANS",
+      "equipement": "VL0568"
+    },
+    {
+      "id": "30",
+      "agenceId": "7",
+      "matricule": "56405-E-6",
+      "date": "7/2/19",
+      "marque": "FUSO",
+      "intitule": "BM TRANS",
+      "visiteTechnique": "12/17/21",
+      "permisCirculation": "7/12/23",
+      "equipement": "VL0572"
+    },
+    {
+      "id": "31",
+      "agenceId": "4",
+      "matricule": "56407-E-6",
+      "date": "7/2/19",
+      "marque": "FUSO",
+      "intitule": "BM TRANS",
+      "visiteTechnique": "6/15/22",
+      "permisCirculation": "6/29/22",
+      "equipement": "VL0574"
+    },
+    {
+      "id": "32",
+      "agenceId": "4",
+      "matricule": "56408-E-6",
+      "date": "7/2/19",
+      "marque": "FUSO",
+      "intitule": "BM TRANS",
+      "visiteTechnique": "6/15/22",
+      "permisCirculation": "6/29/22",
+      "equipement": "VL0571"
+    },
+    {
+      "id": "33",
+      "agenceId": "7",
+      "matricule": "56409-E-6",
+      "date": "7/2/19",
+      "marque": "FUSO",
+      "intitule": "BM TRANS",
+      "visiteTechnique": "11/7/22",
+      "permisCirculation": "6/14/23",
+      "equipement": "VL0573"
+    },
+    {
+      "id": "34",
+      "agenceId": "6",
+      "matricule": "5951-A-6",
+      "date": "3/22/00",
+      "marque": "RENAULT ",
+      "intitule": "COBOMI",
+      "visiteTechnique": "10/20/22",
+      "permisCirculation": "8/11/22",
+      "equipement": "MG10008"
+    },
+    {
+      "id": "35",
+      "agenceId": "8",
+      "matricule": "59749-E-6",
+      "date": "9/23/19",
+      "marque": "MITSUBICHI",
+      "intitule": "CHAABI TRUCKS",
+      "visiteTechnique": "7/7/22",
+      "permisCirculation": "8/12/23",
+      "equipement": "VL0589"
+    },
+    {
+      "id": "36",
+      "agenceId": "4",
+      "matricule": "59750-E-6",
+      "date": "9/23/19",
+      "marque": "FUSO",
+      "intitule": "CHAABI TRUCKS",
+      "visiteTechnique": "12/13/21",
+      "permisCirculation": "8/11/23",
+      "equipement": "VL0586"
+    },
+    {
+      "id": "37",
+      "agenceId": "8",
+      "matricule": "59751-E-6",
+      "date": "9/23/19",
+      "marque": "MITSUBICHI",
+      "intitule": "CHAABI TRUCKS",
+      "visiteTechnique": "7/7/22",
+      "permisCirculation": "8/12/23",
+      "equipement": "VL0590"
+    },
+    {
+      "id": "38",
+      "agenceId": "8",
+      "matricule": "59752-E-6",
+      "date": "9/23/19",
+      "marque": "MITSUBICHI",
+      "intitule": "CHAABI TRUCKS",
+      "visiteTechnique": "7/7/22",
+      "permisCirculation": "8/11/23",
+      "equipement": "VL0591"
+    },
+    {
+      "id": "39",
+      "agenceId": "8",
+      "matricule": "59753-E-6",
+      "date": "9/23/19",
+      "marque": "MITSUBICHI",
+      "intitule": "CHAABI TRUCKS",
+      "visiteTechnique": "7/7/22",
+      "permisCirculation": "8/12/23",
+      "equipement": "VL0592"
+    },
+    {
+      "id": "40",
+      "agenceId": "7",
+      "matricule": "59754-E-6",
+      "date": "9/23/19",
+      "marque": "FUSO",
+      "intitule": "CHAABI TRUCKS",
+      "visiteTechnique": "10/6/22",
+      "permisCirculation": "8/11/23",
+      "equipement": "VL0593"
+    },
+    {
+      "id": "41",
+      "agenceId": "7",
+      "matricule": "59755-E-6",
+      "date": "9/23/19",
+      "marque": "MITSUBI",
+      "intitule": "CHAABI TRUCKS",
+      "visiteTechnique": "6/24/22",
+      "permisCirculation": "8/11/23",
+      "equipement": "VL0585"
+    },
+    {
+      "id": "42",
+      "agenceId": "8",
+      "matricule": "60539-E-6",
+      "date": "9/23/19",
+      "marque": "MITSUBICHI",
+      "intitule": "CHAABI TRUCKS",
+      "visiteTechnique": "7/7/22",
+      "permisCirculation": "8/12/23",
+      "equipement": "VL0594"
+    },
+    {
+      "id": "43",
+      "agenceId": "2",
+      "matricule": "60540-E-6",
+      "date": "9/23/19",
+      "marque": "MITSUBISHI",
+      "intitule": "CHAABI TRUCKS",
+      "visiteTechnique": "2/10/22",
+      "permisCirculation": "8/23/23",
+      "equipement": "VL0584"
+    },
+    {
+      "id": "44",
+      "agenceId": "4",
+      "matricule": "60541-E-6-",
+      "date": "9/23/19",
+      "marque": "FUSO",
+      "intitule": "CHAABI TRUCKS",
+      "visiteTechnique": "6/14/22",
+      "permisCirculation": "8/23/23",
+      "equipement": "VL0583"
+    },
+    {
+      "id": "45",
+      "agenceId": "4",
+      "matricule": "60542-E-6",
+      "date": "9/23/19",
+      "marque": "FUSO",
+      "intitule": "CHAABI TRUCKS",
+      "visiteTechnique": "6/14/22",
+      "permisCirculation": "8/23/23",
+      "equipement": "VL0581"
+    },
+    {
+      "id": "46",
+      "agenceId": "6",
+      "matricule": "60543-E-6",
+      "date": "9/23/19",
+      "marque": "Mitsub",
+      "intitule": "CHAABI TRUCKS",
+      "visiteTechnique": "8/14/22",
+      "permisCirculation": "8/26/23",
+      "equipement": "VL0580"
+    },
+    {
+      "id": "47",
+      "agenceId": "7",
+      "matricule": "60544-E-6",
+      "date": "9/23/19",
+      "marque": "FUSO",
+      "intitule": "CHAABI TRUCKS",
+      "visiteTechnique": "4/20/22",
+      "permisCirculation": "8/23/23",
+      "equipement": "VL0582"
+    },
+    {
+      "id": "48",
+      "agenceId": "6",
+      "matricule": "6443-A-7",
+      "date": "9/20/00",
+      "marque": "RENAULT",
+      "intitule": "SCBG",
+      "visiteTechnique": "2/11/22",
+      "permisCirculation": "12/31/21",
+      "equipement": "MG2319"
+    },
+    {
+      "id": "49",
+      "agenceId": "2",
+      "matricule": "64564-A-8",
+      "date": "1/25/02",
+      "marque": "RENAULT",
+      "intitule": "SCBG",
+      "visiteTechnique": "6/17/22",
+      "permisCirculation": "7/11/22",
+      "equipement": "MG2510",
+      "etat": "EN PANNE"
+    },
+    {
+      "id": "50",
+      "agenceId": "6",
+      "matricule": "6658-A-2",
+      "date": "6/23/98",
+      "marque": "RENAULT",
+      "intitule": "SCBG",
+      "visiteTechnique": "5/2/22",
+      "permisCirculation": "12/31/21",
+      "equipement": "MG1743"
+    },
+    {
+      "id": "51",
+      "agenceId": "2",
+      "matricule": "71130-A-26",
+      "date": "4/21/09",
+      "marque": "MITSUBUHI",
+      "intitule": "CBGS",
+      "visiteTechnique": "1/11/22",
+      "permisCirculation": "7/12/22",
+      "equipement": "MG7273"
+    },
+    {
+      "id": "52",
+      "agenceId": "9",
+      "matricule": "71131-A-26",
+      "date": "4/21/09",
+      "marque": "Mitsubishi",
+      "intitule": "CBGS",
+      "visiteTechnique": "3/3/22",
+      "permisCirculation": "7/5/22",
+      "equipement": "MG7278"
+    },
+    {
+      "id": "53",
+      "agenceId": "7",
+      "matricule": "81080-B-8",
+      "date": "6/9/14",
+      "marque": "MITSUBICHI ",
+      "intitule": "STE LAGOUASSEM ",
+      "visiteTechnique": "4/20/22",
+      "permisCirculation": "7/12/22",
+      "equipement": "VL0184"
+    },
+    {
+      "id": "54",
+      "agenceId": "2",
+      "matricule": "8380-A-13",
+      "date": "7/26/04",
+      "marque": "RENAULT",
+      "intitule": "SCBG",
+      "visiteTechnique": "2/22/22",
+      "permisCirculation": "2/18/22",
+      "equipement": "MG2398",
+      "etat": "Pb des papiers"
+    },
+    {
+      "id": "55",
+      "agenceId": "2",
+      "matricule": "84691-B-8",
+      "date": "2/19/18",
+      "marque": "MITSUBISHI",
+      "intitule": "STE LAGOUASSEM",
+      "visiteTechnique": "9/21/22",
+      "permisCirculation": "10/14/21",
+      "equipement": "VL0529"
+    },
+    {
+      "id": "56",
+      "agenceId": "9",
+      "matricule": "84705-A-26",
+      "date": "7/21/98",
+      "marque": "Isuzu",
+      "intitule": "CBGS",
+      "visiteTechnique": "11/27/21",
+      "permisCirculation": "7/27/21",
+      "equipement": "MG7001"
+    },
+    {
+      "id": "57",
+      "agenceId": "2",
+      "matricule": "85241-B-8",
+      "date": "6/9/14",
+      "marque": "MITSUBISHI",
+      "intitule": "STE LAGOUASSEM",
+      "visiteTechnique": "4/1/22",
+      "permisCirculation": "2/20/22",
+      "equipement": "VL0174"
+    },
+    {
+      "id": "58",
+      "agenceId": "8",
+      "matricule": "85251-B-8",
+      "date": "6/9/14",
+      "marque": "ISUZU",
+      "intitule": "STE LAGOUASSEM",
+      "visiteTechnique": "4/6/22",
+      "equipement": "VL0175"
+    },
+    {
+      "id": "59",
+      "agenceId": "4",
+      "matricule": "85253-B-8",
+      "date": "6/9/14",
+      "marque": "ISUZU",
+      "intitule": "STE LAGOUASSEM",
+      "visiteTechnique": "5/6/22",
+      "permisCirculation": "7/15/22",
+      "equipement": "VL0176"
+    },
+    {
+      "id": "60",
+      "agenceId": "6",
+      "matricule": "85260-B-8",
+      "date": "6/9/14",
+      "marque": "MITSUBISHI",
+      "intitule": "STE LAGOUASSEM ",
+      "visiteTechnique": "4/6/22",
+      "equipement": "VL0181"
+    },
+    {
+      "id": "61",
+      "agenceId": "7",
+      "matricule": "86064-B-8",
+      "date": "8/5/14",
+      "marque": "MITSUBICHI ",
+      "intitule": "STE LAGOUASSEM ",
+      "visiteTechnique": "7/3/22",
+      "permisCirculation": "7/12/22",
+      "equipement": "VL0195"
+    },
+    {
+      "id": "62",
+      "agenceId": "4",
+      "matricule": "86253-B-8",
+      "date": "8/9/14",
+      "marque": "ISUZU",
+      "intitule": "STE LAGOUASSEM",
+      "visiteTechnique": "5/18/22",
+      "permisCirculation": "7/6/22",
+      "equipement": "VL0199"
+    },
+    {
+      "id": "63",
+      "agenceId": "6",
+      "matricule": "86255-B-8",
+      "date": "8/9/14",
+      "marque": "ISUZU",
+      "intitule": "STE LAGOUASSEM ",
+      "visiteTechnique": "5/5/22",
+      "equipement": "VL0200"
+    },
+    {
+      "id": "64",
+      "agenceId": "2",
+      "matricule": "86567-B-8",
+      "date": "9/2/14",
+      "marque": "ISUZU",
+      "intitule": "STE LAGOUASSEM",
+      "visiteTechnique": "4/2/22",
+      "permisCirculation": "10/11/22",
+      "equipement": "VL0207"
+    },
+    {
+      "id": "65",
+      "agenceId": "6",
+      "matricule": "88265-A-8",
+      "date": "3/13/03",
+      "marque": "RENAULT ",
+      "intitule": "SCBG",
+      "visiteTechnique": "6/6/22",
+      "permisCirculation": "9/5/22",
+      "equipement": "MG10033"
+    },
+    {
+      "id": "66",
+      "agenceId": "6",
+      "matricule": "88274-A-8",
+      "date": "3/13/03",
+      "marque": "RENAULT ",
+      "intitule": "SCBG",
+      "visiteTechnique": "5/25/22",
+      "permisCirculation": "8/4/22",
+      "equipement": "MG10034"
+    },
+    {
+      "id": "67",
+      "agenceId": "1",
+      "matricule": "92333-B-26",
+      "date": "1/15/97",
+      "marque": "Mitsubishi",
+      "intitule": "CBGS",
+      "visiteTechnique": "11/27/21",
+      "permisCirculation": "sans",
+      "equipement": "MG7261",
+      "Matricule": "",
+      "etat": "Rien à signler"
+    },
+    {
+      "id": "68",
+      "agenceId": "6",
+      "matricule": "9978-A-13",
+      "date": "6/20/05",
+      "marque": "RENAULT ",
+      "intitule": "SCBG",
+      "visiteTechnique": "4/4/22",
+      "permisCirculation": "2/10/22",
+      "equipement": "MG2449"
+    }
+  ],
+  "voiture": [
+    {
+      "id": "1",
+      "agenceId": "2",
+      "matricule": "17088-B-72",
+      "DMC": "2,019",
+      "marque": "PEUGEOT 301",
+      "type": "ARVAL MAROC",
+      "conducteur": "REDOUANE NADMY"
+    },
+    {
+      "id": "12",
+      "agenceId": "2",
+      "matricule": "26906-B-7",
+      "DMC": "2,020",
+      "marque": "DACIA LOGAN",
+      "type": "ESPACE DE LOCATION",
+      "conducteur": "ANEJAR RACHID"
+    },
+    {
+      "id": "15",
+      "agenceId": "2",
+      "matricule": "34484-E-6",
+      "DMC": "2,019",
+      "marque": "FIAT DOBLO",
+      "type": "CHAABI LLD",
+      "conducteur": "JAMAL MOHAMED"
+    },
+    {
+      "id": "17",
+      "agenceId": "2",
+      "matricule": "34757-E-6",
+      "DMC": "2,019",
+      "marque": "FIAT DOBLO",
+      "type": "CHAABI LLD",
+      "conducteur": "IDRISSI MOHAMED"
+    },
+    {
+      "id": "18",
+      "agenceId": "2",
+      "matricule": "34758-E-6",
+      "DMC": "2,019",
+      "marque": "FIAT DOBLO",
+      "type": "CHAABI LLD",
+      "conducteur": "REDOUANE JAMAL"
+    },
+    {
+      "id": "19",
+      "agenceId": "2",
+      "matricule": "34759-E-6",
+      "DMC": "2,019",
+      "marque": "FIAT DOBLO",
+      "type": "CHAABI LLD",
+      "conducteur": "JADIR ABDELATIF"
+    },
+    {
+      "id": "30",
+      "agenceId": "2",
+      "matricule": "57365-E-6",
+      "DMC": "2,019",
+      "marque": "DACIA  LOGAN",
+      "type": "BM RENTAL",
+      "conducteur": "ZOUINI SALEH"
+    },
+    {
+      "id": "33",
+      "agenceId": "2",
+      "matricule": "57368-E-6",
+      "DMC": "2,019",
+      "marque": "DACIA  LOGAN",
+      "type": "BM RENTAL",
+      "conducteur": "HOUMINI MOHAMED"
+    },
+    {
+      "id": "44",
+      "agenceId": "2",
+      "matricule": "59021-E-6",
+      "DMC": "2,019",
+      "marque": "FIAT DOBLO",
+      "type": "BM RENTAL",
+      "conducteur": "YASSINE HAMIDA"
+    },
+    {
+      "id": "48",
+      "agenceId": "2",
+      "matricule": "61336-E-6",
+      "DMC": "2,019",
+      "marque": "FIAT DOBLO",
+      "type": "BM RENTAL",
+      "conducteur": "BENAKA LAHCEN"
+    },
+    {
+      "id": "51",
+      "agenceId": "2",
+      "matricule": "61339-E-6",
+      "DMC": "2,019",
+      "marque": "FIAT DOBLO",
+      "type": "BM RENTAL",
+      "conducteur": "MOUJIB MOHAMED"
+    },
+    {
+      "id": "57",
+      "agenceId": "2",
+      "matricule": "83684-E-6",
+      "DMC": "2,020",
+      "marque": "Citroen Berlingo",
+      "type": "CHAABI LLD",
+      "conducteur": "AQUABA JAMAL"
+    },
+    {
+      "id": "69",
+      "agenceId": "2",
+      "matricule": "85155-E-6",
+      "DMC": "2,020",
+      "marque": "Citroen Berlingo",
+      "type": "CHAABI LLD",
+      "conducteur": "HOUSNI MUSTAPHA"
+    },
+    {
+      "id": "10",
+      "agenceId": "3",
+      "matricule": "26903-B-7",
+      "DMC": "2,020",
+      "marque": "DACIA  LOGAN",
+      "type": "ESPACE DE LOCATION",
+      "conducteur": "ELMILOUDI ABDELHAK"
+    },
+    {
+      "id": "16",
+      "agenceId": "3",
+      "matricule": "34748-E-6",
+      "DMC": "2,019",
+      "marque": "FIAT DOBLO",
+      "type": "CHAABI LLD",
+      "conducteur": "BYJAOUANE MOHAMMED"
+    },
+    {
+      "id": "61",
+      "agenceId": "3",
+      "matricule": "83688-E-6",
+      "DMC": "2,020",
+      "marque": "Citroen Berlingo",
+      "type": "CHAABI LLD",
+      "conducteur": "ABDELLAH DEBANI"
+    },
+    {
+      "id": "43",
+      "agenceId": "7",
+      "matricule": "59020-E-6",
+      "DMC": "2,019",
+      "marque": "FIAT DOBLO",
+      "type": "BM RENTAL",
+      "conducteur": "BENSGHIR DRISS"
+    },
+    {
+      "id": "54",
+      "agenceId": "7",
+      "matricule": "762-T-6",
+      "DMC": "2,021",
+      "marque": "DACIA LOGAN",
+      "type": "CHAABI LLD",
+      "conducteur": "EL HOUARI SAID"
+    },
+    {
+      "id": "56",
+      "agenceId": "7",
+      "matricule": "83683-E-6",
+      "DMC": "2,020",
+      "marque": "Citroen Berlingo",
+      "type": "CHAABI LLD",
+      "conducteur": "NAFAA HAMID"
+    },
+    {
+      "id": "62",
+      "agenceId": "7",
+      "matricule": "83939-E-6",
+      "DMC": "2,020",
+      "marque": "Citroen Berlingo",
+      "type": "CHAABI LLD",
+      "conducteur": "BOUZROUD OMAR"
+    },
+    {
+      "id": "65",
+      "agenceId": "7",
+      "matricule": "84415-E-6",
+      "DMC": "2,020",
+      "marque": "Citroen Berlingo",
+      "type": "CHAABI LLD",
+      "conducteur": "TOUHAMI RACHID"
+    },
+    {
+      "id": "20",
+      "agenceId": "6",
+      "matricule": "34921-E-6",
+      "DMC": "2,019",
+      "marque": "FIAT  DOBLO",
+      "type": "CHAABI LLD",
+      "conducteur": "OUALIJANE SAID"
+    },
+    {
+      "id": "29",
+      "agenceId": "6",
+      "matricule": "57364-E-6",
+      "DMC": "2,019",
+      "marque": "DACIA LOGAN",
+      "type": "BM RENTAL",
+      "conducteur": "ELBASRI HICHAM"
+    },
+    {
+      "id": "38",
+      "agenceId": "6",
+      "matricule": "57408-E-6",
+      "DMC": "2,019",
+      "marque": "DACIA LOGAN",
+      "type": "BM RENTAL",
+      "conducteur": "IDRISSI ABDELLATIF"
+    },
+    {
+      "id": "49",
+      "agenceId": "6",
+      "matricule": "61337-E-6",
+      "DMC": "2,019",
+      "marque": "FIAT  DOBLO",
+      "type": "BM RENTAL",
+      "conducteur": "MOUTATTAHIR MOHAMMED"
+    },
+    {
+      "id": "68",
+      "agenceId": "6",
+      "matricule": "85154-E-6",
+      "DMC": "2,020",
+      "marque": "Citroen Berlingo",
+      "type": "CHAABI LLD",
+      "conducteur": "JALAL KAMAL"
+    },
+    {
+      "id": "70",
+      "agenceId": "6",
+      "matricule": "ww843715",
+      "DMC": "2,021",
+      "marque": "PEUGEOT 301",
+      "type": "ALD",
+      "conducteur": "ABOUZAID HICHAM"
+    },
+    {
+      "id": "3",
+      "agenceId": "1",
+      "matricule": "17865-B-72",
+      "DMC": "2,019",
+      "marque": "FIAT DOBLO",
+      "type": "ARVAL MAROC",
+      "conducteur": "AIT LEBIZ ABDERRAFIQ"
+    },
+    {
+      "id": "4",
+      "agenceId": "1",
+      "matricule": "17866-B-72",
+      "DMC": "2,019",
+      "marque": "FIAT DOBLO",
+      "type": "ARVAL MAROC",
+      "conducteur": "EZZEBDI ACHRAF"
+    },
+    {
+      "id": "5",
+      "agenceId": "1",
+      "matricule": "17870-B-72",
+      "DMC": "2,019",
+      "marque": "FIAT DOBLO",
+      "type": "ARVAL MAROC",
+      "conducteur": "ETTAZY ABDERRAHIM"
+    },
+    {
+      "id": "13",
+      "agenceId": "1",
+      "matricule": "27135-B-7",
+      "DMC": "2,020",
+      "marque": "DACIA LOGAN",
+      "type": "ESPACE DE LOCATION",
+      "conducteur": "ALI BICHER HATTABOU"
+    },
+    {
+      "id": "14",
+      "agenceId": "1",
+      "matricule": "34479-E-6",
+      "DMC": "2,019",
+      "marque": "FIAT DOBLO",
+      "type": "CHAABI LLD",
+      "conducteur": "MISSI MOHAMED"
+    },
+    {
+      "id": "21",
+      "agenceId": "1",
+      "matricule": "36086-E-6",
+      "DMC": "2,019",
+      "marque": "FIAT DOBLO",
+      "type": "CHAABI LLD",
+      "conducteur": "LEHKIM ZAKARIA"
+    },
+    {
+      "id": "24",
+      "agenceId": "1",
+      "matricule": "36180-E-6",
+      "DMC": "2,019",
+      "marque": "FIAT DOBLO",
+      "type": "CHAABI LLD",
+      "conducteur": "BENQARAACH MUSTAPHA"
+    },
+    {
+      "id": "26",
+      "agenceId": "1",
+      "matricule": "36183-E-6",
+      "DMC": "2,019",
+      "marque": "FIAT DOBLO",
+      "type": "CHAABI LLD",
+      "conducteur": "BOURIDA MOHAMED"
+    },
+    {
+      "id": "31",
+      "agenceId": "1",
+      "matricule": "57366-E-6",
+      "DMC": "2,019",
+      "marque": "DACIA LOGAN",
+      "type": "BM RENTAL",
+      "conducteur": "KARBOUAI YOUNESS"
+    },
+    {
+      "id": "45",
+      "agenceId": "1",
+      "matricule": "59022-E-6",
+      "DMC": "2,019",
+      "marque": "FIAT DOBLO",
+      "type": "BM RENTAL",
+      "conducteur": "DAOUI YOUNESS"
+    },
+    {
+      "id": "41",
+      "agenceId": "1",
+      "matricule": "58378-E-6",
+      "DMC": "2,019",
+      "marque": "DACIA LOGAN",
+      "type": "BM RENTAL",
+      "conducteur": "MOHAMED AMINE TLEMCENY"
+    },
+    {
+      "id": "53",
+      "agenceId": "1",
+      "matricule": "761-T-6",
+      "DMC": "2,021",
+      "marque": "DACIA  LOGAN ",
+      "type": "CHAABI LLD",
+      "conducteur": "ISMAIL AITSGHIR "
+    },
+    {
+      "id": "7",
+      "agenceId": "1",
+      "matricule": "19830-B-72",
+      "DMC": "2,019",
+      "marque": "DACIA LOGAN",
+      "type": "ARVAL MAROC",
+      "conducteur": "JAMAL BOUNAHR "
+    },
+    {
+      "id": "27",
+      "agenceId": "1",
+      "matricule": "55534-e-6",
+      "DMC": "2,019",
+      "marque": "PEUGEOT 301",
+      "type": "BM RENTAL",
+      "conducteur": "EL MAHDAOUY ABDELFATTAH "
+    },
+    {
+      "id": "37",
+      "agenceId": "1",
+      "matricule": "57374-E-6",
+      "DMC": "2,019",
+      "marque": "DACIA LOGAN",
+      "type": "BM RENTAL",
+      "conducteur": "EL KAILANI KHALID"
+    },
+    {
+      "id": "40",
+      "agenceId": "1",
+      "matricule": "58362-E-6",
+      "DMC": "2,019",
+      "marque": "DACIA LOGAN",
+      "type": "BM RENTAL",
+      "conducteur": "HAMID EL MANDOUR"
+    },
+    {
+      "id": "11",
+      "agenceId": "1",
+      "matricule": "26905-B-7",
+      "DMC": "2,020",
+      "marque": "DACIA LOGAN",
+      "type": "ESPACE DE LOCATION",
+      "conducteur": "MOURAD ABBOU"
+    },
+    {
+      "id": "22",
+      "agenceId": "1",
+      "matricule": "36087-E-6",
+      "DMC": "2,019",
+      "marque": "FIAT DOBLO",
+      "type": "CHAABI LLD",
+      "conducteur": "RABIA BAIBY"
+    },
+    {
+      "id": "25",
+      "agenceId": "1",
+      "matricule": "36181-E-6",
+      "DMC": "2,019",
+      "marque": "FIAT DOBLO",
+      "type": "CHAABI LLD",
+      "conducteur": "HAMID BADDOU"
+    },
+    {
+      "id": "28",
+      "agenceId": "1",
+      "matricule": "55951-E-6",
+      "DMC": "2,019",
+      "marque": "PEUGEOT 301",
+      "type": "BM RENTAL",
+      "conducteur": "TIJANI MOHAMED"
+    },
+    {
+      "id": "35",
+      "agenceId": "1",
+      "matricule": "57370-E-6",
+      "DMC": "2,019",
+      "marque": "DACIA LOGAN",
+      "type": "BM RENTAL",
+      "conducteur": "MOSSADEQ ANAS"
+    },
+    {
+      "id": "36",
+      "agenceId": "1",
+      "matricule": "57371-E-6",
+      "DMC": "2,019",
+      "marque": "DACIA LOGAN",
+      "type": "BM RENTAL",
+      "conducteur": "LHOUCINE AIT DAOUD"
+    },
+    {
+      "id": "50",
+      "agenceId": "1",
+      "matricule": "61338-E-6",
+      "DMC": "2,019",
+      "marque": "FIAT DOBLO",
+      "type": "BM RENTAL",
+      "conducteur": "MJID LAHJILI"
+    },
+    {
+      "id": "55",
+      "agenceId": "1",
+      "matricule": "78975-E-6",
+      "DMC": "2,020",
+      "marque": "VOLGSWAGEN ARTEON",
+      "type": "CHAABI LLD",
+      "conducteur": "SOUANI ABDERRAHMAN"
+    },
+    {
+      "id": "58",
+      "agenceId": "1",
+      "matricule": "83685-E-6",
+      "DMC": "2,020",
+      "marque": "Citroen Berlingo",
+      "type": "CHAABI LLD",
+      "conducteur": "EL BAOUI HASSAN"
+    },
+    {
+      "id": "59",
+      "agenceId": "1",
+      "matricule": "83686-E-6",
+      "DMC": "2,020",
+      "marque": "Citroen Berlingo",
+      "type": "CHAABI LLD",
+      "conducteur": "SOUHDI MUSTAPHA"
+    },
+    {
+      "id": "63",
+      "agenceId": "1",
+      "matricule": "83940-E-6",
+      "DMC": "2,020",
+      "marque": "Citroen Berlingo",
+      "type": "CHAABI LLD",
+      "conducteur": "SADIK ABDELAZIZ"
+    },
+    {
+      "id": "64",
+      "agenceId": "1",
+      "matricule": "83941-E-6",
+      "DMC": "2,020",
+      "marque": "Citroen Berlingo",
+      "type": "CHAABI LLD",
+      "conducteur": "DEMHOUL HAMID"
+    },
+    {
+      "id": "67",
+      "agenceId": "1",
+      "matricule": "85048-E-6",
+      "DMC": "2,020",
+      "marque": "Citroen Berlingo",
+      "type": "CHAABI LLD",
+      "conducteur": "ABDERRAHIM SEMLALY"
+    },
+    {
+      "id": "72",
+      "agenceId": "1",
+      "matricule": "ww890795",
+      "DMC": "2,021",
+      "marque": "PEUGEOT 301",
+      "type": "ALD",
+      "conducteur": "OUGGAG MUSTAPHA"
+    },
+    {
+      "id": "2",
+      "agenceId": "8",
+      "matricule": "17858-B-72",
+      "DMC": "2,019",
+      "marque": "FIAT  DOBLO",
+      "type": "ARVAL MAROC",
+      "conducteur": "HASSAN MLY MEHZI"
+    },
+    {
+      "id": "8",
+      "agenceId": "8",
+      "matricule": "232-T-6",
+      "DMC": "2,021",
+      "marque": "FIAT  DOBLO",
+      "type": "ARVAL MAROC",
+      "conducteur": "LAHCEN ACHOUR"
+    },
+    {
+      "id": "39",
+      "agenceId": "8",
+      "matricule": "57910-E-6",
+      "DMC": "2,019",
+      "marque": "DACIA  LOGAN",
+      "type": "CHAABI LLD",
+      "conducteur": "KHADMAOUI NOUREDDINE"
+    },
+    {
+      "id": "46",
+      "agenceId": "8",
+      "matricule": "6008-T-6",
+      "DMC": "2,021",
+      "marque": "FIAT  DOBLO",
+      "type": "CHAABI LLD",
+      "conducteur": "AJDAR MUSTAPHAT"
+    },
+    {
+      "id": "47",
+      "agenceId": "8",
+      "matricule": "6010-T-6",
+      "DMC": "2,021",
+      "marque": "FIAT  DOBLO",
+      "type": "CHAABI LLD",
+      "conducteur": "GHOUBY SMAIL"
+    },
+    {
+      "id": "66",
+      "agenceId": "8",
+      "matricule": "85-T-6",
+      "DMC": "2,021",
+      "marque": "FIAT  DOBLO",
+      "type": "ARVAL MAROC",
+      "conducteur": "YOUSSEF ABDEDDINE"
+    },
+    {
+      "id": "9",
+      "agenceId": "4",
+      "matricule": "26902-B-7",
+      "DMC": "2,020",
+      "marque": "DACIA LOGAN",
+      "type": "ESPACE DE LOCATION",
+      "conducteur": "YOUNESS HAMLI"
+    },
+    {
+      "id": "23",
+      "agenceId": "4",
+      "matricule": "36090-E-6",
+      "DMC": "2,019",
+      "marque": "FIAT DOBLO",
+      "type": "CHAABI LLD",
+      "conducteur": "GLABI  JAMAL"
+    },
+    {
+      "id": "34",
+      "agenceId": "4",
+      "matricule": "57369-E-6",
+      "DMC": "2,019",
+      "marque": "DACIA LOGAN",
+      "type": "BM RENTAL",
+      "conducteur": "MAAROUF ABDELGHANI"
+    },
+    {
+      "id": "60",
+      "agenceId": "4",
+      "matricule": "83687-E-6",
+      "DMC": "2,020",
+      "marque": "Citroen Berlingo",
+      "type": "CHAABI LLD",
+      "conducteur": "EL GOUNTARI HICHAM"
+    },
+    {
+      "id": "71",
+      "agenceId": "4",
+      "matricule": "ww890793",
+      "DMC": "2,021",
+      "marque": "PEUGEOT 301",
+      "type": "ALD",
+      "conducteur": "SOBTI LAKBIR"
+    },
+    {
+      "id": "6",
+      "agenceId": "5",
+      "matricule": "17958-B-72",
+      "marque": "FIAT DOBLO",
+      "type": "Arval",
+      "conducteur": "SAISSI HASSAN"
+    },
+    {
+      "id": "32",
+      "agenceId": "5",
+      "matricule": "57367-E-6",
+      "DMC": "2,019",
+      "marque": "DACIA LOGAN",
+      "type": "BM RENTAL",
+      "conducteur": "DRAI AZIZ"
+    },
+    {
+      "id": "42",
+      "agenceId": "5",
+      "matricule": "59019-E-6",
+      "DMC": "2,019",
+      "marque": "FIAT DOBLO",
+      "type": "BM RENTAL",
+      "conducteur": "LAZSIRI AZIZ"
+    },
+    {
+      "id": "52",
+      "agenceId": "5",
+      "matricule": "61340-E-6",
+      "DMC": "2,019",
+      "marque": "FIAT DOBLO",
+      "type": "BM RENTAL",
+      "conducteur": "ABBOUD EL MOSTAPHA"
+    }
+  ],
+  "scooter": [
+    {
+      "marque": "KYMKO",
+      "type": "Agility U60050",
+      "chassis": "LC2U60050J5400373",
+      "matricule": "6-023097",
+      "agenceId": "1",
+      "utilisateur": "Hilmi Ibrahim",
+      "Année": "2018",
+      "DMC": "7/12/18"
+    },
+    {
+      "marque": "KYMKO",
+      "type": "Agility U60050",
+      "chassis": "LC2U60050J5400375",
+      "matricule": "6-023105",
+      "agenceId": "1",
+      "utilisateur": "Adil Nassihi",
+      "Année": "2018",
+      "DMC": "7/12/18"
+    },
+    {
+      "marque": "KYMKO",
+      "type": "Agility U60050",
+      "chassis": "LC2U60050J5400496",
+      "matricule": "6-023110",
+      "agenceId": "1",
+      "utilisateur": "Lahraifi Abdellah",
+      "Année": "2018",
+      "DMC": "7/12/18"
+    },
+    {
+      "marque": "KYMKO",
+      "type": "Agility U60050",
+      "chassis": "LC2U60050J5400495",
+      "matricule": "6-023112",
+      "agenceId": "4",
+      "utilisateur": "Rafiq Mohamed",
+      "Année": "2018",
+      "DMC": "7/24/18"
+    },
+    {
+      "marque": "KYMKO",
+      "type": "Agility U60050",
+      "chassis": "LC2U60050J5400378",
+      "matricule": "6-023114",
+      "agenceId": "1",
+      "utilisateur": "Hilmi Youness",
+      "Année": "2018",
+      "DMC": "7/12/18"
+    },
+    {
+      "marque": "KYMKO",
+      "type": "Agility U60050",
+      "chassis": "LC2U60050J5400468",
+      "matricule": "6-023115",
+      "agenceId": "1",
+      "utilisateur": "En Arret À Marrakech",
+      "Année": "2018",
+      "DMC": "7/12/18"
+    },
+    {
+      "marque": "KYMKO",
+      "type": "Agility U60050",
+      "chassis": "LC2U60050J5400394",
+      "matricule": "6-023121",
+      "agenceId": "4",
+      "utilisateur": "Naji Mohamed",
+      "Année": "2018",
+      "DMC": "7/12/18"
+    },
+    {
+      "marque": "KYMKO",
+      "type": "Agility U60050",
+      "chassis": "LC2U60050J5400344",
+      "matricule": "6-023122",
+      "agenceId": "1",
+      "utilisateur": "En Arret À Marrakech",
+      "Année": "2018",
+      "DMC": "7/12/18"
+    },
+    {
+      "marque": "KYMKO",
+      "type": "Agility U60050",
+      "chassis": "LC2U60050J5400380",
+      "matricule": "6-023124",
+      "agenceId": "6",
+      "utilisateur": "Bouqssid Abde Rrazak",
+      "Année": "2018",
+      "DMC": "7/12/18"
+    },
+    {
+      "marque": "KYMKO",
+      "type": "Agility U60050",
+      "chassis": "LC2U60050J5400390",
+      "matricule": "6-023128",
+      "agenceId": "4",
+      "utilisateur": "Ferdaouss Hicham",
+      "Année": "2018",
+      "DMC": "7/12/18"
+    },
+    {
+      "marque": "KYMKO",
+      "type": "Agility U60050",
+      "chassis": "LC2U60050J5400486",
+      "matricule": "6-023131",
+      "agenceId": "1",
+      "utilisateur": "Ben Aami Mustapha ",
+      "Année": "2018",
+      "DMC": "7/12/18"
+    },
+    {
+      "marque": "KYMKO",
+      "type": "Agility U60050",
+      "chassis": "LC2U60050J5400470",
+      "matricule": "6-023132",
+      "agenceId": "1",
+      "utilisateur": "Ichanti Lahoucine",
+      "Année": "2018",
+      "DMC": "7/12/18"
+    },
+    {
+      "marque": "KYMKO",
+      "type": "Agility U60050",
+      "chassis": "LC2U60050J5400348",
+      "matricule": "6-023135",
+      "agenceId": "4",
+      "utilisateur": "Lahlou Abdelfattah",
+      "Année": "2018",
+      "DMC": "7/12/18"
+    },
+    {
+      "marque": "KYMKO",
+      "type": "Agility U60050",
+      "chassis": "LC2U60050J5400421",
+      "matricule": "6-023137",
+      "agenceId": "6",
+      "utilisateur": "Afqir Abdelaziz",
+      "Année": "2018",
+      "DMC": "7/12/18"
+    },
+    {
+      "marque": "KYMKO",
+      "type": "Agility U60050",
+      "chassis": "LC2U60050J5400430",
+      "matricule": "6-023141",
+      "agenceId": "5",
+      "utilisateur": "Sobti Jamal",
+      "Année": "2018",
+      "DMC": "7/12/18"
+    },
+    {
+      "marque": "KYMKO",
+      "type": "Agility U60050",
+      "chassis": "LC2U60050J5400424",
+      "matricule": "6-023146",
+      "agenceId": "3",
+      "utilisateur": "Hafid Benfilali",
+      "Année": "2018",
+      "DMC": "7/12/18"
+    },
+    {
+      "marque": "KYMKO",
+      "type": "Agility U60050",
+      "chassis": "LC2U60050J5400432",
+      "matricule": "6-023157",
+      "agenceId": "2",
+      "utilisateur": "El Makhfi Najib",
+      "Année": "2018",
+      "DMC": "7/12/18"
+    },
+    {
+      "marque": "KYMKO",
+      "type": "Agility U60050",
+      "chassis": "LC2U60050J5400363",
+      "matricule": "6-023162",
+      "agenceId": "4",
+      "utilisateur": "Sergali Jamal",
+      "Année": "2018",
+      "DMC": "7/24/18"
+    },
+    {
+      "marque": "KYMKO",
+      "type": "Agility U60050",
+      "chassis": "LC2U60050J5400377",
+      "matricule": "6-023163",
+      "agenceId": "1",
+      "utilisateur": "En Arret À Marrakech",
+      "Année": "2019",
+      "DMC": "2/6/19"
+    },
+    {
+      "marque": "KYMKO",
+      "type": "Agility U60050",
+      "chassis": "LC2U60050J5400476",
+      "matricule": "6-023167",
+      "agenceId": "7",
+      "utilisateur": "Baoui Fouad",
+      "Année": "2018",
+      "DMC": "7/12/18"
+    },
+    {
+      "marque": "KYMKO",
+      "type": "Agility U60050",
+      "chassis": "LC2U60050J5400400",
+      "matricule": "6-023169",
+      "agenceId": "2",
+      "utilisateur": "Hilal Al Moutalib",
+      "Année": "2018",
+      "DMC": "7/12/18"
+    },
+    {
+      "marque": "KYMKO",
+      "type": "Agility U60050",
+      "chassis": "LC2U60050J5400388",
+      "matricule": "6-023173",
+      "agenceId": "6",
+      "utilisateur": "Elrhars Rachid",
+      "Année": "2019",
+      "DMC": "2/6/19"
+    },
+    {
+      "marque": "KYMKO",
+      "type": "Agility U60050",
+      "chassis": "LC2U60050J5400507",
+      "matricule": "6-023213",
+      "agenceId": "1",
+      "utilisateur": "Hannouri El Houssein",
+      "Année": "2018",
+      "DMC": "7/12/18"
+    },
+    {
+      "marque": "KYMKO",
+      "type": "Agility U60050",
+      "chassis": "LC2U60050J5400514",
+      "matricule": "6-023215",
+      "agenceId": "1",
+      "utilisateur": "Aadani Mohamed",
+      "Année": "2018",
+      "DMC": "7/12/18"
+    },
+    {
+      "marque": "KYMKO",
+      "type": "Agility U60050",
+      "chassis": "LC2U60050J5400509",
+      "matricule": "6-023223",
+      "agenceId": "1",
+      "utilisateur": "EL BIARI SAID 02-02-2021",
+      "Année": "2018",
+      "DMC": "7/12/18"
+    },
+    {
+      "marque": "KYMKO",
+      "type": "Agility U60050",
+      "chassis": "LC2U60050J5400525",
+      "matricule": "6-023225",
+      "agenceId": "1",
+      "utilisateur": "Minaoui Hassan",
+      "Année": "2018",
+      "DMC": "7/12/18"
+    },
+    {
+      "marque": "KYMKO",
+      "type": "Agility U60050",
+      "chassis": "LC2U60050J5400531",
+      "matricule": "6-023226",
+      "agenceId": "1",
+      "utilisateur": "Souhdi Mhamed",
+      "Année": "2018",
+      "DMC": "7/12/18"
+    },
+    {
+      "marque": "KYMKO",
+      "type": "Agility U60050",
+      "chassis": "LC2U60050J5400511",
+      "matricule": "6-023230",
+      "agenceId": "1",
+      "utilisateur": "Laouini Abdeaziz",
+      "Année": "2018",
+      "DMC": "7/13/18"
+    },
+    {
+      "marque": "KYMKO",
+      "type": "Agility U60050",
+      "chassis": "LC2U60050J5400510",
+      "matricule": "6-023245",
+      "agenceId": "1",
+      "utilisateur": "Boukiri Mohamed",
+      "Année": "2018",
+      "DMC": "7/13/18"
+    },
+    {
+      "marque": "KYMKO",
+      "type": "Agility U60050",
+      "chassis": "LC2U60050J5400701",
+      "matricule": "6-023368",
+      "agenceId": "1",
+      "utilisateur": "En Arret À Marrakech Accidente",
+      "Année": "2018",
+      "DMC": "7/13/18"
+    },
+    {
+      "marque": "KYMKO",
+      "type": "Agility U60050",
+      "chassis": "LC2U60050J5400631",
+      "matricule": "6-023369",
+      "agenceId": "9",
+      "utilisateur": "Rachid Joudar",
+      "Année": "2018",
+      "DMC": "9/4/18"
+    },
+    {
+      "marque": "KYMKO",
+      "type": "Agility U60050",
+      "chassis": "LC2U60050J5400577",
+      "matricule": "6-023372",
+      "agenceId": "1",
+      "utilisateur": "Chouib Abdelghani",
+      "Année": "2019",
+      "DMC": "3/15/19"
+    },
+    {
+      "marque": "KYMKO",
+      "type": "Agility U60050",
+      "chassis": "LC2U60050J5400633",
+      "matricule": "6-023380",
+      "agenceId": "1",
+      "utilisateur": "Mehdi Sraidi",
+      "Année": "2018",
+      "DMC": "7/13/18"
+    },
+    {
+      "marque": "KYMKO",
+      "type": "Agility U60050",
+      "chassis": "*LC2U60050J5400610*",
+      "matricule": "6-023390",
+      "agenceId": "1",
+      "utilisateur": "Adil Babazia ",
+      "Année": "2019",
+      "DMC": "11/1/19"
+    },
+    {
+      "marque": "KYMKO",
+      "type": "Agility U60050",
+      "chassis": "LC2U60050J5400630",
+      "matricule": "6-023392",
+      "agenceId": "1",
+      "utilisateur": "Defyami Rachid ",
+      "Année": "2019",
+      "DMC": "3/15/19"
+    },
+    {
+      "marque": "KYMKO",
+      "type": "Agility U60050",
+      "chassis": "LC2U60050J5400724",
+      "matricule": "6-023394",
+      "agenceId": "1",
+      "utilisateur": "El Basry Mly Kassem",
+      "Année": "2018",
+      "DMC": "7/13/18"
+    },
+    {
+      "marque": "KYMKO",
+      "type": "Agility U60050",
+      "chassis": "LC2U60050J5400562",
+      "matricule": "6-023396",
+      "agenceId": "3",
+      "utilisateur": "El bouchra Mohamed",
+      "Année": "2018",
+      "DMC": "12/26/18"
+    },
+    {
+      "marque": "KYMKO",
+      "type": "Agility U60050",
+      "chassis": "LC2U60050J5400666",
+      "matricule": "6-023397",
+      "agenceId": "9",
+      "utilisateur": "Hassan Mly Mehzi",
+      "Année": "2018",
+      "DMC": "9/4/18"
+    },
+    {
+      "marque": "KYMKO",
+      "type": "Agility U60050",
+      "chassis": "*LC2U60050J5400708*",
+      "matricule": "6-023404",
+      "agenceId": "1",
+      "utilisateur": "Debyani Mohamed",
+      "Année": "2019",
+      "DMC": "11/1/19"
+    },
+    {
+      "marque": "KYMKO",
+      "type": "Agility U60050",
+      "chassis": "LC2U60050J5400606",
+      "matricule": "6-023405",
+      "agenceId": "1",
+      "utilisateur": "Bouchouka Issam",
+      "Année": "2018",
+      "DMC": "9/28/18"
+    },
+    {
+      "marque": "KYMKO",
+      "type": "Agility U60050",
+      "chassis": "LC2U60050J5400575",
+      "matricule": "6-023408",
+      "agenceId": "1",
+      "utilisateur": "Aazouzi Mohamed ",
+      "Année": "2018",
+      "DMC": "7/24/18"
+    },
+    {
+      "marque": "KYMKO",
+      "type": "Agility U60050",
+      "chassis": "LC2U60050J5400740",
+      "matricule": "6-023410",
+      "agenceId": "6",
+      "utilisateur": "El Ghazi Imyass",
+      "Année": "2018",
+      "DMC": "7/24/18"
+    },
+    {
+      "marque": "KYMKO",
+      "type": "Agility U60050",
+      "chassis": "LC2U60050J5400715",
+      "matricule": "6-023412",
+      "agenceId": "1",
+      "utilisateur": "Charqaoui Ahmed",
+      "Année": "2018",
+      "DMC": "7/13/18"
+    },
+    {
+      "marque": "KYMKO",
+      "type": "Agility U60050",
+      "chassis": "LC2U60050J5400669",
+      "matricule": "6-023414",
+      "agenceId": "4",
+      "utilisateur": "Yahsine Taha",
+      "Année": "2018",
+      "DMC": "7/24/18"
+    },
+    {
+      "marque": "KYMKO",
+      "type": "Agility U60050",
+      "chassis": "LC2U60050J5400680",
+      "matricule": "6-023422",
+      "agenceId": "1",
+      "utilisateur": "Hicham Zerbane ",
+      "Année": "2019",
+      "DMC": "3/15/19"
+    },
+    {
+      "marque": "KYMKO",
+      "type": "Agility U60050",
+      "chassis": "LC2U60050J5400544",
+      "matricule": "6-023424",
+      "agenceId": "9",
+      "utilisateur": "El Moumni Mouhamed",
+      "Année": "2018",
+      "DMC": "9/4/18"
+    },
+    {
+      "marque": "KYMKO",
+      "type": "Agility U60050",
+      "chassis": "LC2U60050J5400548",
+      "matricule": "6-023426",
+      "agenceId": "9",
+      "utilisateur": "El Ourguie Mouhamed",
+      "Année": "2018",
+      "DMC": "9/4/18"
+    },
+    {
+      "marque": "KYMKO",
+      "type": "Agility U60050",
+      "chassis": "LC2U60050J5400574",
+      "matricule": "6-023430",
+      "agenceId": "6",
+      "utilisateur": "Ezzebdi Rachid",
+      "Année": "2019",
+      "DMC": "2/6/19"
+    },
+    {
+      "marque": "KYMKO",
+      "type": "Agility U60050",
+      "chassis": "LC2U60050J5400636",
+      "matricule": "6-023449",
+      "agenceId": "1",
+      "utilisateur": "Moulay Essaid Sarsar",
+      "Année": "2018",
+      "DMC": "7/13/18"
+    },
+    {
+      "marque": "KYMKO",
+      "type": "Agility U60050",
+      "chassis": "LC2U60050J5400624",
+      "matricule": "6-023452",
+      "agenceId": "9",
+      "utilisateur": "Youssef Lmhadi",
+      "Année": "2018",
+      "DMC": "9/4/18"
+    },
+    {
+      "marque": "KYMKO",
+      "type": "Agility U60050",
+      "chassis": "LC2U60050J5400619",
+      "matricule": "6-023459",
+      "agenceId": "1",
+      "utilisateur": "abdelaziz Ait Oulaid",
+      "Année": "2018",
+      "DMC": "7/24/18"
+    },
+    {
+      "marque": "KYMKO",
+      "type": "Agility U60050",
+      "chassis": "LC2U60050J5401204",
+      "matricule": "6-024912",
+      "agenceId": "6",
+      "utilisateur": "Kricha Salaheddine",
+      "Année": "2019",
+      "DMC": "2/6/19"
+    },
+    {
+      "marque": "KYMKO",
+      "type": "Agility U60050",
+      "chassis": "LC2U60050J5401068",
+      "matricule": "6-024913",
+      "agenceId": "1",
+      "utilisateur": "Dahibi Mehdi",
+      "Année": "2019",
+      "DMC": "11/1/19"
+    },
+    {
+      "marque": "KYMKO",
+      "type": "Agility U60050",
+      "chassis": "LC2U60050K5400871",
+      "matricule": "6-031480",
+      "agenceId": "1",
+      "utilisateur": "Jalal Bouloujour",
+      "Année": "2019",
+      "DMC": "8/1/19"
+    },
+    {
+      "marque": "KYMKO",
+      "type": "Agility U60050",
+      "chassis": "LC2U60050K5400879",
+      "matricule": "6-031483",
+      "agenceId": "2",
+      "utilisateur": "Ben Bah Omar",
+      "Année": "2019",
+      "DMC": "8/1/19"
+    },
+    {
+      "marque": "KYMKO",
+      "type": "Agility U60050",
+      "chassis": "LC2U60050K5400754",
+      "matricule": "6-031489",
+      "agenceId": "5",
+      "utilisateur": "El Idrissi Ayoub",
+      "Année": "2019",
+      "DMC": "8/1/19"
+    },
+    {
+      "marque": "KYMKO",
+      "type": "Agility U60050",
+      "chassis": "LC2U60050K5400969",
+      "matricule": "6-031490",
+      "agenceId": "4",
+      "utilisateur": "Redouane El Maazouzi",
+      "Année": "2019",
+      "DMC": "8/1/19"
+    },
+    {
+      "marque": "KYMKO",
+      "type": "Agility U60050",
+      "chassis": "LC2U60050K5400882",
+      "matricule": "6-031495",
+      "agenceId": "1",
+      "utilisateur": "Ouzal abdelghani",
+      "Année": "2019",
+      "DMC": "8/1/19"
+    },
+    {
+      "marque": "KYMKO",
+      "type": "Agility U60050",
+      "chassis": "LC2U60050K5400791",
+      "matricule": "6-031500",
+      "agenceId": "1",
+      "utilisateur": "Soufiane Ait Oufkir",
+      "Année": "2019",
+      "DMC": "8/1/19"
+    },
+    {
+      "marque": "KYMKO",
+      "type": "Agility U60050",
+      "chassis": "LC2U60050K5400968",
+      "matricule": "6-031505",
+      "agenceId": "2",
+      "utilisateur": "El Koudi Hafid",
+      "Année": "2019",
+      "DMC": "8/1/19"
+    },
+    {
+      "marque": "KYMKO",
+      "type": "Agility U60050",
+      "chassis": "*LC2U60050K5400988*",
+      "matricule": "6-031510",
+      "agenceId": "1",
+      "utilisateur": "Lahcen El Khalifi",
+      "Année": "2019",
+      "DMC": "8/1/19"
+    },
+    {
+      "marque": "KYMKO",
+      "type": "Agility U60050",
+      "chassis": "*LC2U60050K5400825*",
+      "matricule": "6-031517",
+      "agenceId": "7",
+      "utilisateur": "AHMED BEL KHADME",
+      "Année": "2019",
+      "DMC": "11/1/19"
+    },
+    {
+      "marque": "KYMKO",
+      "type": "Agility U60050",
+      "chassis": "*LC2U60050K5400876*",
+      "matricule": "6-031523",
+      "agenceId": "1",
+      "utilisateur": "Youssef Diani",
+      "Année": "2019",
+      "DMC": "8/1/19"
+    },
+    {
+      "marque": "KYMKO",
+      "type": "Agility U60050",
+      "chassis": "*LC2U60050K5400884*",
+      "matricule": "6-031533",
+      "agenceId": "4",
+      "utilisateur": "Barrad Zakaria",
+      "Année": "2019",
+      "DMC": "8/1/19"
+    },
+    {
+      "marque": "KYMKO",
+      "type": "Agility U60050",
+      "chassis": "*LC2U60050K5400801*",
+      "matricule": "6-031539",
+      "agenceId": "9",
+      "utilisateur": "Lahcen Belhou",
+      "Année": "2019",
+      "DMC": "11/1/19"
+    },
+    {
+      "marque": "KYMKO",
+      "type": "Agility U60050",
+      "chassis": "*LC2U60050K5400839*",
+      "matricule": "6-031540",
+      "agenceId": "1",
+      "utilisateur": "Benqraach Adil",
+      "Année": "2019",
+      "DMC": "8/1/19"
+    },
+    {
+      "marque": "KYMKO",
+      "type": "Agility U60050",
+      "chassis": "*LC2U60050K5400872*",
+      "matricule": "6-031549",
+      "agenceId": "6",
+      "utilisateur": "Ben Allal Imadeddine",
+      "Année": "2019",
+      "DMC": "8/1/19"
+    },
+    {
+      "marque": "KYMKO",
+      "type": "Agility U60050",
+      "chassis": "LC2U60050L5400877",
+      "matricule": "6-038602",
+      "agenceId": "2",
+      "utilisateur": "AGHRIB LAHCEN",
+      "Année": "2020",
+      "DMC": "8/25/20"
+    },
+    {
+      "marque": "KYMKO",
+      "type": "Agility U60050",
+      "chassis": "LC2U60050L5400734",
+      "matricule": "6-038603",
+      "agenceId": "6",
+      "utilisateur": "Saghni Fouad",
+      "Année": "2020",
+      "DMC": "8/25/20"
+    },
+    {
+      "marque": "KYMKO",
+      "type": "Agility U60050",
+      "chassis": "LC2U60050L5400799",
+      "matricule": "6-038610",
+      "agenceId": "2",
+      "utilisateur": "IDDAR MUSTAPHA",
+      "Année": "2020",
+      "DMC": "8/25/20"
+    },
+    {
+      "marque": "KYMKO",
+      "type": "Agility U60050",
+      "chassis": "LC2U60050L5400750",
+      "matricule": "6-038616",
+      "agenceId": "6",
+      "utilisateur": "Saki Ahmed",
+      "Année": "2020",
+      "DMC": "8/25/20"
+    },
+    {
+      "marque": "KYMKO",
+      "type": "Agility U60050",
+      "chassis": "LC2U60050L5400735",
+      "matricule": "6-038619",
+      "agenceId": "5",
+      "utilisateur": "Bekkar benasser ",
+      "Année": "2020",
+      "DMC": "8/7/20"
+    },
+    {
+      "marque": "KYMKO",
+      "type": "Agility U60050",
+      "chassis": "LC2U60050L5400797",
+      "matricule": "6-038620",
+      "agenceId": "3",
+      "utilisateur": "AYOUB RACHIQ",
+      "Année": "2020",
+      "DMC": "8/25/20"
+    },
+    {
+      "marque": "KYMKO",
+      "type": "Agility U60050",
+      "chassis": "LC2U60050L5400999",
+      "matricule": "6-038622",
+      "agenceId": "6",
+      "utilisateur": "Manqouri Hicham",
+      "Année": "2020",
+      "DMC": "8/25/20"
+    },
+    {
+      "marque": "KYMKO",
+      "type": "Agility U60050",
+      "chassis": "LC2U60050L5400792",
+      "matricule": "6-038623",
+      "agenceId": "4",
+      "utilisateur": "ZOUKAL AMINE",
+      "Année": "2020",
+      "DMC": "8/25/20"
+    },
+    {
+      "marque": "KYMKO",
+      "type": "Agility U60050",
+      "chassis": "LC2U60050L5400776",
+      "matricule": "6-038624",
+      "agenceId": "3",
+      "utilisateur": "LAAOUINI MED",
+      "Année": "2020",
+      "DMC": "8/25/20"
+    },
+    {
+      "marque": "KYMKO",
+      "type": "Agility U60050",
+      "chassis": "LC2U60050L5400764",
+      "matricule": "6-038625",
+      "agenceId": "9",
+      "utilisateur": "OUDDOU BRAHIM",
+      "Année": "2020",
+      "DMC": "8/25/20"
+    },
+    {
+      "marque": "KYMKO",
+      "type": "Agility U60050",
+      "chassis": "LC2U60050L5400829",
+      "matricule": "6-038626",
+      "agenceId": "2",
+      "utilisateur": "Tarfaoui Bader",
+      "Année": "2020",
+      "DMC": "8/25/20"
+    }
+  ],
+  "chariot": [
+    {
+      "matricule": "MS  95",
+      "marque": "Toyota",
+      "agenceId": "1",
+      "Type": "62-8FD20",
+      "chassis ": "608FD25-20095",
+      "dmc": "2009"
+    },
+    {
+      "matricule": "MS 286",
+      "marque": "Toyota",
+      "agenceId": "1",
+      "Type": "62-8FD20",
+      "chassis ": "608FD25-20087",
+      "dmc": "2009"
+    },
+    {
+      "matricule": "MS 285",
+      "marque": "Toyota",
+      "agenceId": "1",
+      "Type": "62-8FD25",
+      "chassis ": "608FD25-34317",
+      "dmc": "2010"
+    },
+    {
+      "matricule": "MS 219",
+      "marque": "Toyota",
+      "agenceId": "1",
+      "Type": "02-6FDL26",
+      "chassis ": "8FDL25-31760",
+      "dmc": "2012"
+    },
+    {
+      "matricule": "MS 220",
+      "marque": "Toyota",
+      "agenceId": "1",
+      "Type": "02-8FDL25",
+      "chassis ": "8FDL25-31757",
+      "dmc": "2012"
+    },
+    {
+      "matricule": "MS 103",
+      "marque": "Toyota",
+      "agenceId": "1",
+      "Type": "028FDL25",
+      "chassis ": "8FDL25-31755",
+      "dmc": "2012"
+    },
+    {
+      "matricule": "MS 279",
+      "marque": "Toyota électrique",
+      "agenceId": "1",
+      "Type": "8FBEKT16",
+      "chassis ": "8FBEKT16 E 11323",
+      "dmc": "2012"
+    },
+    {
+      "matricule": "MS 214",
+      "marque": "Toyota",
+      "agenceId": "1",
+      "Type": "FDZN20",
+      "chassis ": "FDZN25-23644",
+      "dmc": "2015"
+    },
+    {
+      "matricule": "MS 215",
+      "marque": "Toyota",
+      "agenceId": "1",
+      "Type": "FDZN20",
+      "chassis ": "FDZN25-23634",
+      "dmc": "2015"
+    },
+    {
+      "matricule": "MS  91",
+      "marque": "Toyota",
+      "agenceId": "1",
+      "Type": "62-8FD25",
+      "chassis ": "608FD25-62632",
+      "dmc": "2015"
+    },
+    {
+      "matricule": "MS 202",
+      "marque": "Toyota",
+      "agenceId": "1",
+      "Type": "FDZN20",
+      "chassis ": "FDZN25-23694",
+      "dmc": "2015"
+    },
+    {
+      "matricule": "MS 217",
+      "marque": "Toyota",
+      "agenceId": "1",
+      "Type": "628FD25",
+      "chassis ": "608FD25-66105",
+      "dmc": "2016"
+    },
+    {
+      "matricule": "MS 222",
+      "marque": "Toyota",
+      "agenceId": "1",
+      "Type": "62-8FD25",
+      "chassis ": "608FD25-66749",
+      "dmc": "2016"
+    },
+    {
+      "matricule": "MS 223",
+      "marque": "Toyota",
+      "agenceId": "1",
+      "Type": "62-8FD25",
+      "chassis ": "608FD25-66772",
+      "dmc": "2016"
+    },
+    {
+      "matricule": "MS 224",
+      "marque": "Toyota",
+      "agenceId": "1",
+      "Type": "62-8FD25",
+      "chassis ": "608FD25-66980",
+      "dmc": "2017"
+    },
+    {
+      "matricule": "MS 278",
+      "marque": "TCM électrique",
+      "agenceId": "1",
+      "Type": "FB25-8",
+      "chassis ": "7P442057",
+      "dmc": "2019"
+    }
+  ],
+  "comment": [
+    {
+      "id": "1",
+      "camionId": "1",
+      "comment": "salam allah",
+      "date": "1/1/22",
+      "active": "true"
+    },
+    {
+      "camionId": "1",
+      "comment": "sdsdfsdfsd",
+      "time": "Sat, 28 May 2022 18:51:24 GMT",
+      "active": true,
+      "id": "5cEvyYc"
+    },
+    {
+      "camionId": "54",
+      "comment": "cdsdcsdcsdcd",
+      "time": "Sat, 28 May 2022 18:52:19 GMT",
+      "active": true,
+      "id": "2PPYhdQ"
+    },
+    {
+      "camionId": "27",
+      "comment": "sadasdasdasdsadasdasdasd",
+      "time": "Sat, 28 May 2022 18:53:05 GMT",
+      "active": true,
+      "id": "ogWe-5a"
+    },
+    {
+      "camionId": "49",
+      "comment": "hjkghkjghkh",
+      "time": "Sat, 28 May 2022 18:55:21 GMT",
+      "active": true,
+      "id": "d7wNVMu"
+    },
+    {
+      "camionId": "67",
+      "comment": "",
+      "time": "Sat, 28 May 2022 18:55:55 GMT",
+      "active": true,
+      "id": "U2TlTYO"
+    }
+  ],
+  "agence": [
+    {
+      "id": "1",
+      "agence": "Marrakech"
+    },
+    {
+      "id": "2",
+      "agence": "Beni Mellal"
+    },
+    {
+      "id": "3",
+      "agence": "Essaouira"
+    },
+    {
+      "id": "4",
+      "agence": "Safi"
+    },
+    {
+      "id": "5",
+      "agence": "Sidi Bennour"
+    },
+    {
+      "id": "6",
+      "agence": "Khouribga"
+    },
+    {
+      "id": "7",
+      "agence": "El Kelaa"
+    },
+    {
+      "id": "9",
+      "agence": "Ouarzazate"
+    },
+    {
+      "id": "10",
+      "agence": "Ain Harrouda"
+    }
+  ]
+}
