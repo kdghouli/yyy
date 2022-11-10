@@ -9,7 +9,7 @@
     <label for="inputEmail4" class="form-label">Matricule</label>
     <input type="text" class="form-control" id="inputEmail4" v-model="matricule" />
   </div>
-  <div class="col-md-6">
+  <div class="col-md-6 bg-danger">
     <label for="inputPassword4" class="form-label">Marque</label>
     <input type="text" class="form-control" id="inputPassword4"  v-model="marque" />
   </div>
