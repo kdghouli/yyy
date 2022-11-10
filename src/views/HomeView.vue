@@ -1,6 +1,8 @@
 <script >
 import Camions from "../components/camion/Camions.vue"
 import Voitures from "../components/voiture/Voitures.vue"
+
+
 export default {
   components: { Camions,Voitures },
 }
@@ -10,6 +12,8 @@ export default {
  
 
 <template>
+
+ 
   
 <div class="row">
   <div class="col-5"><Camions/></div>

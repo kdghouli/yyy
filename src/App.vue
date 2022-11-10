@@ -4,10 +4,10 @@
     <nav-bar/>
    
 
-    
+ 
   </header>
 
- <div class="container-sm">
+ <div class="container-sm my-2">
 
   <RouterView />
 

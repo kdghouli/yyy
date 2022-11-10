@@ -1,7 +1,8 @@
 
 <template>
     
-
+  <input type="text" v-model="agence">
+  <h4>{{getCamions(agence)}}</h4>
     <table class="table table-sm table-striped table-primary table-hover caption-top">
       <caption>List of Camions</caption>
   <thead class="table-dark" >
@@ -14,7 +15,7 @@
       <th scope="col">DMC</th>
     </tr>
   </thead>
-  <tbody v-for="camion in getCamions" :key="camion.id "> 
+  <tbody v-for="camion in camions" :key="camion.id "> 
     <tr>
       <th scope="row">{{ camion.id }}</th>
       <td>{{ camion.matricule }}</td>
@@ -40,7 +41,7 @@ export default{
     data(){
         return{
           store : useCamionStore(),
-             
+          agence:0 
 
         }
     },
@@ -48,7 +49,7 @@ export default{
       getCamions(){
        return this.store.getCamions;
       },
-      camion(){
+      camions(){
         return this.store.camion;
       }
 

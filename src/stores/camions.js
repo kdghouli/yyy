@@ -9,7 +9,7 @@ export const useCamionStore = defineStore("camion", {
     }),
     getters: {
       getCamions(state){
-          return state.camion
+          return (iid) =>state.camion.filter(x=>x.agenceId==iid)
         }
     },
     actions: {
