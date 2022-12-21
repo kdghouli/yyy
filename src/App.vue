@@ -1,10 +1,7 @@
 
 <template>
   <header>
-    <nav-bar/>
-   
-
- 
+    <nav-bar />
   </header>
 
  <div class="container-sm my-2">
