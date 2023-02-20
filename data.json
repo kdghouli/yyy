@@ -1,8 +1,9 @@
 {
-  "camion": [
+  "camions": [
     {
       "id": "1",
       "agenceId": "2",
+      "statuId":"1",
       "matricule": "10093-A-13",
       "date": "6/20/05",
       "marque": "RENAULT",
@@ -10,98 +11,116 @@
       "visiteTechnique": "3/11/22",
       "permisCirculation": "2/24/22",
       "equipement": "MG2450",
+      "active":"true",
       "etat": "Pb des papiers"
     },
     {
       "id": "2",
       "agenceId": "2",
+      "statuId":"1",
       "matricule": "120-A-73",
       "date": "7/5/04",
       "marque": "ISUZU",
       "intitule": "COBOMI",
       "visiteTechnique": "6/17/22",
       "permisCirculation": "3/8/22",
+      "active":"true",
       "equipement": "MG10005"
     },
     {
       "id": "3",
       "agenceId": "6",
+      "statuId":"1",
       "matricule": "13720-A-40",
       "date": "5/6/96",
       "marque": "RENAULT",
       "intitule": "SCBG",
       "visiteTechnique": "4/21/22",
       "permisCirculation": "8/26/22",
+      "active":"true",
       "equipement": "MG1765"
     },
     {
       "id": "4",
       "agenceId": "2",
+      "statuId":"1",
       "matricule": "14165-A-15",
       "date": "4/10/97",
       "marque": "RENAULT",
       "intitule": "CBGN",
       "visiteTechnique": "5/27/22",
       "permisCirculation": "12/14/21",
+      "active":"true",
       "equipement": "MG4131"
     },
     {
       "id": "5",
       "agenceId": "7",
+      "statuId":"1",
       "matricule": "16565-B-7",
       "date": "4/18/19",
       "marque": "FUSO",
       "intitule": "TRANS OPTI FLUX",
       "visiteTechnique": "2/17/22",
       "permisCirculation": "3/3/23",
+      "active":"true",
       "equipement": "VL0548"
     },
     {
       "id": "6",
       "agenceId": "2",
+      "statuId":"1",
       "matricule": "16998-A-13",
       "date": "7/2/08",
       "marque": "MITSUBISHI",
       "intitule": "SCBG",
       "visiteTechnique": "3/10/22",
       "permisCirculation": "8/30/22",
+      "active":"true",
       "equipement": "MG2611"
     },
     {
       "id": "7",
       "agenceId": "7",
+      "statuId":"1",
       "matricule": "17124-B-7",
       "date": "4/25/19",
       "marque": "MITSUBI",
       "intitule": "TRANS OPTI FLUX",
       "visiteTechnique": "2/21/22",
       "permisCirculation": "3/30/23",
+      "active":"true",
       "equipement": "VL0551"
     },
     {
       "id": "8",
       "agenceId": "6",
+      "statuId":"1",
       "matricule": "31935-D-8",
       "date": "12/13/19",
       "marque": "IVECO",
       "intitule": "STE LAGOUASSEM ",
       "visiteTechnique": "10/27/22",
+      "active":"true",
       "equipement": "VL0602"
     },
     {
       "id": "9",
       "agenceId": "7",
+      "statuId":"1",
       "matricule": "31940-D-8",
       "date": "12/13/19",
       "marque": "IVECO",
       "intitule": "STE LAGOUASSEM ",
       "visiteTechnique": "10/27/21",
       "permisCirculation": "10/30/21",
+      "active":"true",
       "equipement": "VL0605"
     },
     {
       "id": "10",
       "agenceId": "1",
+      "statuId":"1",
       "matricule": "32093-A-26",
       "date": "6/30/04",
       "marque": "Mitsubishi",
@@ -109,154 +128,181 @@
       "visiteTechnique": "7/7/22",
       "permisCirculation": "7/7/22",
       "equipement": "MG7085",
-      "Matricule": "",
+      "active":"true",
       "etat": "Pb des papiers"
     },
     {
       "id": "11",
       "agenceId": "2",
+      "statuId":"1",
       "matricule": "32724-A-13",
       "date": "3/4/13",
       "marque": "MITSUBISHI",
       "intitule": "SCBG",
       "visiteTechnique": "2/11/22",
       "permisCirculation": "2/18/22",
+      "active":"true",
       "equipement": "MG2685"
     },
     {
       "id": "12",
       "agenceId": "4",
+      "statuId":"1",
       "matricule": "33248-A-13",
       "date": "4/15/13",
       "marque": "MITSUBI",
       "intitule": "SCBG",
       "visiteTechnique": "6/26/22",
       "permisCirculation": "8/11/22",
+      "active":"true",
       "equipement": "MG2698"
     },
     {
       "id": "13",
       "agenceId": "2",
+      "statuId":"1",
       "matricule": "33250-A-13",
       "date": "5/14/13",
       "marque": "MITSUBISHI",
       "intitule": "SCBG",
       "visiteTechnique": "3/10/22",
       "permisCirculation": "2/18/22",
+      "active":"true",
       "equipement": "MG2700"
     },
     {
       "id": "14",
       "agenceId": "6",
+      "statuId":"1",
       "matricule": "3543-A-26",
       "date": "5/5/00",
       "marque": "Isuzu",
       "intitule": "CBGS",
       "visiteTechnique": "3/11/22",
       "permisCirculation": "7/5/22",
+      "active":"true",
       "equipement": "MG7249"
     },
     {
       "id": "15",
       "agenceId": "6",
+      "statuId":"1",
       "matricule": "3544-A-26",
       "date": "5/5/00",
       "marque": "ISUZU",
       "intitule": "CBGS",
       "visiteTechnique": "4/27/22",
       "permisCirculation": "12/10/21",
+      "active":"true",
       "equipement": "MG7214"
     },
     {
       "id": "18",
       "agenceId": "4",
+      "statuId":"1",
       "matricule": "3551-A-26",
       "date": "5/5/00",
       "marque": "ISUZU",
       "intitule": "CBGS",
       "visiteTechnique": "5/26/22",
       "permisCirculation": "7/5/22",
+      "active":"true",
       "equipement": "MG7198"
     },
     {
       "id": "20",
       "agenceId": "4",
+      "statuId":"1",
       "matricule": "3826-A-7",
       "date": "5/15/00",
       "marque": "RENAULT ",
       "intitule": "SCBG",
       "visiteTechnique": "3/11/22",
       "permisCirculation": "10/22/21",
+      "active":"true",
       "equipement": "MG2173"
     },
     {
       "id": "21",
       "agenceId": "4",
+      "statuId":"1",
       "matricule": "3946-A-26",
       "date": "6/13/00",
       "marque": "MITSUBISHI",
       "intitule": "CBGS",
       "visiteTechnique": "6/6/22",
       "permisCirculation": "9/5/22",
+      "active":"true",
       "equipement": "MG7245"
     },
     {
       "id": "22",
       "agenceId": "7",
+      "statuId":"1",
       "matricule": "3947-A-26",
       "date": "6/13/00",
       "marque": "MITSUBICHI FK",
       "intitule": "CBGS",
       "visiteTechnique": "4/18/21",
+      "active":"true",
       "permisCirculation": "7/14/21",
       "equipement": "MG7048"
     },
     {
       "id": "23",
       "agenceId": "6",
+      "statuId":"1",
       "matricule": "4001-A-7",
       "date": "6/5/00",
       "marque": "ISUZU",
       "intitule": "SCBG",
       "visiteTechnique": "5/26/22",
+      "active":"true",
       "equipement": "MG2184"
     },
     {
       "id": "24",
       "agenceId": "4",
+      "statuId":"1",
       "matricule": "4007-A-7",
       "date": "6/5/00",
       "marque": "ISUZU",
       "intitule": "SCBG",
       "visiteTechnique": "5/3/22",
       "permisCirculation": "12/31/21",
+      "active":"true",
       "equipement": "MG2190"
     },
     {
       "id": "25",
       "agenceId": "2",
+      "statuId":"1",
       "matricule": "43710-A-6",
       "date": "11/9/99",
       "marque": "RENAULT",
       "intitule": "SCBG",
       "visiteTechnique": "4/25/22",
       "permisCirculation": "11/23/21",
+      "active":"true",
       "equipement": "MG1921"
     },
     {
       "id": "26",
       "agenceId": "2",
+      "statuId":"1",
       "matricule": "4614-A-15",
       "date": "6/5/00",
       "marque": "MITSUBISHI",
       "intitule": "CBGN",
       "visiteTechnique": "2/17/22",
       "permisCirculation": "3/9/22",
+      "active":"true",
       "equipement": "MG4046"
     },
     {
       "id": "27",
       "agenceId": "2",
+      "statuId":"1",
       "matricule": "4632-A-15",
       "date": "6/5/00",
       "marque": "MITSIBISHI",
@@ -264,119 +310,142 @@
       "visiteTechnique": "1/26/22",
       "permisCirculation": "7/11/22",
       "equipement": "MG4078",
+      "active":"true",
       "etat": "Pb des papiers"
     },
     {
       "id": "28",
       "agenceId": "2",
+      "statuId":"1",
       "matricule": "56169-E-6",
       "date": "7/13/19",
       "marque": "MITSUBICHI",
       "intitule": "BM TRANS",
       "visiteTechnique": "2/15/22",
       "permisCirculation": "7/5/23",
+      "active":"true",
       "equipement": "VL0569"
     },
     {
       "id": "29",
       "agenceId": "4",
+      "statuId":"1",
       "matricule": "56172-E-6",
       "date": "7/13/19",
       "marque": "FUSO",
       "intitule": "BM TRANS",
+      "active":"true",
       "equipement": "VL0568"
+      
     },
     {
       "id": "30",
       "agenceId": "7",
+      "statuId":"1",
       "matricule": "56405-E-6",
       "date": "7/2/19",
       "marque": "FUSO",
       "intitule": "BM TRANS",
       "visiteTechnique": "12/17/21",
       "permisCirculation": "7/12/23",
+      "active":"true",
       "equipement": "VL0572"
     },
     {
       "id": "31",
       "agenceId": "4",
+      "statuId":"1",
       "matricule": "56407-E-6",
       "date": "7/2/19",
       "marque": "FUSO",
       "intitule": "BM TRANS",
       "visiteTechnique": "6/15/22",
       "permisCirculation": "6/29/22",
+      "active":"true",
       "equipement": "VL0574"
     },
     {
       "id": "32",
       "agenceId": "4",
+      "statuId":"1",
       "matricule": "56408-E-6",
       "date": "7/2/19",
       "marque": "FUSO",
       "intitule": "BM TRANS",
       "visiteTechnique": "6/15/22",
       "permisCirculation": "6/29/22",
+      "active":"true",
       "equipement": "VL0571"
     },
     {
       "id": "33",
       "agenceId": "7",
+      "statuId":"1",
       "matricule": "56409-E-6",
       "date": "7/2/19",
       "marque": "FUSO",
       "intitule": "BM TRANS",
       "visiteTechnique": "11/7/22",
       "permisCirculation": "6/14/23",
+      "active":"true",
       "equipement": "VL0573"
     },
     {
       "id": "34",
       "agenceId": "6",
+      "statuId":"1",
       "matricule": "5951-A-6",
       "date": "3/22/00",
       "marque": "RENAULT ",
       "intitule": "COBOMI",
       "visiteTechnique": "10/20/22",
       "permisCirculation": "8/11/22",
+      "active":"true",
       "equipement": "MG10008"
     },
     {
       "id": "35",
       "agenceId": "8",
+      "statuId":"1",
       "matricule": "59749-E-6",
       "date": "9/23/19",
       "marque": "MITSUBICHI",
       "intitule": "CHAABI TRUCKS",
       "visiteTechnique": "7/7/22",
       "permisCirculation": "8/12/23",
+      "active":"true",
       "equipement": "VL0589"
     },
     {
       "id": "36",
       "agenceId": "4",
+      "statuId":"1",
       "matricule": "59750-E-6",
       "date": "9/23/19",
       "marque": "FUSO",
       "intitule": "CHAABI TRUCKS",
       "visiteTechnique": "12/13/21",
       "permisCirculation": "8/11/23",
+      "active":"true",
       "equipement": "VL0586"
     },
     {
       "id": "37",
       "agenceId": "8",
+      "statuId":"1",
       "matricule": "59751-E-6",
       "date": "9/23/19",
       "marque": "MITSUBICHI",
       "intitule": "CHAABI TRUCKS",
       "visiteTechnique": "7/7/22",
       "permisCirculation": "8/12/23",
+      "active":"true",
       "equipement": "VL0590"
     },
     {
       "id": "38",
       "agenceId": "8",
+      "statuId":"1",
       "matricule": "59752-E-6",
       "date": "9/23/19",
       "marque": "MITSUBICHI",
@@ -388,6 +457,7 @@
     {
       "id": "39",
       "agenceId": "8",
+      "statuId":"1",
       "matricule": "59753-E-6",
       "date": "9/23/19",
       "marque": "MITSUBICHI",
@@ -399,6 +469,7 @@
     {
       "id": "40",
       "agenceId": "7",
+      "statuId":"1",
       "matricule": "59754-E-6",
       "date": "9/23/19",
       "marque": "FUSO",
@@ -410,6 +481,7 @@
     {
       "id": "41",
       "agenceId": "7",
+      "statuId":"1",
       "matricule": "59755-E-6",
       "date": "9/23/19",
       "marque": "MITSUBI",
@@ -421,6 +493,7 @@
     {
       "id": "42",
       "agenceId": "8",
+      "statuId":"1",
       "matricule": "60539-E-6",
       "date": "9/23/19",
       "marque": "MITSUBICHI",
@@ -432,6 +505,7 @@
     {
       "id": "43",
       "agenceId": "2",
+      "statuId":"1",
       "matricule": "60540-E-6",
       "date": "9/23/19",
       "marque": "MITSUBISHI",
@@ -443,6 +517,7 @@
     {
       "id": "44",
       "agenceId": "4",
+      "statuId":"1",
       "matricule": "60541-E-6-",
       "date": "9/23/19",
       "marque": "FUSO",
@@ -454,6 +529,7 @@
     {
       "id": "45",
       "agenceId": "4",
+      "statuId":"1",
       "matricule": "60542-E-6",
       "date": "9/23/19",
       "marque": "FUSO",
@@ -465,6 +541,7 @@
     {
       "id": "46",
       "agenceId": "6",
+      "statuId":"1",
       "matricule": "60543-E-6",
       "date": "9/23/19",
       "marque": "Mitsub",
@@ -476,6 +553,7 @@
     {
       "id": "47",
       "agenceId": "7",
+      "statuId":"1",
       "matricule": "60544-E-6",
       "date": "9/23/19",
       "marque": "FUSO",
@@ -487,6 +565,7 @@
     {
       "id": "48",
       "agenceId": "6",
+      "statuId":"1",
       "matricule": "6443-A-7",
       "date": "9/20/00",
       "marque": "RENAULT",
@@ -498,6 +577,7 @@
     {
       "id": "49",
       "agenceId": "2",
+      "statuId":"1",
       "matricule": "64564-A-8",
       "date": "1/25/02",
       "marque": "RENAULT",
@@ -510,6 +590,7 @@
     {
       "id": "50",
       "agenceId": "6",
+      "statuId":"1",
       "matricule": "6658-A-2",
       "date": "6/23/98",
       "marque": "RENAULT",
@@ -521,6 +602,7 @@
     {
       "id": "51",
       "agenceId": "2",
+      "statuId":"1",
       "matricule": "71130-A-26",
       "date": "4/21/09",
       "marque": "MITSUBUHI",
@@ -532,6 +614,7 @@
     {
       "id": "52",
       "agenceId": "9",
+      "statuId":"1",
       "matricule": "71131-A-26",
       "date": "4/21/09",
       "marque": "Mitsubishi",
@@ -543,6 +626,7 @@
     {
       "id": "53",
       "agenceId": "7",
+      "statuId":"1",
       "matricule": "81080-B-8",
       "date": "6/9/14",
       "marque": "MITSUBICHI ",
@@ -554,6 +638,7 @@
     {
       "id": "54",
       "agenceId": "2",
+      "statuId":"1",
       "matricule": "8380-A-13",
       "date": "7/26/04",
       "marque": "RENAULT",
@@ -566,6 +651,7 @@
     {
       "id": "55",
       "agenceId": "2",
+      "statuId":"1",
       "matricule": "84691-B-8",
       "date": "2/19/18",
       "marque": "MITSUBISHI",
@@ -577,6 +663,7 @@
     {
       "id": "56",
       "agenceId": "9",
+      "statuId":"1",
       "matricule": "84705-A-26",
       "date": "7/21/98",
       "marque": "Isuzu",
@@ -588,6 +675,7 @@
     {
       "id": "57",
       "agenceId": "2",
+      "statuId":"1",
       "matricule": "85241-B-8",
       "date": "6/9/14",
       "marque": "MITSUBISHI",
@@ -599,6 +687,7 @@
     {
       "id": "58",
       "agenceId": "8",
+      "statuId":"1",
       "matricule": "85251-B-8",
       "date": "6/9/14",
       "marque": "ISUZU",
@@ -609,6 +698,7 @@
     {
       "id": "59",
       "agenceId": "4",
+      "statuId":"1",
       "matricule": "85253-B-8",
       "date": "6/9/14",
       "marque": "ISUZU",
@@ -620,6 +710,7 @@
     {
       "id": "60",
       "agenceId": "6",
+      "statuId":"1",
       "matricule": "85260-B-8",
       "date": "6/9/14",
       "marque": "MITSUBISHI",
@@ -630,6 +721,7 @@
     {
       "id": "61",
       "agenceId": "7",
+      "statuId":"1",
       "matricule": "86064-B-8",
       "date": "8/5/14",
       "marque": "MITSUBICHI ",
@@ -641,6 +733,7 @@
     {
       "id": "62",
       "agenceId": "4",
+      "statuId":"1",
       "matricule": "86253-B-8",
       "date": "8/9/14",
       "marque": "ISUZU",
@@ -652,6 +745,7 @@
     {
       "id": "63",
       "agenceId": "6",
+      "statuId":"1",
       "matricule": "86255-B-8",
       "date": "8/9/14",
       "marque": "ISUZU",
@@ -662,6 +756,7 @@
     {
       "id": "64",
       "agenceId": "2",
+      "statuId":"1",
       "matricule": "86567-B-8",
       "date": "9/2/14",
       "marque": "ISUZU",
@@ -673,6 +768,7 @@
     {
       "id": "65",
       "agenceId": "6",
+      "statuId":"1",
       "matricule": "88265-A-8",
       "date": "3/13/03",
       "marque": "RENAULT ",
@@ -684,6 +780,7 @@
     {
       "id": "66",
       "agenceId": "6",
+      "statuId":"1",
       "matricule": "88274-A-8",
       "date": "3/13/03",
       "marque": "RENAULT ",
@@ -695,6 +792,7 @@
     {
       "id": "67",
       "agenceId": "1",
+      "statuId":"1",
       "matricule": "92333-B-26",
       "date": "1/15/97",
       "marque": "Mitsubishi",
@@ -708,6 +806,7 @@
     {
       "id": "68",
       "agenceId": "6",
+      "statuId":"1",
       "matricule": "9978-A-13",
       "date": "6/20/05",
       "marque": "RENAULT ",
@@ -719,6 +818,7 @@
     {
       "matricule": "ddddd",
       "marque": "ddddd",
+      "statuId":"1",
       "agenceId": "dddddd",
       "id": "5KOPO-f"
     },
@@ -726,16 +826,19 @@
       "matricule": "hhhhh",
       "marque": "hhhhh",
       "agenceId": "hhhhh",
+      "statuId":"1",
       "id": "qwLGvrQ"
     },
     {
       "matricule": "ggggg",
       "marque": "ggggg",
       "agenceId": "ggggg",
+      "statuId":"1",
       "id": "EAyQI3H"
     },
     {
       "matricule": "wwwww",
+      "statuId":"1",
       "marque": "wwwww",
       "agenceId": "wwwww",
       "id": "pIw9zMC"
@@ -744,23 +847,27 @@
       "matricule": "dsf",
       "marque": "sd",
       "agenceId": "sdf",
+      "statuId":"1",
       "id": "9Wk9QEk"
     },
     {
       "matricule": "rrrr",
       "marque": "rrrr",
       "agenceId": "rrrrr",
+      "statuId":"1",
       "id": "52LhJgK"
     },
     {
       "matricule": "pppp",
       "marque": "ppppp",
       "agenceId": "pppp",
+      "statuId":"1",
       "id": "h_NKp-9"
     },
     {
       "matricule": "gggggg",
       "marque": "gggggggggggg",
+      "statuId":"1",
       "agenceId": "gggggg",
       "id": "tPC68mE"
     },
@@ -768,16 +875,18 @@
       "matricule": "dsds",
       "marque": "sdsd",
       "agenceId": "sdsd",
+      "statuId":"1",
       "id": "QBZqYdW"
     },
     {
       "matricule": "wqw",
       "marque": "wqqe",
       "agenceId": "qwwqw",
+      "statuId":"1",
       "id": "v7zmDBi"
     }
   ],
-  "voiture": [
+  "voitures": [
     {
       "id": "1",
       "agenceId": "2",
@@ -1426,7 +1535,7 @@
       "conducteur": "ABBOUD EL MOSTAPHA"
     }
   ],
-  "scooter": [
+  "scooters": [
     {
       "marque": "KYMKO",
       "type": "Agility U60050",
@@ -2208,137 +2317,137 @@
       "DMC": "8/25/20"
     }
   ],
-  "chariot": [
+  "chariots": [
     {
-      "matricule": "MS  95",
+      "matricule": "MS95",
       "marque": "Toyota",
       "agenceId": "1",
       "Type": "62-8FD20",
-      "chassis ": "608FD25-20095",
+      "chassis": "608FD25-20095",
       "dmc": "2009"
     },
     {
-      "matricule": "MS 286",
+      "matricule": "MS286",
       "marque": "Toyota",
       "agenceId": "1",
       "Type": "62-8FD20",
-      "chassis ": "608FD25-20087",
+      "chassis": "608FD25-20087",
       "dmc": "2009"
     },
     {
-      "matricule": "MS 285",
+      "matricule": "MS285",
       "marque": "Toyota",
       "agenceId": "1",
       "Type": "62-8FD25",
-      "chassis ": "608FD25-34317",
+      "chassis": "608FD25-34317",
       "dmc": "2010"
     },
     {
-      "matricule": "MS 219",
+      "matricule": "MS219",
       "marque": "Toyota",
       "agenceId": "1",
       "Type": "02-6FDL26",
-      "chassis ": "8FDL25-31760",
+      "chassis": "8FDL25-31760",
       "dmc": "2012"
     },
     {
-      "matricule": "MS 220",
+      "matricule": "MS220",
       "marque": "Toyota",
       "agenceId": "1",
       "Type": "02-8FDL25",
-      "chassis ": "8FDL25-31757",
+      "chassis": "8FDL25-31757",
       "dmc": "2012"
     },
     {
-      "matricule": "MS 103",
+      "matricule": "MS103",
       "marque": "Toyota",
       "agenceId": "1",
       "Type": "028FDL25",
-      "chassis ": "8FDL25-31755",
+      "chassis": "8FDL25-31755",
       "dmc": "2012"
     },
     {
-      "matricule": "MS 279",
+      "matricule": "MS279",
       "marque": "Toyota électrique",
       "agenceId": "1",
       "Type": "8FBEKT16",
-      "chassis ": "8FBEKT16 E 11323",
+      "chassis": "8FBEKT16 E 11323",
       "dmc": "2012"
     },
     {
-      "matricule": "MS 214",
+      "matricule": "MS214",
       "marque": "Toyota",
       "agenceId": "1",
       "Type": "FDZN20",
-      "chassis ": "FDZN25-23644",
+      "chassis": "FDZN25-23644",
       "dmc": "2015"
     },
     {
-      "matricule": "MS 215",
+      "matricule": "MS215",
       "marque": "Toyota",
       "agenceId": "1",
       "Type": "FDZN20",
-      "chassis ": "FDZN25-23634",
+      "chassis": "FDZN25-23634",
       "dmc": "2015"
     },
     {
-      "matricule": "MS  91",
+      "matricule": "MS91",
       "marque": "Toyota",
       "agenceId": "1",
       "Type": "62-8FD25",
-      "chassis ": "608FD25-62632",
+      "chassis": "608FD25-62632",
       "dmc": "2015"
     },
     {
-      "matricule": "MS 202",
+      "matricule": "MS202",
       "marque": "Toyota",
       "agenceId": "1",
       "Type": "FDZN20",
-      "chassis ": "FDZN25-23694",
+      "chassis": "FDZN25-23694",
       "dmc": "2015"
     },
     {
-      "matricule": "MS 217",
+      "matricule": "MS217",
       "marque": "Toyota",
       "agenceId": "1",
       "Type": "628FD25",
-      "chassis ": "608FD25-66105",
+      "chassis": "608FD25-66105",
       "dmc": "2016"
     },
     {
-      "matricule": "MS 222",
+      "matricule": "MS222",
       "marque": "Toyota",
       "agenceId": "1",
       "Type": "62-8FD25",
-      "chassis ": "608FD25-66749",
+      "chassis": "608FD25-66749",
       "dmc": "2016"
     },
     {
-      "matricule": "MS 223",
+      "matricule": "MS223",
       "marque": "Toyota",
       "agenceId": "1",
       "Type": "62-8FD25",
-      "chassis ": "608FD25-66772",
+      "chassis": "608FD25-66772",
       "dmc": "2016"
     },
     {
-      "matricule": "MS 224",
+      "matricule": "MS224",
       "marque": "Toyota",
       "agenceId": "1",
       "Type": "62-8FD25",
-      "chassis ": "608FD25-66980",
+      "chassis": "608FD25-66980",
       "dmc": "2017"
     },
     {
-      "matricule": "MS 278",
+      "matricule": "MS278",
       "marque": "TCM électrique",
       "agenceId": "1",
       "Type": "FB25-8",
-      "chassis ": "7P442057",
+      "chassis": "7P442057",
       "dmc": "2019"
     }
   ],
-  "comment": [
+  "comments": [
     {
       "id": "1",
       "camionId": "1",
@@ -2354,14 +2463,14 @@
       "id": "5cEvyYc"
     },
     {
-      "camionId": "54",
+      "camionId": "2",
       "comment": "cdsdcsdcsdcd",
       "time": "Sat, 28 May 2022 18:52:19 GMT",
       "active": true,
       "id": "2PPYhdQ"
     },
     {
-      "camionId": "27",
+      "camionId": "2",
       "comment": "sadasdasdasdsadasdasdasd",
       "time": "Sat, 28 May 2022 18:53:05 GMT",
       "active": true,
@@ -2382,7 +2491,7 @@
       "id": "U2TlTYO"
     }
   ],
-  "agence": [
+  "agences": [
     {
       "id": "1",
       "agence": "Marrakech"
@@ -2418,6 +2527,32 @@
     {
       "id": "10",
       "agence": "Ain Harrouda"
+    }
+  ],
+  "status": [
+    {
+      "id": "1",
+      "status": "RAS"
+    },
+    {
+      "id": "2",
+      "status": "en réparation"
+    },
+    {
+      "id": "3",
+      "status": "en arrêt"
+    },
+    {
+      "id": "4",
+      "status": "visite technique"
+    },
+    {
+      "id": "5",
+      "status": "permis circulation"
+    },
+    {
+      "id": "6",
+      "status": "carte grise"
     }
   ]
 }

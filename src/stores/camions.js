@@ -15,7 +15,7 @@ export const useCamionStore = defineStore("camion", {
     actions: {
       async fetchCamions() {
         try {
-          const data = await axios.get('http://localhost:3000/camion');
+          const data = await axios.get('http://localhost:3000/camions');
             this.camion = data.data;
           }
           catch (error) {

@@ -7,7 +7,6 @@
   <thead class="table-dark" >
     <tr>
       <th >#</th>
-      <th >Matricule</th>
       <th >Marque</th>
       <th >Conducteur</th>
       
@@ -15,7 +14,7 @@
   </thead>
   <tbody v-for="voiture in Voitures" :key="voiture.id "> 
     <tr>
-      <td>{{ voiture.id }}</td>
+      
       <td>{{ voiture.matricule }}</td>
       <td>{{ voiture.marque }}</td>
       <td>{{ voiture.conducteur }}</td>
@@ -47,7 +46,7 @@ export default{
     getVoitures() {
 
         this.axios
-      .get('http://localhost:3000/Voiture')
+      .get('http://localhost:3000/Voitures')
       .then(response => (this.Voitures = response.data))}
     
 
