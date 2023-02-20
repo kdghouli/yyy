@@ -1,9 +1,34 @@
 {
+  "users": [
+    {}
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "categorie": "camion"
+    },
+    {
+      "id": 2,
+      "categorie": "voiture"
+    },
+    {
+      "id": 3,
+      "categorie": "scooter"
+    },
+    {
+      "id": 4,
+      "categorie": "Chariot Elevateur"
+    },
+    {
+      "id": 5,
+      "categorie": "autre"
+    }
+  ],
   "camions": [
     {
       "id": "1",
       "agenceId": "2",
-      "statuId":"1",
+      "statuId": "1",
       "matricule": "10093-A-13",
       "date": "6/20/05",
       "marque": "RENAULT",
@@ -11,116 +36,126 @@
       "visiteTechnique": "3/11/22",
       "permisCirculation": "2/24/22",
       "equipement": "MG2450",
-      "active":"true",
-      "etat": "Pb des papiers"
+      "active": "true",
+      "etat": "Pb des papiers",
+      "categorieId": "1"
     },
     {
       "id": "2",
       "agenceId": "2",
-      "statuId":"1",
+      "statuId": "1",
       "matricule": "120-A-73",
       "date": "7/5/04",
       "marque": "ISUZU",
       "intitule": "COBOMI",
       "visiteTechnique": "6/17/22",
       "permisCirculation": "3/8/22",
-      "active":"true",
-      "equipement": "MG10005"
+      "active": "true",
+      "equipement": "MG10005",
+      "categorieId": "1"
     },
     {
       "id": "3",
       "agenceId": "6",
-      "statuId":"1",
+      "statuId": "1",
       "matricule": "13720-A-40",
       "date": "5/6/96",
       "marque": "RENAULT",
       "intitule": "SCBG",
       "visiteTechnique": "4/21/22",
       "permisCirculation": "8/26/22",
-      "active":"true",
-      "equipement": "MG1765"
+      "active": "false",
+      "equipement": "MG1765",
+      "etat": "salam",
+      "categorieId": "1"
     },
     {
       "id": "4",
       "agenceId": "2",
-      "statuId":"1",
-      "matricule": "14165-A-15",
+      "statuId": "1",
+      "matricule": "14165-A-15666",
       "date": "4/10/97",
       "marque": "RENAULT",
       "intitule": "CBGN",
       "visiteTechnique": "5/27/22",
       "permisCirculation": "12/14/21",
-      "active":"true",
-      "equipement": "MG4131"
+      "active": "true",
+      "equipement": "MG4131",
+      "categorieId": "1"
     },
     {
       "id": "5",
       "agenceId": "7",
-      "statuId":"1",
+      "statuId": "1",
       "matricule": "16565-B-7",
       "date": "4/18/19",
       "marque": "FUSO",
       "intitule": "TRANS OPTI FLUX",
       "visiteTechnique": "2/17/22",
       "permisCirculation": "3/3/23",
-      "active":"true",
-      "equipement": "VL0548"
+      "active": "true",
+      "equipement": "VL0548",
+      "categorieId": "1"
     },
     {
       "id": "6",
       "agenceId": "2",
-      "statuId":"1",
+      "statuId": "1",
       "matricule": "16998-A-13",
       "date": "7/2/08",
       "marque": "MITSUBISHI",
       "intitule": "SCBG",
       "visiteTechnique": "3/10/22",
       "permisCirculation": "8/30/22",
-      "active":"true",
-      "equipement": "MG2611"
+      "active": "true",
+      "equipement": "MG2611",
+      "categorieId": "1"
     },
     {
       "id": "7",
       "agenceId": "7",
-      "statuId":"1",
+      "statuId": "1",
       "matricule": "17124-B-7",
       "date": "4/25/19",
       "marque": "MITSUBI",
       "intitule": "TRANS OPTI FLUX",
       "visiteTechnique": "2/21/22",
       "permisCirculation": "3/30/23",
-      "active":"true",
-      "equipement": "VL0551"
+      "active": "true",
+      "equipement": "VL0551",
+      "categorieId": "1"
     },
     {
       "id": "8",
       "agenceId": "6",
-      "statuId":"1",
+      "statuId": "1",
       "matricule": "31935-D-8",
       "date": "12/13/19",
       "marque": "IVECO",
       "intitule": "STE LAGOUASSEM ",
       "visiteTechnique": "10/27/22",
-      "active":"true",
-      "equipement": "VL0602"
+      "active": "true",
+      "equipement": "VL0602",
+      "categorieId": "1"
     },
     {
       "id": "9",
       "agenceId": "7",
-      "statuId":"1",
+      "statuId": "1",
       "matricule": "31940-D-8",
       "date": "12/13/19",
       "marque": "IVECO",
       "intitule": "STE LAGOUASSEM ",
       "visiteTechnique": "10/27/21",
       "permisCirculation": "10/30/21",
-      "active":"true",
-      "equipement": "VL0605"
+      "active": "true",
+      "equipement": "VL0605",
+      "categorieId": "1"
     },
     {
       "id": "10",
       "agenceId": "1",
-      "statuId":"1",
+      "statuId": "1",
       "matricule": "32093-A-26",
       "date": "6/30/04",
       "marque": "Mitsubishi",
@@ -128,181 +163,195 @@
       "visiteTechnique": "7/7/22",
       "permisCirculation": "7/7/22",
       "equipement": "MG7085",
-      "active":"true",
-      "etat": "Pb des papiers"
+      "active": "true",
+      "etat": "Pb des papiers",
+      "categorieId": "1"
     },
     {
       "id": "11",
       "agenceId": "2",
-      "statuId":"1",
+      "statuId": "1",
       "matricule": "32724-A-13",
       "date": "3/4/13",
       "marque": "MITSUBISHI",
       "intitule": "SCBG",
       "visiteTechnique": "2/11/22",
       "permisCirculation": "2/18/22",
-      "active":"true",
-      "equipement": "MG2685"
+      "active": "true",
+      "equipement": "MG2685",
+      "categorieId": "1"
     },
     {
       "id": "12",
       "agenceId": "4",
-      "statuId":"1",
+      "statuId": "1",
       "matricule": "33248-A-13",
       "date": "4/15/13",
       "marque": "MITSUBI",
       "intitule": "SCBG",
       "visiteTechnique": "6/26/22",
       "permisCirculation": "8/11/22",
-      "active":"true",
-      "equipement": "MG2698"
+      "active": "true",
+      "equipement": "MG2698",
+      "categorieId": "1"
     },
     {
       "id": "13",
       "agenceId": "2",
-      "statuId":"1",
+      "statuId": "1",
       "matricule": "33250-A-13",
       "date": "5/14/13",
       "marque": "MITSUBISHI",
       "intitule": "SCBG",
       "visiteTechnique": "3/10/22",
       "permisCirculation": "2/18/22",
-      "active":"true",
-      "equipement": "MG2700"
+      "active": "true",
+      "equipement": "MG2700",
+      "categorieId": "1"
     },
     {
       "id": "14",
       "agenceId": "6",
-      "statuId":"1",
+      "statuId": "1",
       "matricule": "3543-A-26",
       "date": "5/5/00",
       "marque": "Isuzu",
       "intitule": "CBGS",
       "visiteTechnique": "3/11/22",
       "permisCirculation": "7/5/22",
-      "active":"true",
-      "equipement": "MG7249"
+      "active": "true",
+      "equipement": "MG7249",
+      "categorieId": "1"
     },
     {
       "id": "15",
       "agenceId": "6",
-      "statuId":"1",
+      "statuId": "1",
       "matricule": "3544-A-26",
       "date": "5/5/00",
       "marque": "ISUZU",
       "intitule": "CBGS",
       "visiteTechnique": "4/27/22",
       "permisCirculation": "12/10/21",
-      "active":"true",
-      "equipement": "MG7214"
+      "active": "true",
+      "equipement": "MG7214",
+      "categorieId": "1"
     },
     {
       "id": "18",
       "agenceId": "4",
-      "statuId":"1",
+      "statuId": "1",
       "matricule": "3551-A-26",
       "date": "5/5/00",
       "marque": "ISUZU",
       "intitule": "CBGS",
       "visiteTechnique": "5/26/22",
       "permisCirculation": "7/5/22",
-      "active":"true",
-      "equipement": "MG7198"
+      "active": "true",
+      "equipement": "MG7198",
+      "categorieId": "1"
     },
     {
       "id": "20",
       "agenceId": "4",
-      "statuId":"1",
+      "statuId": "1",
       "matricule": "3826-A-7",
       "date": "5/15/00",
       "marque": "RENAULT ",
       "intitule": "SCBG",
       "visiteTechnique": "3/11/22",
       "permisCirculation": "10/22/21",
-      "active":"true",
-      "equipement": "MG2173"
+      "active": "true",
+      "equipement": "MG2173",
+      "categorieId": "1"
     },
     {
       "id": "21",
       "agenceId": "4",
-      "statuId":"1",
+      "statuId": "1",
       "matricule": "3946-A-26",
       "date": "6/13/00",
       "marque": "MITSUBISHI",
       "intitule": "CBGS",
       "visiteTechnique": "6/6/22",
       "permisCirculation": "9/5/22",
-      "active":"true",
-      "equipement": "MG7245"
+      "active": "true",
+      "equipement": "MG7245",
+      "categorieId": "1"
     },
     {
       "id": "22",
       "agenceId": "7",
-      "statuId":"1",
+      "statuId": "1",
       "matricule": "3947-A-26",
       "date": "6/13/00",
       "marque": "MITSUBICHI FK",
       "intitule": "CBGS",
       "visiteTechnique": "4/18/21",
-      "active":"true",
+      "active": "true",
       "permisCirculation": "7/14/21",
-      "equipement": "MG7048"
+      "equipement": "MG7048",
+      "categorieId": "1"
     },
     {
       "id": "23",
       "agenceId": "6",
-      "statuId":"1",
+      "statuId": "1",
       "matricule": "4001-A-7",
       "date": "6/5/00",
       "marque": "ISUZU",
       "intitule": "SCBG",
       "visiteTechnique": "5/26/22",
-      "active":"true",
-      "equipement": "MG2184"
+      "active": "true",
+      "equipement": "MG2184",
+      "categorieId": "1"
     },
     {
       "id": "24",
       "agenceId": "4",
-      "statuId":"1",
+      "statuId": "1",
       "matricule": "4007-A-7",
       "date": "6/5/00",
       "marque": "ISUZU",
       "intitule": "SCBG",
       "visiteTechnique": "5/3/22",
       "permisCirculation": "12/31/21",
-      "active":"true",
-      "equipement": "MG2190"
+      "active": "true",
+      "equipement": "MG2190",
+      "categorieId": "1"
     },
     {
       "id": "25",
       "agenceId": "2",
-      "statuId":"1",
+      "statuId": "1",
       "matricule": "43710-A-6",
       "date": "11/9/99",
       "marque": "RENAULT",
       "intitule": "SCBG",
       "visiteTechnique": "4/25/22",
       "permisCirculation": "11/23/21",
-      "active":"true",
-      "equipement": "MG1921"
+      "active": "true",
+      "equipement": "MG1921",
+      "categorieId": "1"
     },
     {
       "id": "26",
       "agenceId": "2",
-      "statuId":"1",
+      "statuId": "1",
       "matricule": "4614-A-15",
       "date": "6/5/00",
       "marque": "MITSUBISHI",
       "intitule": "CBGN",
       "visiteTechnique": "2/17/22",
       "permisCirculation": "3/9/22",
-      "active":"true",
-      "equipement": "MG4046"
+      "active": "true",
+      "equipement": "MG4046",
+      "categorieId": "1"
     },
     {
       "id": "27",
       "agenceId": "2",
-      "statuId":"1",
+      "statuId": "1",
       "matricule": "4632-A-15",
       "date": "6/5/00",
       "marque": "MITSIBISHI",
@@ -310,274 +359,295 @@
       "visiteTechnique": "1/26/22",
       "permisCirculation": "7/11/22",
       "equipement": "MG4078",
-      "active":"true",
-      "etat": "Pb des papiers"
+      "active": "true",
+      "etat": "Pb des papiers",
+      "categorieId": "1"
     },
     {
       "id": "28",
       "agenceId": "2",
-      "statuId":"1",
+      "statuId": "1",
       "matricule": "56169-E-6",
       "date": "7/13/19",
       "marque": "MITSUBICHI",
       "intitule": "BM TRANS",
       "visiteTechnique": "2/15/22",
       "permisCirculation": "7/5/23",
-      "active":"true",
-      "equipement": "VL0569"
+      "active": "true",
+      "equipement": "VL0569",
+      "categorieId": "1"
     },
     {
       "id": "29",
       "agenceId": "4",
-      "statuId":"1",
+      "statuId": "1",
       "matricule": "56172-E-6",
       "date": "7/13/19",
       "marque": "FUSO",
       "intitule": "BM TRANS",
-      "active":"true",
-      "equipement": "VL0568"
-      
+      "active": "true",
+      "equipement": "VL0568",
+      "categorieId": "1"
     },
     {
       "id": "30",
       "agenceId": "7",
-      "statuId":"1",
+      "statuId": "1",
       "matricule": "56405-E-6",
       "date": "7/2/19",
       "marque": "FUSO",
       "intitule": "BM TRANS",
       "visiteTechnique": "12/17/21",
       "permisCirculation": "7/12/23",
-      "active":"true",
-      "equipement": "VL0572"
+      "active": "true",
+      "equipement": "VL0572",
+      "categorieId": "1"
     },
     {
       "id": "31",
       "agenceId": "4",
-      "statuId":"1",
+      "statuId": "1",
       "matricule": "56407-E-6",
       "date": "7/2/19",
       "marque": "FUSO",
       "intitule": "BM TRANS",
       "visiteTechnique": "6/15/22",
       "permisCirculation": "6/29/22",
-      "active":"true",
-      "equipement": "VL0574"
+      "active": "true",
+      "equipement": "VL0574",
+      "categorieId": "1"
     },
     {
       "id": "32",
       "agenceId": "4",
-      "statuId":"1",
+      "statuId": "1",
       "matricule": "56408-E-6",
       "date": "7/2/19",
       "marque": "FUSO",
       "intitule": "BM TRANS",
       "visiteTechnique": "6/15/22",
       "permisCirculation": "6/29/22",
-      "active":"true",
-      "equipement": "VL0571"
+      "active": "true",
+      "equipement": "VL0571",
+      "categorieId": "1"
     },
     {
       "id": "33",
       "agenceId": "7",
-      "statuId":"1",
+      "statuId": "1",
       "matricule": "56409-E-6",
       "date": "7/2/19",
       "marque": "FUSO",
       "intitule": "BM TRANS",
       "visiteTechnique": "11/7/22",
       "permisCirculation": "6/14/23",
-      "active":"true",
-      "equipement": "VL0573"
+      "active": "true",
+      "equipement": "VL0573",
+      "categorieId": "1"
     },
     {
       "id": "34",
       "agenceId": "6",
-      "statuId":"1",
+      "statuId": "1",
       "matricule": "5951-A-6",
       "date": "3/22/00",
       "marque": "RENAULT ",
       "intitule": "COBOMI",
       "visiteTechnique": "10/20/22",
       "permisCirculation": "8/11/22",
-      "active":"true",
-      "equipement": "MG10008"
+      "active": "true",
+      "equipement": "MG10008",
+      "categorieId": "1"
     },
     {
       "id": "35",
-      "agenceId": "8",
-      "statuId":"1",
+      "agenceId": "9",
+      "statuId": "1",
       "matricule": "59749-E-6",
       "date": "9/23/19",
       "marque": "MITSUBICHI",
       "intitule": "CHAABI TRUCKS",
       "visiteTechnique": "7/7/22",
       "permisCirculation": "8/12/23",
-      "active":"true",
-      "equipement": "VL0589"
+      "active": "true",
+      "equipement": "VL0589",
+      "categorieId": "1"
     },
     {
       "id": "36",
       "agenceId": "4",
-      "statuId":"1",
+      "statuId": "1",
       "matricule": "59750-E-6",
       "date": "9/23/19",
       "marque": "FUSO",
       "intitule": "CHAABI TRUCKS",
       "visiteTechnique": "12/13/21",
       "permisCirculation": "8/11/23",
-      "active":"true",
-      "equipement": "VL0586"
+      "active": "true",
+      "equipement": "VL0586",
+      "categorieId": "1"
     },
     {
       "id": "37",
-      "agenceId": "8",
-      "statuId":"1",
+      "agenceId": "9",
+      "statuId": "1",
       "matricule": "59751-E-6",
       "date": "9/23/19",
       "marque": "MITSUBICHI",
       "intitule": "CHAABI TRUCKS",
       "visiteTechnique": "7/7/22",
       "permisCirculation": "8/12/23",
-      "active":"true",
-      "equipement": "VL0590"
+      "active": "true",
+      "equipement": "VL0590",
+      "categorieId": "1"
     },
     {
       "id": "38",
-      "agenceId": "8",
-      "statuId":"1",
+      "agenceId": "9",
+      "statuId": "1",
       "matricule": "59752-E-6",
       "date": "9/23/19",
       "marque": "MITSUBICHI",
       "intitule": "CHAABI TRUCKS",
       "visiteTechnique": "7/7/22",
       "permisCirculation": "8/11/23",
-      "equipement": "VL0591"
+      "equipement": "VL0591",
+      "categorieId": "1"
     },
     {
       "id": "39",
-      "agenceId": "8",
-      "statuId":"1",
+      "agenceId": "9",
+      "statuId": "1",
       "matricule": "59753-E-6",
       "date": "9/23/19",
       "marque": "MITSUBICHI",
       "intitule": "CHAABI TRUCKS",
       "visiteTechnique": "7/7/22",
       "permisCirculation": "8/12/23",
-      "equipement": "VL0592"
+      "equipement": "VL0592",
+      "categorieId": "1"
     },
     {
       "id": "40",
       "agenceId": "7",
-      "statuId":"1",
+      "statuId": "1",
       "matricule": "59754-E-6",
       "date": "9/23/19",
       "marque": "FUSO",
       "intitule": "CHAABI TRUCKS",
       "visiteTechnique": "10/6/22",
       "permisCirculation": "8/11/23",
-      "equipement": "VL0593"
+      "equipement": "VL0593",
+      "categorieId": "1"
     },
     {
       "id": "41",
       "agenceId": "7",
-      "statuId":"1",
+      "statuId": "1",
       "matricule": "59755-E-6",
       "date": "9/23/19",
       "marque": "MITSUBI",
       "intitule": "CHAABI TRUCKS",
       "visiteTechnique": "6/24/22",
       "permisCirculation": "8/11/23",
-      "equipement": "VL0585"
+      "equipement": "VL0585",
+      "categorieId": "1"
     },
     {
       "id": "42",
-      "agenceId": "8",
-      "statuId":"1",
+      "agenceId": "9",
+      "statuId": "1",
       "matricule": "60539-E-6",
       "date": "9/23/19",
       "marque": "MITSUBICHI",
       "intitule": "CHAABI TRUCKS",
       "visiteTechnique": "7/7/22",
       "permisCirculation": "8/12/23",
-      "equipement": "VL0594"
+      "equipement": "VL0594",
+      "categorieId": "1"
     },
     {
       "id": "43",
       "agenceId": "2",
-      "statuId":"1",
+      "statuId": "1",
       "matricule": "60540-E-6",
       "date": "9/23/19",
       "marque": "MITSUBISHI",
       "intitule": "CHAABI TRUCKS",
       "visiteTechnique": "2/10/22",
       "permisCirculation": "8/23/23",
-      "equipement": "VL0584"
+      "equipement": "VL0584",
+      "categorieId": "1"
     },
     {
       "id": "44",
       "agenceId": "4",
-      "statuId":"1",
+      "statuId": "1",
       "matricule": "60541-E-6-",
       "date": "9/23/19",
       "marque": "FUSO",
       "intitule": "CHAABI TRUCKS",
       "visiteTechnique": "6/14/22",
       "permisCirculation": "8/23/23",
-      "equipement": "VL0583"
+      "equipement": "VL0583",
+      "categorieId": "1"
     },
     {
       "id": "45",
       "agenceId": "4",
-      "statuId":"1",
+      "statuId": "1",
       "matricule": "60542-E-6",
       "date": "9/23/19",
       "marque": "FUSO",
       "intitule": "CHAABI TRUCKS",
       "visiteTechnique": "6/14/22",
       "permisCirculation": "8/23/23",
-      "equipement": "VL0581"
+      "equipement": "VL0581",
+      "categorieId": "1"
     },
     {
       "id": "46",
       "agenceId": "6",
-      "statuId":"1",
+      "statuId": "1",
       "matricule": "60543-E-6",
       "date": "9/23/19",
       "marque": "Mitsub",
       "intitule": "CHAABI TRUCKS",
       "visiteTechnique": "8/14/22",
       "permisCirculation": "8/26/23",
-      "equipement": "VL0580"
+      "equipement": "VL0580",
+      "categorieId": "1"
     },
     {
       "id": "47",
       "agenceId": "7",
-      "statuId":"1",
+      "statuId": "1",
       "matricule": "60544-E-6",
       "date": "9/23/19",
       "marque": "FUSO",
       "intitule": "CHAABI TRUCKS",
       "visiteTechnique": "4/20/22",
       "permisCirculation": "8/23/23",
-      "equipement": "VL0582"
+      "equipement": "VL0582",
+      "categorieId": "1"
     },
     {
       "id": "48",
       "agenceId": "6",
-      "statuId":"1",
+      "statuId": "1",
       "matricule": "6443-A-7",
       "date": "9/20/00",
       "marque": "RENAULT",
       "intitule": "SCBG",
       "visiteTechnique": "2/11/22",
       "permisCirculation": "12/31/21",
-      "equipement": "MG2319"
+      "equipement": "MG2319",
+      "categorieId": "1"
     },
     {
       "id": "49",
       "agenceId": "2",
-      "statuId":"1",
+      "statuId": "1",
       "matricule": "64564-A-8",
       "date": "1/25/02",
       "marque": "RENAULT",
@@ -585,60 +655,67 @@
       "visiteTechnique": "6/17/22",
       "permisCirculation": "7/11/22",
       "equipement": "MG2510",
-      "etat": "EN PANNE"
+      "etat": "EN PANNE",
+      "categorieId": "1"
     },
     {
       "id": "50",
       "agenceId": "6",
-      "statuId":"1",
+      "statuId": "1",
       "matricule": "6658-A-2",
       "date": "6/23/98",
       "marque": "RENAULT",
       "intitule": "SCBG",
       "visiteTechnique": "5/2/22",
       "permisCirculation": "12/31/21",
-      "equipement": "MG1743"
+      "equipement": "MG1743",
+      "categorieId": "1"
     },
     {
       "id": "51",
       "agenceId": "2",
-      "statuId":"1",
+      "statuId": "1",
       "matricule": "71130-A-26",
       "date": "4/21/09",
       "marque": "MITSUBUHI",
       "intitule": "CBGS",
       "visiteTechnique": "1/11/22",
       "permisCirculation": "7/12/22",
-      "equipement": "MG7273"
+      "equipement": "MG7273",
+      "categorieId": "1"
     },
     {
       "id": "52",
       "agenceId": "9",
-      "statuId":"1",
+      "statuId": "1",
       "matricule": "71131-A-26",
       "date": "4/21/09",
       "marque": "Mitsubishi",
       "intitule": "CBGS",
       "visiteTechnique": "3/3/22",
       "permisCirculation": "7/5/22",
-      "equipement": "MG7278"
+      "equipement": "MG7278",
+      "categorieId": "1"
     },
     {
       "id": "53",
       "agenceId": "7",
-      "statuId":"1",
+      "statuId": "1",
       "matricule": "81080-B-8",
       "date": "6/9/14",
       "marque": "MITSUBICHI ",
       "intitule": "STE LAGOUASSEM ",
       "visiteTechnique": "4/20/22",
       "permisCirculation": "7/12/22",
-      "equipement": "VL0184"
+      "equipement": "VL0184",
+      "active": true,
+      "etat": "dddefr",
+      "categorieId": "1"
     },
     {
       "id": "54",
       "agenceId": "2",
-      "statuId":"1",
+      "statuId": "1",
       "matricule": "8380-A-13",
       "date": "7/26/04",
       "marque": "RENAULT",
@@ -646,153 +723,166 @@
       "visiteTechnique": "2/22/22",
       "permisCirculation": "2/18/22",
       "equipement": "MG2398",
-      "etat": "Pb des papiers"
+      "etat": "Pb des papiers",
+      "categorieId": "1"
     },
     {
       "id": "55",
       "agenceId": "2",
-      "statuId":"1",
+      "statuId": "1",
       "matricule": "84691-B-8",
       "date": "2/19/18",
       "marque": "MITSUBISHI",
       "intitule": "STE LAGOUASSEM",
       "visiteTechnique": "9/21/22",
       "permisCirculation": "10/14/21",
-      "equipement": "VL0529"
+      "equipement": "VL0529",
+      "categorieId": "1"
     },
     {
       "id": "56",
       "agenceId": "9",
-      "statuId":"1",
+      "statuId": "1",
       "matricule": "84705-A-26",
       "date": "7/21/98",
       "marque": "Isuzu",
       "intitule": "CBGS",
       "visiteTechnique": "11/27/21",
       "permisCirculation": "7/27/21",
-      "equipement": "MG7001"
+      "equipement": "MG7001",
+      "categorieId": "1"
     },
     {
       "id": "57",
       "agenceId": "2",
-      "statuId":"1",
+      "statuId": "1",
       "matricule": "85241-B-8",
       "date": "6/9/14",
       "marque": "MITSUBISHI",
       "intitule": "STE LAGOUASSEM",
       "visiteTechnique": "4/1/22",
       "permisCirculation": "2/20/22",
-      "equipement": "VL0174"
+      "equipement": "VL0174",
+      "categorieId": "1"
     },
     {
       "id": "58",
-      "agenceId": "8",
-      "statuId":"1",
+      "agenceId": "9",
+      "statuId": "1",
       "matricule": "85251-B-8",
       "date": "6/9/14",
       "marque": "ISUZU",
       "intitule": "STE LAGOUASSEM",
       "visiteTechnique": "4/6/22",
-      "equipement": "VL0175"
+      "equipement": "VL0175",
+      "categorieId": "1"
     },
     {
       "id": "59",
       "agenceId": "4",
-      "statuId":"1",
+      "statuId": "1",
       "matricule": "85253-B-8",
       "date": "6/9/14",
       "marque": "ISUZU",
       "intitule": "STE LAGOUASSEM",
       "visiteTechnique": "5/6/22",
       "permisCirculation": "7/15/22",
-      "equipement": "VL0176"
+      "equipement": "VL0176",
+      "categorieId": "1"
     },
     {
       "id": "60",
       "agenceId": "6",
-      "statuId":"1",
+      "statuId": "1",
       "matricule": "85260-B-8",
       "date": "6/9/14",
       "marque": "MITSUBISHI",
       "intitule": "STE LAGOUASSEM ",
       "visiteTechnique": "4/6/22",
-      "equipement": "VL0181"
+      "equipement": "VL0181",
+      "categorieId": "1"
     },
     {
       "id": "61",
       "agenceId": "7",
-      "statuId":"1",
+      "statuId": "1",
       "matricule": "86064-B-8",
       "date": "8/5/14",
       "marque": "MITSUBICHI ",
       "intitule": "STE LAGOUASSEM ",
       "visiteTechnique": "7/3/22",
       "permisCirculation": "7/12/22",
-      "equipement": "VL0195"
+      "equipement": "VL0195",
+      "categorieId": "1"
     },
     {
       "id": "62",
       "agenceId": "4",
-      "statuId":"1",
+      "statuId": "1",
       "matricule": "86253-B-8",
       "date": "8/9/14",
       "marque": "ISUZU",
       "intitule": "STE LAGOUASSEM",
       "visiteTechnique": "5/18/22",
       "permisCirculation": "7/6/22",
-      "equipement": "VL0199"
+      "equipement": "VL0199",
+      "categorieId": "1"
     },
     {
       "id": "63",
       "agenceId": "6",
-      "statuId":"1",
+      "statuId": "1",
       "matricule": "86255-B-8",
       "date": "8/9/14",
       "marque": "ISUZU",
       "intitule": "STE LAGOUASSEM ",
       "visiteTechnique": "5/5/22",
-      "equipement": "VL0200"
+      "equipement": "VL0200",
+      "categorieId": "1"
     },
     {
       "id": "64",
       "agenceId": "2",
-      "statuId":"1",
+      "statuId": "1",
       "matricule": "86567-B-8",
       "date": "9/2/14",
       "marque": "ISUZU",
       "intitule": "STE LAGOUASSEM",
       "visiteTechnique": "4/2/22",
       "permisCirculation": "10/11/22",
-      "equipement": "VL0207"
+      "equipement": "VL0207",
+      "categorieId": "1"
     },
     {
       "id": "65",
       "agenceId": "6",
-      "statuId":"1",
+      "statuId": "1",
       "matricule": "88265-A-8",
       "date": "3/13/03",
       "marque": "RENAULT ",
       "intitule": "SCBG",
       "visiteTechnique": "6/6/22",
       "permisCirculation": "9/5/22",
-      "equipement": "MG10033"
+      "equipement": "MG10033",
+      "categorieId": "1"
     },
     {
       "id": "66",
       "agenceId": "6",
-      "statuId":"1",
+      "statuId": "1",
       "matricule": "88274-A-8",
       "date": "3/13/03",
       "marque": "RENAULT ",
       "intitule": "SCBG",
       "visiteTechnique": "5/25/22",
       "permisCirculation": "8/4/22",
-      "equipement": "MG10034"
+      "equipement": "MG10034",
+      "categorieId": "1"
     },
     {
       "id": "67",
       "agenceId": "1",
-      "statuId":"1",
+      "statuId": "1",
       "matricule": "92333-B-26",
       "date": "1/15/97",
       "marque": "Mitsubishi",
@@ -801,738 +891,822 @@
       "permisCirculation": "sans",
       "equipement": "MG7261",
       "Matricule": "",
-      "etat": "Rien à signler"
+      "etat": "Rien à signler",
+      "categorieId": "1"
     },
     {
       "id": "68",
       "agenceId": "6",
-      "statuId":"1",
+      "statuId": "1",
       "matricule": "9978-A-13",
       "date": "6/20/05",
       "marque": "RENAULT ",
       "intitule": "SCBG",
       "visiteTechnique": "4/4/22",
       "permisCirculation": "2/10/22",
-      "equipement": "MG2449"
+      "equipement": "MG2449",
+      "categorieId": "1"
     },
     {
       "matricule": "ddddd",
       "marque": "ddddd",
-      "statuId":"1",
+      "statuId": "1",
       "agenceId": "dddddd",
-      "id": "5KOPO-f"
+      "id": "5KOPO-f",
+      "categorieId": "1"
     },
     {
       "matricule": "hhhhh",
       "marque": "hhhhh",
       "agenceId": "hhhhh",
-      "statuId":"1",
-      "id": "qwLGvrQ"
+      "statuId": "1",
+      "id": "qwLGvrQ",
+      "categorieId": "1"
     },
     {
       "matricule": "ggggg",
       "marque": "ggggg",
       "agenceId": "ggggg",
-      "statuId":"1",
-      "id": "EAyQI3H"
+      "statuId": "1",
+      "id": "EAyQI3H",
+      "categorieId": "1"
     },
     {
       "matricule": "wwwww",
-      "statuId":"1",
+      "statuId": "1",
       "marque": "wwwww",
       "agenceId": "wwwww",
-      "id": "pIw9zMC"
+      "id": "pIw9zMC",
+      "categorieId": "1"
     },
     {
       "matricule": "dsf",
       "marque": "sd",
       "agenceId": "sdf",
-      "statuId":"1",
-      "id": "9Wk9QEk"
+      "statuId": "1",
+      "id": "9Wk9QEk",
+      "categorieId": "1"
     },
     {
       "matricule": "rrrr",
       "marque": "rrrr",
       "agenceId": "rrrrr",
-      "statuId":"1",
-      "id": "52LhJgK"
+      "statuId": "1",
+      "id": "52LhJgK",
+      "categorieId": "1"
     },
     {
       "matricule": "pppp",
       "marque": "ppppp",
       "agenceId": "pppp",
-      "statuId":"1",
-      "id": "h_NKp-9"
+      "statuId": "1",
+      "id": "h_NKp-9",
+      "categorieId": "1"
     },
     {
       "matricule": "gggggg",
       "marque": "gggggggggggg",
-      "statuId":"1",
+      "statuId": "1",
       "agenceId": "gggggg",
-      "id": "tPC68mE"
+      "id": "tPC68mE",
+      "categorieId": "1"
     },
     {
       "matricule": "dsds",
       "marque": "sdsd",
       "agenceId": "sdsd",
-      "statuId":"1",
-      "id": "QBZqYdW"
+      "statuId": "1",
+      "id": "QBZqYdW",
+      "categorieId": "1"
     },
     {
       "matricule": "wqw",
       "marque": "wqqe",
       "agenceId": "qwwqw",
-      "statuId":"1",
-      "id": "v7zmDBi"
+      "statuId": "1",
+      "id": "v7zmDBi",
+      "categorieId": "1"
     }
   ],
   "voitures": [
     {
-      "id": "1",
+      "id": "101",
       "agenceId": "2",
       "matricule": "17088-B-72",
       "DMC": "2,019",
       "marque": "PEUGEOT 301",
       "type": "ARVAL MAROC",
-      "conducteur": "REDOUANE NADMY"
+      "conducteur": "REDOUANE NADMY",
+      "categorieId": "2"
     },
     {
-      "id": "12",
+      "id": "1012",
       "agenceId": "2",
       "matricule": "26906-B-7",
       "DMC": "2,020",
       "marque": "DACIA LOGAN",
       "type": "ESPACE DE LOCATION",
-      "conducteur": "ANEJAR RACHID"
+      "conducteur": "ANEJAR RACHID",
+      "categorieId": "2"
     },
     {
-      "id": "15",
+      "id": "1015",
       "agenceId": "2",
       "matricule": "34484-E-6",
       "DMC": "2,019",
       "marque": "FIAT DOBLO",
       "type": "CHAABI LLD",
-      "conducteur": "JAMAL MOHAMED"
+      "conducteur": "JAMAL MOHAMED",
+      "categorieId": "2"
     },
     {
-      "id": "17",
+      "id": "1017",
       "agenceId": "2",
       "matricule": "34757-E-6",
       "DMC": "2,019",
       "marque": "FIAT DOBLO",
       "type": "CHAABI LLD",
-      "conducteur": "IDRISSI MOHAMED"
+      "conducteur": "IDRISSI MOHAMED",
+      "categorieId": "2"
     },
     {
-      "id": "18",
+      "id": "1018",
       "agenceId": "2",
       "matricule": "34758-E-6",
       "DMC": "2,019",
       "marque": "FIAT DOBLO",
       "type": "CHAABI LLD",
-      "conducteur": "REDOUANE JAMAL"
+      "conducteur": "REDOUANE JAMAL",
+      "categorieId": "2"
     },
     {
-      "id": "19",
+      "id": "1019",
       "agenceId": "2",
       "matricule": "34759-E-6",
       "DMC": "2,019",
       "marque": "FIAT DOBLO",
       "type": "CHAABI LLD",
-      "conducteur": "JADIR ABDELATIF"
+      "conducteur": "JADIR ABDELATIF",
+      "categorieId": "2"
     },
     {
-      "id": "30",
+      "id": "1030",
       "agenceId": "2",
       "matricule": "57365-E-6",
       "DMC": "2,019",
       "marque": "DACIA  LOGAN",
       "type": "BM RENTAL",
-      "conducteur": "ZOUINI SALEH"
+      "conducteur": "ZOUINI SALEH",
+      "categorieId": "2"
     },
     {
-      "id": "33",
+      "id": "1033",
       "agenceId": "2",
       "matricule": "57368-E-6",
       "DMC": "2,019",
       "marque": "DACIA  LOGAN",
       "type": "BM RENTAL",
-      "conducteur": "HOUMINI MOHAMED"
+      "conducteur": "HOUMINI MOHAMED",
+      "categorieId": "2"
     },
     {
-      "id": "44",
+      "id": "1044",
       "agenceId": "2",
       "matricule": "59021-E-6",
       "DMC": "2,019",
       "marque": "FIAT DOBLO",
       "type": "BM RENTAL",
-      "conducteur": "YASSINE HAMIDA"
+      "conducteur": "YASSINE HAMIDA",
+      "categorieId": "2"
     },
     {
-      "id": "48",
+      "id": "1048",
       "agenceId": "2",
       "matricule": "61336-E-6",
       "DMC": "2,019",
       "marque": "FIAT DOBLO",
       "type": "BM RENTAL",
-      "conducteur": "BENAKA LAHCEN"
+      "conducteur": "BENAKA LAHCEN",
+      "categorieId": "2"
     },
     {
-      "id": "51",
+      "id": "1051",
       "agenceId": "2",
       "matricule": "61339-E-6",
       "DMC": "2,019",
       "marque": "FIAT DOBLO",
       "type": "BM RENTAL",
-      "conducteur": "MOUJIB MOHAMED"
+      "conducteur": "MOUJIB MOHAMED",
+      "categorieId": "2"
     },
     {
-      "id": "57",
+      "id": "1057",
       "agenceId": "2",
       "matricule": "83684-E-6",
       "DMC": "2,020",
       "marque": "Citroen Berlingo",
       "type": "CHAABI LLD",
-      "conducteur": "AQUABA JAMAL"
+      "conducteur": "AQUABA JAMAL",
+      "categorieId": "2"
     },
     {
-      "id": "69",
+      "id": "1069",
       "agenceId": "2",
       "matricule": "85155-E-6",
       "DMC": "2,020",
       "marque": "Citroen Berlingo",
       "type": "CHAABI LLD",
-      "conducteur": "HOUSNI MUSTAPHA"
+      "conducteur": "HOUSNI MUSTAPHA",
+      "categorieId": "2"
     },
     {
-      "id": "10",
+      "id": "1010",
       "agenceId": "3",
       "matricule": "26903-B-7",
       "DMC": "2,020",
       "marque": "DACIA  LOGAN",
       "type": "ESPACE DE LOCATION",
-      "conducteur": "ELMILOUDI ABDELHAK"
+      "conducteur": "ELMILOUDI ABDELHAK",
+      "categorieId": "2"
     },
     {
-      "id": "16",
+      "id": "1016",
       "agenceId": "3",
       "matricule": "34748-E-6",
       "DMC": "2,019",
       "marque": "FIAT DOBLO",
       "type": "CHAABI LLD",
-      "conducteur": "BYJAOUANE MOHAMMED"
+      "conducteur": "BYJAOUANE MOHAMMED",
+      "categorieId": "2"
     },
     {
-      "id": "61",
+      "id": "1061",
       "agenceId": "3",
       "matricule": "83688-E-6",
       "DMC": "2,020",
       "marque": "Citroen Berlingo",
       "type": "CHAABI LLD",
-      "conducteur": "ABDELLAH DEBANI"
+      "conducteur": "ABDELLAH DEBANI",
+      "categorieId": "2"
     },
     {
-      "id": "43",
+      "id": "1043",
       "agenceId": "7",
       "matricule": "59020-E-6",
       "DMC": "2,019",
       "marque": "FIAT DOBLO",
       "type": "BM RENTAL",
-      "conducteur": "BENSGHIR DRISS"
+      "conducteur": "BENSGHIR DRISS",
+      "categorieId": "2"
     },
     {
-      "id": "54",
+      "id": "1054",
       "agenceId": "7",
       "matricule": "762-T-6",
       "DMC": "2,021",
       "marque": "DACIA LOGAN",
       "type": "CHAABI LLD",
-      "conducteur": "EL HOUARI SAID"
+      "conducteur": "EL HOUARI SAID",
+      "categorieId": "2"
     },
     {
-      "id": "56",
+      "id": "1056",
       "agenceId": "7",
       "matricule": "83683-E-6",
       "DMC": "2,020",
       "marque": "Citroen Berlingo",
       "type": "CHAABI LLD",
-      "conducteur": "NAFAA HAMID"
+      "conducteur": "NAFAA HAMID",
+      "categorieId": "2"
     },
     {
-      "id": "62",
+      "id": "1062",
       "agenceId": "7",
       "matricule": "83939-E-6",
       "DMC": "2,020",
       "marque": "Citroen Berlingo",
       "type": "CHAABI LLD",
-      "conducteur": "BOUZROUD OMAR"
+      "conducteur": "BOUZROUD OMAR",
+      "categorieId": "2"
     },
     {
-      "id": "65",
+      "id": "1065",
       "agenceId": "7",
       "matricule": "84415-E-6",
       "DMC": "2,020",
       "marque": "Citroen Berlingo",
       "type": "CHAABI LLD",
-      "conducteur": "TOUHAMI RACHID"
+      "conducteur": "TOUHAMI RACHID",
+      "categorieId": "2"
     },
     {
-      "id": "20",
+      "id": "1020",
       "agenceId": "6",
       "matricule": "34921-E-6",
       "DMC": "2,019",
       "marque": "FIAT  DOBLO",
       "type": "CHAABI LLD",
-      "conducteur": "OUALIJANE SAID"
+      "conducteur": "OUALIJANE SAID",
+      "categorieId": "2"
     },
     {
-      "id": "29",
+      "id": "1029",
       "agenceId": "6",
       "matricule": "57364-E-6",
       "DMC": "2,019",
       "marque": "DACIA LOGAN",
       "type": "BM RENTAL",
-      "conducteur": "ELBASRI HICHAM"
+      "conducteur": "ELBASRI HICHAM",
+      "categorieId": "2"
     },
     {
-      "id": "38",
+      "id": "1038",
       "agenceId": "6",
       "matricule": "57408-E-6",
       "DMC": "2,019",
       "marque": "DACIA LOGAN",
       "type": "BM RENTAL",
-      "conducteur": "IDRISSI ABDELLATIF"
+      "conducteur": "IDRISSI ABDELLATIF",
+      "categorieId": "2"
     },
     {
-      "id": "49",
+      "id": "1049",
       "agenceId": "6",
       "matricule": "61337-E-6",
       "DMC": "2,019",
       "marque": "FIAT  DOBLO",
       "type": "BM RENTAL",
-      "conducteur": "MOUTATTAHIR MOHAMMED"
+      "conducteur": "MOUTATTAHIR MOHAMMED",
+      "categorieId": "2"
     },
     {
-      "id": "68",
+      "id": "1068",
       "agenceId": "6",
       "matricule": "85154-E-6",
       "DMC": "2,020",
       "marque": "Citroen Berlingo",
       "type": "CHAABI LLD",
-      "conducteur": "JALAL KAMAL"
+      "conducteur": "JALAL KAMAL",
+      "categorieId": "2"
     },
     {
-      "id": "70",
+      "id": "1070",
       "agenceId": "6",
       "matricule": "ww843715",
       "DMC": "2,021",
       "marque": "PEUGEOT 301",
       "type": "ALD",
-      "conducteur": "ABOUZAID HICHAM"
+      "conducteur": "ABOUZAID HICHAM",
+      "categorieId": "2"
     },
     {
-      "id": "3",
+      "id": "103",
       "agenceId": "1",
       "matricule": "17865-B-72",
       "DMC": "2,019",
       "marque": "FIAT DOBLO",
       "type": "ARVAL MAROC",
-      "conducteur": "AIT LEBIZ ABDERRAFIQ"
+      "conducteur": "AIT LEBIZ ABDERRAFIQ",
+      "categorieId": "2"
     },
     {
-      "id": "4",
+      "id": "104",
       "agenceId": "1",
       "matricule": "17866-B-72",
       "DMC": "2,019",
       "marque": "FIAT DOBLO",
       "type": "ARVAL MAROC",
-      "conducteur": "EZZEBDI ACHRAF"
+      "conducteur": "EZZEBDI ACHRAF",
+      "categorieId": "2"
     },
     {
-      "id": "5",
+      "id": "105",
       "agenceId": "1",
       "matricule": "17870-B-72",
       "DMC": "2,019",
       "marque": "FIAT DOBLO",
       "type": "ARVAL MAROC",
-      "conducteur": "ETTAZY ABDERRAHIM"
+      "conducteur": "ETTAZY ABDERRAHIM",
+      "categorieId": "2"
     },
     {
-      "id": "13",
+      "id": "1013",
       "agenceId": "1",
       "matricule": "27135-B-7",
       "DMC": "2,020",
       "marque": "DACIA LOGAN",
       "type": "ESPACE DE LOCATION",
-      "conducteur": "ALI BICHER HATTABOU"
+      "conducteur": "ALI BICHER HATTABOU",
+      "categorieId": "2"
     },
     {
-      "id": "14",
+      "id": "1014",
       "agenceId": "1",
       "matricule": "34479-E-6",
       "DMC": "2,019",
       "marque": "FIAT DOBLO",
       "type": "CHAABI LLD",
-      "conducteur": "MISSI MOHAMED"
+      "conducteur": "MISSI MOHAMED",
+      "categorieId": "2"
     },
     {
-      "id": "21",
+      "id": "1021",
       "agenceId": "1",
       "matricule": "36086-E-6",
       "DMC": "2,019",
       "marque": "FIAT DOBLO",
       "type": "CHAABI LLD",
-      "conducteur": "LEHKIM ZAKARIA"
+      "conducteur": "LEHKIM ZAKARIA",
+      "categorieId": "2"
     },
     {
-      "id": "24",
+      "id": "1024",
       "agenceId": "1",
       "matricule": "36180-E-6",
       "DMC": "2,019",
       "marque": "FIAT DOBLO",
       "type": "CHAABI LLD",
-      "conducteur": "BENQARAACH MUSTAPHA"
+      "conducteur": "BENQARAACH MUSTAPHA",
+      "categorieId": "2"
     },
     {
-      "id": "26",
+      "id": "1026",
       "agenceId": "1",
       "matricule": "36183-E-6",
       "DMC": "2,019",
       "marque": "FIAT DOBLO",
       "type": "CHAABI LLD",
-      "conducteur": "BOURIDA MOHAMED"
+      "conducteur": "BOURIDA MOHAMED",
+      "categorieId": "2"
     },
     {
-      "id": "31",
+      "id": "1031",
       "agenceId": "1",
       "matricule": "57366-E-6",
       "DMC": "2,019",
       "marque": "DACIA LOGAN",
       "type": "BM RENTAL",
-      "conducteur": "KARBOUAI YOUNESS"
+      "conducteur": "KARBOUAI YOUNESS",
+      "categorieId": "2"
     },
     {
-      "id": "45",
+      "id": "1045",
       "agenceId": "1",
       "matricule": "59022-E-6",
       "DMC": "2,019",
       "marque": "FIAT DOBLO",
       "type": "BM RENTAL",
-      "conducteur": "DAOUI YOUNESS"
+      "conducteur": "DAOUI YOUNESS",
+      "categorieId": "2"
     },
     {
-      "id": "41",
+      "id": "1041",
       "agenceId": "1",
       "matricule": "58378-E-6",
       "DMC": "2,019",
       "marque": "DACIA LOGAN",
       "type": "BM RENTAL",
-      "conducteur": "MOHAMED AMINE TLEMCENY"
+      "conducteur": "MOHAMED AMINE TLEMCENY",
+      "categorieId": "2"
     },
     {
-      "id": "53",
+      "id": "1053",
       "agenceId": "1",
       "matricule": "761-T-6",
       "DMC": "2,021",
       "marque": "DACIA  LOGAN ",
       "type": "CHAABI LLD",
-      "conducteur": "ISMAIL AITSGHIR "
+      "conducteur": "ISMAIL AITSGHIR ",
+      "categorieId": "2"
     },
     {
-      "id": "7",
+      "id": "107",
       "agenceId": "1",
       "matricule": "19830-B-72",
       "DMC": "2,019",
       "marque": "DACIA LOGAN",
       "type": "ARVAL MAROC",
-      "conducteur": "JAMAL BOUNAHR "
+      "conducteur": "JAMAL BOUNAHR ",
+      "categorieId": "2"
     },
     {
-      "id": "27",
+      "id": "1027",
       "agenceId": "1",
       "matricule": "55534-e-6",
       "DMC": "2,019",
       "marque": "PEUGEOT 301",
       "type": "BM RENTAL",
-      "conducteur": "EL MAHDAOUY ABDELFATTAH "
+      "conducteur": "EL MAHDAOUY ABDELFATTAH ",
+      "categorieId": "2"
     },
     {
-      "id": "37",
+      "id": "1037",
       "agenceId": "1",
       "matricule": "57374-E-6",
       "DMC": "2,019",
       "marque": "DACIA LOGAN",
       "type": "BM RENTAL",
-      "conducteur": "EL KAILANI KHALID"
+      "conducteur": "EL KAILANI KHALID",
+      "categorieId": "2"
     },
     {
-      "id": "40",
+      "id": "1040",
       "agenceId": "1",
       "matricule": "58362-E-6",
       "DMC": "2,019",
       "marque": "DACIA LOGAN",
       "type": "BM RENTAL",
-      "conducteur": "HAMID EL MANDOUR"
+      "conducteur": "HAMID EL MANDOUR",
+      "categorieId": "2"
     },
     {
-      "id": "11",
+      "id": "1011",
       "agenceId": "1",
       "matricule": "26905-B-7",
       "DMC": "2,020",
       "marque": "DACIA LOGAN",
       "type": "ESPACE DE LOCATION",
-      "conducteur": "MOURAD ABBOU"
+      "conducteur": "MOURAD ABBOU",
+      "categorieId": "2"
     },
     {
-      "id": "22",
+      "id": "1022",
       "agenceId": "1",
       "matricule": "36087-E-6",
       "DMC": "2,019",
       "marque": "FIAT DOBLO",
       "type": "CHAABI LLD",
-      "conducteur": "RABIA BAIBY"
+      "conducteur": "RABIA BAIBY",
+      "categorieId": "2"
     },
     {
-      "id": "25",
+      "id": "1025",
       "agenceId": "1",
       "matricule": "36181-E-6",
       "DMC": "2,019",
       "marque": "FIAT DOBLO",
       "type": "CHAABI LLD",
-      "conducteur": "HAMID BADDOU"
+      "conducteur": "HAMID BADDOU",
+      "categorieId": "2"
     },
     {
-      "id": "28",
+      "id": "1028",
       "agenceId": "1",
       "matricule": "55951-E-6",
       "DMC": "2,019",
       "marque": "PEUGEOT 301",
       "type": "BM RENTAL",
-      "conducteur": "TIJANI MOHAMED"
+      "conducteur": "TIJANI MOHAMED",
+      "categorieId": "2"
     },
     {
-      "id": "35",
+      "id": "1035",
       "agenceId": "1",
       "matricule": "57370-E-6",
       "DMC": "2,019",
       "marque": "DACIA LOGAN",
       "type": "BM RENTAL",
-      "conducteur": "MOSSADEQ ANAS"
+      "conducteur": "MOSSADEQ ANAS",
+      "categorieId": "2"
     },
     {
-      "id": "36",
+      "id": "1036",
       "agenceId": "1",
       "matricule": "57371-E-6",
       "DMC": "2,019",
       "marque": "DACIA LOGAN",
       "type": "BM RENTAL",
-      "conducteur": "LHOUCINE AIT DAOUD"
+      "conducteur": "LHOUCINE AIT DAOUD",
+      "categorieId": "2"
     },
     {
-      "id": "50",
+      "id": "1050",
       "agenceId": "1",
       "matricule": "61338-E-6",
       "DMC": "2,019",
       "marque": "FIAT DOBLO",
       "type": "BM RENTAL",
-      "conducteur": "MJID LAHJILI"
+      "conducteur": "MJID LAHJILI",
+      "categorieId": "2"
     },
     {
-      "id": "55",
+      "id": "1055",
       "agenceId": "1",
       "matricule": "78975-E-6",
       "DMC": "2,020",
       "marque": "VOLGSWAGEN ARTEON",
       "type": "CHAABI LLD",
-      "conducteur": "SOUANI ABDERRAHMAN"
+      "conducteur": "SOUANI ABDERRAHMAN",
+      "categorieId": "2"
     },
     {
-      "id": "58",
+      "id": "1058",
       "agenceId": "1",
       "matricule": "83685-E-6",
       "DMC": "2,020",
       "marque": "Citroen Berlingo",
       "type": "CHAABI LLD",
-      "conducteur": "EL BAOUI HASSAN"
+      "conducteur": "EL BAOUI HASSAN",
+      "categorieId": "2"
     },
     {
-      "id": "59",
+      "id": "1059",
       "agenceId": "1",
       "matricule": "83686-E-6",
       "DMC": "2,020",
       "marque": "Citroen Berlingo",
       "type": "CHAABI LLD",
-      "conducteur": "SOUHDI MUSTAPHA"
+      "conducteur": "SOUHDI MUSTAPHA",
+      "categorieId": "2"
     },
     {
-      "id": "63",
+      "id": "1063",
       "agenceId": "1",
       "matricule": "83940-E-6",
       "DMC": "2,020",
       "marque": "Citroen Berlingo",
       "type": "CHAABI LLD",
-      "conducteur": "SADIK ABDELAZIZ"
+      "conducteur": "SADIK ABDELAZIZ",
+      "categorieId": "2"
     },
     {
-      "id": "64",
+      "id": "1064",
       "agenceId": "1",
       "matricule": "83941-E-6",
       "DMC": "2,020",
       "marque": "Citroen Berlingo",
       "type": "CHAABI LLD",
-      "conducteur": "DEMHOUL HAMID"
+      "conducteur": "DEMHOUL HAMID",
+      "categorieId": "2"
     },
     {
-      "id": "67",
+      "id": "1067",
       "agenceId": "1",
       "matricule": "85048-E-6",
       "DMC": "2,020",
       "marque": "Citroen Berlingo",
       "type": "CHAABI LLD",
-      "conducteur": "ABDERRAHIM SEMLALY"
+      "conducteur": "ABDERRAHIM SEMLALY",
+      "categorieId": "2"
     },
     {
-      "id": "72",
+      "id": "1072",
       "agenceId": "1",
       "matricule": "ww890795",
       "DMC": "2,021",
       "marque": "PEUGEOT 301",
       "type": "ALD",
-      "conducteur": "OUGGAG MUSTAPHA"
+      "conducteur": "OUGGAG MUSTAPHA",
+      "categorieId": "2"
     },
     {
-      "id": "2",
-      "agenceId": "8",
+      "id": "102",
+      "agenceId": "9",
       "matricule": "17858-B-72",
       "DMC": "2,019",
       "marque": "FIAT  DOBLO",
       "type": "ARVAL MAROC",
-      "conducteur": "HASSAN MLY MEHZI"
+      "conducteur": "HASSAN MLY MEHZI",
+      "categorieId": "2"
     },
     {
-      "id": "8",
-      "agenceId": "8",
+      "id": "108",
+      "agenceId": "9",
       "matricule": "232-T-6",
       "DMC": "2,021",
       "marque": "FIAT  DOBLO",
       "type": "ARVAL MAROC",
-      "conducteur": "LAHCEN ACHOUR"
+      "conducteur": "LAHCEN ACHOUR",
+      "categorieId": "2"
     },
     {
-      "id": "39",
-      "agenceId": "8",
+      "id": "1039",
+      "agenceId": "9",
       "matricule": "57910-E-6",
       "DMC": "2,019",
       "marque": "DACIA  LOGAN",
       "type": "CHAABI LLD",
-      "conducteur": "KHADMAOUI NOUREDDINE"
+      "conducteur": "KHADMAOUI NOUREDDINE",
+      "categorieId": "2"
     },
     {
-      "id": "46",
-      "agenceId": "8",
+      "id": "1046",
+      "agenceId": "9",
       "matricule": "6008-T-6",
       "DMC": "2,021",
       "marque": "FIAT  DOBLO",
       "type": "CHAABI LLD",
-      "conducteur": "AJDAR MUSTAPHAT"
+      "conducteur": "AJDAR MUSTAPHAT",
+      "categorieId": "2"
     },
     {
-      "id": "47",
-      "agenceId": "8",
+      "id": "1047",
+      "agenceId": "9",
       "matricule": "6010-T-6",
       "DMC": "2,021",
       "marque": "FIAT  DOBLO",
       "type": "CHAABI LLD",
-      "conducteur": "GHOUBY SMAIL"
+      "conducteur": "GHOUBY SMAIL",
+      "categorieId": "2"
     },
     {
-      "id": "66",
-      "agenceId": "8",
+      "id": "1066",
+      "agenceId": "9",
       "matricule": "85-T-6",
       "DMC": "2,021",
       "marque": "FIAT  DOBLO",
       "type": "ARVAL MAROC",
-      "conducteur": "YOUSSEF ABDEDDINE"
+      "conducteur": "YOUSSEF ABDEDDINE",
+      "categorieId": "2"
     },
     {
-      "id": "9",
+      "id": "109",
       "agenceId": "4",
       "matricule": "26902-B-7",
       "DMC": "2,020",
       "marque": "DACIA LOGAN",
       "type": "ESPACE DE LOCATION",
-      "conducteur": "YOUNESS HAMLI"
+      "conducteur": "YOUNESS HAMLI",
+      "categorieId": "2"
     },
     {
-      "id": "23",
+      "id": "1023",
       "agenceId": "4",
       "matricule": "36090-E-6",
       "DMC": "2,019",
       "marque": "FIAT DOBLO",
       "type": "CHAABI LLD",
-      "conducteur": "GLABI  JAMAL"
+      "conducteur": "GLABI  JAMAL",
+      "categorieId": "2"
     },
     {
-      "id": "34",
+      "id": "1034",
       "agenceId": "4",
       "matricule": "57369-E-6",
       "DMC": "2,019",
       "marque": "DACIA LOGAN",
       "type": "BM RENTAL",
-      "conducteur": "MAAROUF ABDELGHANI"
+      "conducteur": "MAAROUF ABDELGHANI",
+      "categorieId": "2"
     },
     {
-      "id": "60",
+      "id": "1060",
       "agenceId": "4",
       "matricule": "83687-E-6",
       "DMC": "2,020",
       "marque": "Citroen Berlingo",
       "type": "CHAABI LLD",
-      "conducteur": "EL GOUNTARI HICHAM"
+      "conducteur": "EL GOUNTARI HICHAM",
+      "categorieId": "2"
     },
     {
-      "id": "71",
+      "id": "1071",
       "agenceId": "4",
       "matricule": "ww890793",
       "DMC": "2,021",
       "marque": "PEUGEOT 301",
       "type": "ALD",
-      "conducteur": "SOBTI LAKBIR"
+      "conducteur": "SOBTI LAKBIR",
+      "categorieId": "2"
     },
     {
-      "id": "6",
+      "id": "106",
       "agenceId": "5",
       "matricule": "17958-B-72",
       "marque": "FIAT DOBLO",
       "type": "Arval",
-      "conducteur": "SAISSI HASSAN"
+      "conducteur": "SAISSI HASSAN",
+      "categorieId": "2"
     },
     {
-      "id": "32",
+      "id": "1032",
       "agenceId": "5",
       "matricule": "57367-E-6",
       "DMC": "2,019",
       "marque": "DACIA LOGAN",
       "type": "BM RENTAL",
-      "conducteur": "DRAI AZIZ"
+      "conducteur": "DRAI AZIZ",
+      "categorieId": "2"
     },
     {
-      "id": "42",
+      "id": "1042",
       "agenceId": "5",
       "matricule": "59019-E-6",
       "DMC": "2,019",
       "marque": "FIAT DOBLO",
       "type": "BM RENTAL",
-      "conducteur": "LAZSIRI AZIZ"
+      "conducteur": "LAZSIRI AZIZ",
+      "categorieId": "2"
     },
     {
-      "id": "52",
+      "id": "1052",
       "agenceId": "5",
       "matricule": "61340-E-6",
       "DMC": "2,019",
       "marque": "FIAT DOBLO",
       "type": "BM RENTAL",
-      "conducteur": "ABBOUD EL MOSTAPHA"
+      "conducteur": "ABBOUD EL MOSTAPHA",
+      "categorieId": "2"
     }
   ],
   "scooters": [
@@ -1544,7 +1718,8 @@
       "agenceId": "1",
       "utilisateur": "Hilmi Ibrahim",
       "Année": "2018",
-      "DMC": "7/12/18"
+      "DMC": "7/12/18",
+      "categorieId": "3"
     },
     {
       "marque": "KYMKO",
@@ -1554,7 +1729,8 @@
       "agenceId": "1",
       "utilisateur": "Adil Nassihi",
       "Année": "2018",
-      "DMC": "7/12/18"
+      "DMC": "7/12/18",
+      "categorieId": "3"
     },
     {
       "marque": "KYMKO",
@@ -1564,7 +1740,8 @@
       "agenceId": "1",
       "utilisateur": "Lahraifi Abdellah",
       "Année": "2018",
-      "DMC": "7/12/18"
+      "DMC": "7/12/18",
+      "categorieId": "3"
     },
     {
       "marque": "KYMKO",
@@ -1574,7 +1751,8 @@
       "agenceId": "4",
       "utilisateur": "Rafiq Mohamed",
       "Année": "2018",
-      "DMC": "7/24/18"
+      "DMC": "7/24/18",
+      "categorieId": "3"
     },
     {
       "marque": "KYMKO",
@@ -1584,7 +1762,8 @@
       "agenceId": "1",
       "utilisateur": "Hilmi Youness",
       "Année": "2018",
-      "DMC": "7/12/18"
+      "DMC": "7/12/18",
+      "categorieId": "3"
     },
     {
       "marque": "KYMKO",
@@ -1594,7 +1773,8 @@
       "agenceId": "1",
       "utilisateur": "En Arret À Marrakech",
       "Année": "2018",
-      "DMC": "7/12/18"
+      "DMC": "7/12/18",
+      "categorieId": "3"
     },
     {
       "marque": "KYMKO",
@@ -1604,7 +1784,8 @@
       "agenceId": "4",
       "utilisateur": "Naji Mohamed",
       "Année": "2018",
-      "DMC": "7/12/18"
+      "DMC": "7/12/18",
+      "categorieId": "3"
     },
     {
       "marque": "KYMKO",
@@ -1614,7 +1795,8 @@
       "agenceId": "1",
       "utilisateur": "En Arret À Marrakech",
       "Année": "2018",
-      "DMC": "7/12/18"
+      "DMC": "7/12/18",
+      "categorieId": "3"
     },
     {
       "marque": "KYMKO",
@@ -1624,7 +1806,8 @@
       "agenceId": "6",
       "utilisateur": "Bouqssid Abde Rrazak",
       "Année": "2018",
-      "DMC": "7/12/18"
+      "DMC": "7/12/18",
+      "categorieId": "3"
     },
     {
       "marque": "KYMKO",
@@ -1634,7 +1817,8 @@
       "agenceId": "4",
       "utilisateur": "Ferdaouss Hicham",
       "Année": "2018",
-      "DMC": "7/12/18"
+      "DMC": "7/12/18",
+      "categorieId": "3"
     },
     {
       "marque": "KYMKO",
@@ -1644,7 +1828,8 @@
       "agenceId": "1",
       "utilisateur": "Ben Aami Mustapha ",
       "Année": "2018",
-      "DMC": "7/12/18"
+      "DMC": "7/12/18",
+      "categorieId": "3"
     },
     {
       "marque": "KYMKO",
@@ -1654,7 +1839,8 @@
       "agenceId": "1",
       "utilisateur": "Ichanti Lahoucine",
       "Année": "2018",
-      "DMC": "7/12/18"
+      "DMC": "7/12/18",
+      "categorieId": "3"
     },
     {
       "marque": "KYMKO",
@@ -1664,7 +1850,8 @@
       "agenceId": "4",
       "utilisateur": "Lahlou Abdelfattah",
       "Année": "2018",
-      "DMC": "7/12/18"
+      "DMC": "7/12/18",
+      "categorieId": "3"
     },
     {
       "marque": "KYMKO",
@@ -1674,7 +1861,8 @@
       "agenceId": "6",
       "utilisateur": "Afqir Abdelaziz",
       "Année": "2018",
-      "DMC": "7/12/18"
+      "DMC": "7/12/18",
+      "categorieId": "3"
     },
     {
       "marque": "KYMKO",
@@ -1684,7 +1872,8 @@
       "agenceId": "5",
       "utilisateur": "Sobti Jamal",
       "Année": "2018",
-      "DMC": "7/12/18"
+      "DMC": "7/12/18",
+      "categorieId": "3"
     },
     {
       "marque": "KYMKO",
@@ -1694,7 +1883,8 @@
       "agenceId": "3",
       "utilisateur": "Hafid Benfilali",
       "Année": "2018",
-      "DMC": "7/12/18"
+      "DMC": "7/12/18",
+      "categorieId": "3"
     },
     {
       "marque": "KYMKO",
@@ -1704,7 +1894,8 @@
       "agenceId": "2",
       "utilisateur": "El Makhfi Najib",
       "Année": "2018",
-      "DMC": "7/12/18"
+      "DMC": "7/12/18",
+      "categorieId": "3"
     },
     {
       "marque": "KYMKO",
@@ -1714,7 +1905,8 @@
       "agenceId": "4",
       "utilisateur": "Sergali Jamal",
       "Année": "2018",
-      "DMC": "7/24/18"
+      "DMC": "7/24/18",
+      "categorieId": "3"
     },
     {
       "marque": "KYMKO",
@@ -1724,7 +1916,8 @@
       "agenceId": "1",
       "utilisateur": "En Arret À Marrakech",
       "Année": "2019",
-      "DMC": "2/6/19"
+      "DMC": "2/6/19",
+      "categorieId": "3"
     },
     {
       "marque": "KYMKO",
@@ -1734,7 +1927,8 @@
       "agenceId": "7",
       "utilisateur": "Baoui Fouad",
       "Année": "2018",
-      "DMC": "7/12/18"
+      "DMC": "7/12/18",
+      "categorieId": "3"
     },
     {
       "marque": "KYMKO",
@@ -1744,7 +1938,8 @@
       "agenceId": "2",
       "utilisateur": "Hilal Al Moutalib",
       "Année": "2018",
-      "DMC": "7/12/18"
+      "DMC": "7/12/18",
+      "categorieId": "3"
     },
     {
       "marque": "KYMKO",
@@ -1754,7 +1949,8 @@
       "agenceId": "6",
       "utilisateur": "Elrhars Rachid",
       "Année": "2019",
-      "DMC": "2/6/19"
+      "DMC": "2/6/19",
+      "categorieId": "3"
     },
     {
       "marque": "KYMKO",
@@ -1764,7 +1960,8 @@
       "agenceId": "1",
       "utilisateur": "Hannouri El Houssein",
       "Année": "2018",
-      "DMC": "7/12/18"
+      "DMC": "7/12/18",
+      "categorieId": "3"
     },
     {
       "marque": "KYMKO",
@@ -1774,7 +1971,8 @@
       "agenceId": "1",
       "utilisateur": "Aadani Mohamed",
       "Année": "2018",
-      "DMC": "7/12/18"
+      "DMC": "7/12/18",
+      "categorieId": "3"
     },
     {
       "marque": "KYMKO",
@@ -1784,7 +1982,8 @@
       "agenceId": "1",
       "utilisateur": "EL BIARI SAID 02-02-2021",
       "Année": "2018",
-      "DMC": "7/12/18"
+      "DMC": "7/12/18",
+      "categorieId": "3"
     },
     {
       "marque": "KYMKO",
@@ -1794,7 +1993,8 @@
       "agenceId": "1",
       "utilisateur": "Minaoui Hassan",
       "Année": "2018",
-      "DMC": "7/12/18"
+      "DMC": "7/12/18",
+      "categorieId": "3"
     },
     {
       "marque": "KYMKO",
@@ -1804,7 +2004,8 @@
       "agenceId": "1",
       "utilisateur": "Souhdi Mhamed",
       "Année": "2018",
-      "DMC": "7/12/18"
+      "DMC": "7/12/18",
+      "categorieId": "3"
     },
     {
       "marque": "KYMKO",
@@ -1814,7 +2015,8 @@
       "agenceId": "1",
       "utilisateur": "Laouini Abdeaziz",
       "Année": "2018",
-      "DMC": "7/13/18"
+      "DMC": "7/13/18",
+      "categorieId": "3"
     },
     {
       "marque": "KYMKO",
@@ -1824,7 +2026,8 @@
       "agenceId": "1",
       "utilisateur": "Boukiri Mohamed",
       "Année": "2018",
-      "DMC": "7/13/18"
+      "DMC": "7/13/18",
+      "categorieId": "3"
     },
     {
       "marque": "KYMKO",
@@ -1834,7 +2037,8 @@
       "agenceId": "1",
       "utilisateur": "En Arret À Marrakech Accidente",
       "Année": "2018",
-      "DMC": "7/13/18"
+      "DMC": "7/13/18",
+      "categorieId": "3"
     },
     {
       "marque": "KYMKO",
@@ -1844,7 +2048,8 @@
       "agenceId": "9",
       "utilisateur": "Rachid Joudar",
       "Année": "2018",
-      "DMC": "9/4/18"
+      "DMC": "9/4/18",
+      "categorieId": "3"
     },
     {
       "marque": "KYMKO",
@@ -1854,7 +2059,8 @@
       "agenceId": "1",
       "utilisateur": "Chouib Abdelghani",
       "Année": "2019",
-      "DMC": "3/15/19"
+      "DMC": "3/15/19",
+      "categorieId": "3"
     },
     {
       "marque": "KYMKO",
@@ -1864,7 +2070,8 @@
       "agenceId": "1",
       "utilisateur": "Mehdi Sraidi",
       "Année": "2018",
-      "DMC": "7/13/18"
+      "DMC": "7/13/18",
+      "categorieId": "3"
     },
     {
       "marque": "KYMKO",
@@ -1874,7 +2081,8 @@
       "agenceId": "1",
       "utilisateur": "Adil Babazia ",
       "Année": "2019",
-      "DMC": "11/1/19"
+      "DMC": "11/1/19",
+      "categorieId": "3"
     },
     {
       "marque": "KYMKO",
@@ -1884,7 +2092,8 @@
       "agenceId": "1",
       "utilisateur": "Defyami Rachid ",
       "Année": "2019",
-      "DMC": "3/15/19"
+      "DMC": "3/15/19",
+      "categorieId": "3"
     },
     {
       "marque": "KYMKO",
@@ -1894,7 +2103,8 @@
       "agenceId": "1",
       "utilisateur": "El Basry Mly Kassem",
       "Année": "2018",
-      "DMC": "7/13/18"
+      "DMC": "7/13/18",
+      "categorieId": "3"
     },
     {
       "marque": "KYMKO",
@@ -1904,7 +2114,8 @@
       "agenceId": "3",
       "utilisateur": "El bouchra Mohamed",
       "Année": "2018",
-      "DMC": "12/26/18"
+      "DMC": "12/26/18",
+      "categorieId": "3"
     },
     {
       "marque": "KYMKO",
@@ -1914,7 +2125,8 @@
       "agenceId": "9",
       "utilisateur": "Hassan Mly Mehzi",
       "Année": "2018",
-      "DMC": "9/4/18"
+      "DMC": "9/4/18",
+      "categorieId": "3"
     },
     {
       "marque": "KYMKO",
@@ -1924,7 +2136,8 @@
       "agenceId": "1",
       "utilisateur": "Debyani Mohamed",
       "Année": "2019",
-      "DMC": "11/1/19"
+      "DMC": "11/1/19",
+      "categorieId": "3"
     },
     {
       "marque": "KYMKO",
@@ -1934,7 +2147,8 @@
       "agenceId": "1",
       "utilisateur": "Bouchouka Issam",
       "Année": "2018",
-      "DMC": "9/28/18"
+      "DMC": "9/28/18",
+      "categorieId": "3"
     },
     {
       "marque": "KYMKO",
@@ -1944,7 +2158,8 @@
       "agenceId": "1",
       "utilisateur": "Aazouzi Mohamed ",
       "Année": "2018",
-      "DMC": "7/24/18"
+      "DMC": "7/24/18",
+      "categorieId": "3"
     },
     {
       "marque": "KYMKO",
@@ -1954,7 +2169,8 @@
       "agenceId": "6",
       "utilisateur": "El Ghazi Imyass",
       "Année": "2018",
-      "DMC": "7/24/18"
+      "DMC": "7/24/18",
+      "categorieId": "3"
     },
     {
       "marque": "KYMKO",
@@ -1964,7 +2180,8 @@
       "agenceId": "1",
       "utilisateur": "Charqaoui Ahmed",
       "Année": "2018",
-      "DMC": "7/13/18"
+      "DMC": "7/13/18",
+      "categorieId": "3"
     },
     {
       "marque": "KYMKO",
@@ -1974,7 +2191,8 @@
       "agenceId": "4",
       "utilisateur": "Yahsine Taha",
       "Année": "2018",
-      "DMC": "7/24/18"
+      "DMC": "7/24/18",
+      "categorieId": "3"
     },
     {
       "marque": "KYMKO",
@@ -1984,7 +2202,8 @@
       "agenceId": "1",
       "utilisateur": "Hicham Zerbane ",
       "Année": "2019",
-      "DMC": "3/15/19"
+      "DMC": "3/15/19",
+      "categorieId": "3"
     },
     {
       "marque": "KYMKO",
@@ -1994,7 +2213,8 @@
       "agenceId": "9",
       "utilisateur": "El Moumni Mouhamed",
       "Année": "2018",
-      "DMC": "9/4/18"
+      "DMC": "9/4/18",
+      "categorieId": "3"
     },
     {
       "marque": "KYMKO",
@@ -2004,7 +2224,8 @@
       "agenceId": "9",
       "utilisateur": "El Ourguie Mouhamed",
       "Année": "2018",
-      "DMC": "9/4/18"
+      "DMC": "9/4/18",
+      "categorieId": "3"
     },
     {
       "marque": "KYMKO",
@@ -2014,7 +2235,8 @@
       "agenceId": "6",
       "utilisateur": "Ezzebdi Rachid",
       "Année": "2019",
-      "DMC": "2/6/19"
+      "DMC": "2/6/19",
+      "categorieId": "3"
     },
     {
       "marque": "KYMKO",
@@ -2024,7 +2246,8 @@
       "agenceId": "1",
       "utilisateur": "Moulay Essaid Sarsar",
       "Année": "2018",
-      "DMC": "7/13/18"
+      "DMC": "7/13/18",
+      "categorieId": "3"
     },
     {
       "marque": "KYMKO",
@@ -2034,7 +2257,8 @@
       "agenceId": "9",
       "utilisateur": "Youssef Lmhadi",
       "Année": "2018",
-      "DMC": "9/4/18"
+      "DMC": "9/4/18",
+      "categorieId": "3"
     },
     {
       "marque": "KYMKO",
@@ -2044,7 +2268,8 @@
       "agenceId": "1",
       "utilisateur": "abdelaziz Ait Oulaid",
       "Année": "2018",
-      "DMC": "7/24/18"
+      "DMC": "7/24/18",
+      "categorieId": "3"
     },
     {
       "marque": "KYMKO",
@@ -2054,7 +2279,8 @@
       "agenceId": "6",
       "utilisateur": "Kricha Salaheddine",
       "Année": "2019",
-      "DMC": "2/6/19"
+      "DMC": "2/6/19",
+      "categorieId": "3"
     },
     {
       "marque": "KYMKO",
@@ -2064,7 +2290,8 @@
       "agenceId": "1",
       "utilisateur": "Dahibi Mehdi",
       "Année": "2019",
-      "DMC": "11/1/19"
+      "DMC": "11/1/19",
+      "categorieId": "3"
     },
     {
       "marque": "KYMKO",
@@ -2074,7 +2301,8 @@
       "agenceId": "1",
       "utilisateur": "Jalal Bouloujour",
       "Année": "2019",
-      "DMC": "8/1/19"
+      "DMC": "8/1/19",
+      "categorieId": "3"
     },
     {
       "marque": "KYMKO",
@@ -2084,7 +2312,8 @@
       "agenceId": "2",
       "utilisateur": "Ben Bah Omar",
       "Année": "2019",
-      "DMC": "8/1/19"
+      "DMC": "8/1/19",
+      "categorieId": "3"
     },
     {
       "marque": "KYMKO",
@@ -2094,7 +2323,8 @@
       "agenceId": "5",
       "utilisateur": "El Idrissi Ayoub",
       "Année": "2019",
-      "DMC": "8/1/19"
+      "DMC": "8/1/19",
+      "categorieId": "3"
     },
     {
       "marque": "KYMKO",
@@ -2104,7 +2334,8 @@
       "agenceId": "4",
       "utilisateur": "Redouane El Maazouzi",
       "Année": "2019",
-      "DMC": "8/1/19"
+      "DMC": "8/1/19",
+      "categorieId": "3"
     },
     {
       "marque": "KYMKO",
@@ -2114,7 +2345,8 @@
       "agenceId": "1",
       "utilisateur": "Ouzal abdelghani",
       "Année": "2019",
-      "DMC": "8/1/19"
+      "DMC": "8/1/19",
+      "categorieId": "3"
     },
     {
       "marque": "KYMKO",
@@ -2124,7 +2356,8 @@
       "agenceId": "1",
       "utilisateur": "Soufiane Ait Oufkir",
       "Année": "2019",
-      "DMC": "8/1/19"
+      "DMC": "8/1/19",
+      "categorieId": "3"
     },
     {
       "marque": "KYMKO",
@@ -2134,7 +2367,8 @@
       "agenceId": "2",
       "utilisateur": "El Koudi Hafid",
       "Année": "2019",
-      "DMC": "8/1/19"
+      "DMC": "8/1/19",
+      "categorieId": "3"
     },
     {
       "marque": "KYMKO",
@@ -2144,7 +2378,8 @@
       "agenceId": "1",
       "utilisateur": "Lahcen El Khalifi",
       "Année": "2019",
-      "DMC": "8/1/19"
+      "DMC": "8/1/19",
+      "categorieId": "3"
     },
     {
       "marque": "KYMKO",
@@ -2154,7 +2389,8 @@
       "agenceId": "7",
       "utilisateur": "AHMED BEL KHADME",
       "Année": "2019",
-      "DMC": "11/1/19"
+      "DMC": "11/1/19",
+      "categorieId": "3"
     },
     {
       "marque": "KYMKO",
@@ -2164,7 +2400,8 @@
       "agenceId": "1",
       "utilisateur": "Youssef Diani",
       "Année": "2019",
-      "DMC": "8/1/19"
+      "DMC": "8/1/19",
+      "categorieId": "3"
     },
     {
       "marque": "KYMKO",
@@ -2174,7 +2411,8 @@
       "agenceId": "4",
       "utilisateur": "Barrad Zakaria",
       "Année": "2019",
-      "DMC": "8/1/19"
+      "DMC": "8/1/19",
+      "categorieId": "3"
     },
     {
       "marque": "KYMKO",
@@ -2184,7 +2422,8 @@
       "agenceId": "9",
       "utilisateur": "Lahcen Belhou",
       "Année": "2019",
-      "DMC": "11/1/19"
+      "DMC": "11/1/19",
+      "categorieId": "3"
     },
     {
       "marque": "KYMKO",
@@ -2194,7 +2433,8 @@
       "agenceId": "1",
       "utilisateur": "Benqraach Adil",
       "Année": "2019",
-      "DMC": "8/1/19"
+      "DMC": "8/1/19",
+      "categorieId": "3"
     },
     {
       "marque": "KYMKO",
@@ -2204,7 +2444,8 @@
       "agenceId": "6",
       "utilisateur": "Ben Allal Imadeddine",
       "Année": "2019",
-      "DMC": "8/1/19"
+      "DMC": "8/1/19",
+      "categorieId": "3"
     },
     {
       "marque": "KYMKO",
@@ -2214,7 +2455,8 @@
       "agenceId": "2",
       "utilisateur": "AGHRIB LAHCEN",
       "Année": "2020",
-      "DMC": "8/25/20"
+      "DMC": "8/25/20",
+      "categorieId": "3"
     },
     {
       "marque": "KYMKO",
@@ -2224,7 +2466,8 @@
       "agenceId": "6",
       "utilisateur": "Saghni Fouad",
       "Année": "2020",
-      "DMC": "8/25/20"
+      "DMC": "8/25/20",
+      "categorieId": "3"
     },
     {
       "marque": "KYMKO",
@@ -2234,7 +2477,8 @@
       "agenceId": "2",
       "utilisateur": "IDDAR MUSTAPHA",
       "Année": "2020",
-      "DMC": "8/25/20"
+      "DMC": "8/25/20",
+      "categorieId": "3"
     },
     {
       "marque": "KYMKO",
@@ -2244,7 +2488,8 @@
       "agenceId": "6",
       "utilisateur": "Saki Ahmed",
       "Année": "2020",
-      "DMC": "8/25/20"
+      "DMC": "8/25/20",
+      "categorieId": "3"
     },
     {
       "marque": "KYMKO",
@@ -2254,7 +2499,8 @@
       "agenceId": "5",
       "utilisateur": "Bekkar benasser ",
       "Année": "2020",
-      "DMC": "8/7/20"
+      "DMC": "8/7/20",
+      "categorieId": "3"
     },
     {
       "marque": "KYMKO",
@@ -2264,7 +2510,8 @@
       "agenceId": "3",
       "utilisateur": "AYOUB RACHIQ",
       "Année": "2020",
-      "DMC": "8/25/20"
+      "DMC": "8/25/20",
+      "categorieId": "3"
     },
     {
       "marque": "KYMKO",
@@ -2274,7 +2521,8 @@
       "agenceId": "6",
       "utilisateur": "Manqouri Hicham",
       "Année": "2020",
-      "DMC": "8/25/20"
+      "DMC": "8/25/20",
+      "categorieId": "3"
     },
     {
       "marque": "KYMKO",
@@ -2284,7 +2532,8 @@
       "agenceId": "4",
       "utilisateur": "ZOUKAL AMINE",
       "Année": "2020",
-      "DMC": "8/25/20"
+      "DMC": "8/25/20",
+      "categorieId": "3"
     },
     {
       "marque": "KYMKO",
@@ -2294,7 +2543,8 @@
       "agenceId": "3",
       "utilisateur": "LAAOUINI MED",
       "Année": "2020",
-      "DMC": "8/25/20"
+      "DMC": "8/25/20",
+      "categorieId": "3"
     },
     {
       "marque": "KYMKO",
@@ -2304,7 +2554,8 @@
       "agenceId": "9",
       "utilisateur": "OUDDOU BRAHIM",
       "Année": "2020",
-      "DMC": "8/25/20"
+      "DMC": "8/25/20",
+      "categorieId": "3"
     },
     {
       "marque": "KYMKO",
@@ -2314,7 +2565,8 @@
       "agenceId": "2",
       "utilisateur": "Tarfaoui Bader",
       "Année": "2020",
-      "DMC": "8/25/20"
+      "DMC": "8/25/20",
+      "categorieId": "3"
     }
   ],
   "chariots": [
@@ -2324,7 +2576,8 @@
       "agenceId": "1",
       "Type": "62-8FD20",
       "chassis": "608FD25-20095",
-      "dmc": "2009"
+      "dmc": "2009",
+      "categorieId": "4"
     },
     {
       "matricule": "MS286",
@@ -2332,7 +2585,8 @@
       "agenceId": "1",
       "Type": "62-8FD20",
       "chassis": "608FD25-20087",
-      "dmc": "2009"
+      "dmc": "2009",
+      "categorieId": "4"
     },
     {
       "matricule": "MS285",
@@ -2340,7 +2594,8 @@
       "agenceId": "1",
       "Type": "62-8FD25",
       "chassis": "608FD25-34317",
-      "dmc": "2010"
+      "dmc": "2010",
+      "categorieId": "4"
     },
     {
       "matricule": "MS219",
@@ -2348,7 +2603,8 @@
       "agenceId": "1",
       "Type": "02-6FDL26",
       "chassis": "8FDL25-31760",
-      "dmc": "2012"
+      "dmc": "2012",
+      "categorieId": "4"
     },
     {
       "matricule": "MS220",
@@ -2356,7 +2612,8 @@
       "agenceId": "1",
       "Type": "02-8FDL25",
       "chassis": "8FDL25-31757",
-      "dmc": "2012"
+      "dmc": "2012",
+      "categorieId": "4"
     },
     {
       "matricule": "MS103",
@@ -2364,7 +2621,8 @@
       "agenceId": "1",
       "Type": "028FDL25",
       "chassis": "8FDL25-31755",
-      "dmc": "2012"
+      "dmc": "2012",
+      "categorieId": "4"
     },
     {
       "matricule": "MS279",
@@ -2372,7 +2630,8 @@
       "agenceId": "1",
       "Type": "8FBEKT16",
       "chassis": "8FBEKT16 E 11323",
-      "dmc": "2012"
+      "dmc": "2012",
+      "categorieId": "4"
     },
     {
       "matricule": "MS214",
@@ -2380,7 +2639,8 @@
       "agenceId": "1",
       "Type": "FDZN20",
       "chassis": "FDZN25-23644",
-      "dmc": "2015"
+      "dmc": "2015",
+      "categorieId": "4"
     },
     {
       "matricule": "MS215",
@@ -2388,7 +2648,8 @@
       "agenceId": "1",
       "Type": "FDZN20",
       "chassis": "FDZN25-23634",
-      "dmc": "2015"
+      "dmc": "2015",
+      "categorieId": "4"
     },
     {
       "matricule": "MS91",
@@ -2396,7 +2657,8 @@
       "agenceId": "1",
       "Type": "62-8FD25",
       "chassis": "608FD25-62632",
-      "dmc": "2015"
+      "dmc": "2015",
+      "categorieId": "4"
     },
     {
       "matricule": "MS202",
@@ -2404,7 +2666,8 @@
       "agenceId": "1",
       "Type": "FDZN20",
       "chassis": "FDZN25-23694",
-      "dmc": "2015"
+      "dmc": "2015",
+      "categorieId": "4"
     },
     {
       "matricule": "MS217",
@@ -2412,7 +2675,8 @@
       "agenceId": "1",
       "Type": "628FD25",
       "chassis": "608FD25-66105",
-      "dmc": "2016"
+      "dmc": "2016",
+      "categorieId": "4"
     },
     {
       "matricule": "MS222",
@@ -2420,7 +2684,8 @@
       "agenceId": "1",
       "Type": "62-8FD25",
       "chassis": "608FD25-66749",
-      "dmc": "2016"
+      "dmc": "2016",
+      "categorieId": "4"
     },
     {
       "matricule": "MS223",
@@ -2428,7 +2693,8 @@
       "agenceId": "1",
       "Type": "62-8FD25",
       "chassis": "608FD25-66772",
-      "dmc": "2016"
+      "dmc": "2016",
+      "categorieId": "4"
     },
     {
       "matricule": "MS224",
@@ -2436,7 +2702,8 @@
       "agenceId": "1",
       "Type": "62-8FD25",
       "chassis": "608FD25-66980",
-      "dmc": "2017"
+      "dmc": "2017",
+      "categorieId": "4"
     },
     {
       "matricule": "MS278",
@@ -2444,7 +2711,8 @@
       "agenceId": "1",
       "Type": "FB25-8",
       "chassis": "7P442057",
-      "dmc": "2019"
+      "dmc": "2019",
+      "categorieId": "4"
     }
   ],
   "comments": [
@@ -2452,43 +2720,329 @@
       "id": "1",
       "camionId": "1",
       "comment": "salam allah",
+      "statusId": "2",
       "date": "1/1/22",
       "active": "true"
     },
     {
       "camionId": "1",
       "comment": "sdsdfsdfsd",
+      "statusId": "2",
       "time": "Sat, 28 May 2022 18:51:24 GMT",
-      "active": true,
+      "active": "true",
       "id": "5cEvyYc"
     },
     {
       "camionId": "2",
       "comment": "cdsdcsdcsdcd",
+      "statusId": "2",
       "time": "Sat, 28 May 2022 18:52:19 GMT",
-      "active": true,
+      "active": "true",
       "id": "2PPYhdQ"
     },
     {
       "camionId": "2",
       "comment": "sadasdasdasdsadasdasdasd",
+      "statusId": "2",
       "time": "Sat, 28 May 2022 18:53:05 GMT",
-      "active": true,
+      "active": "true",
       "id": "ogWe-5a"
     },
     {
       "camionId": "49",
       "comment": "hjkghkjghkh",
+      "statusId": "2",
       "time": "Sat, 28 May 2022 18:55:21 GMT",
-      "active": true,
+      "active": "true",
       "id": "d7wNVMu"
     },
     {
       "camionId": "67",
       "comment": "",
+      "statusId": "2",
       "time": "Sat, 28 May 2022 18:55:55 GMT",
-      "active": true,
+      "active": "true",
       "id": "U2TlTYO"
+    },
+    {
+      "camionId": "2",
+      "comment": "walo walo",
+      "statusId": "2",
+      "time": "",
+      "active": true,
+      "id": "u857MQx"
+    },
+    {
+      "camionId": "2",
+      "comment": "walo walo",
+      "statusId": "2",
+      "time": "",
+      "active": true,
+      "id": "q9unpU5"
+    },
+    {
+      "camionId": "2",
+      "comment": "dawdaw",
+      "statusId": "1",
+      "time": "",
+      "active": true,
+      "id": "MvqrhI8"
+    },
+    {
+      "camionId": "2",
+      "comment": "dawdaw2",
+      "statusId": "2",
+      "time": "",
+      "active": true,
+      "id": "V7kjyZC"
+    },
+    {
+      "camionId": "2",
+      "comment": "dawdaw3",
+      "statusId": "1",
+      "time": "",
+      "active": true,
+      "id": "BDGXCyL"
+    },
+    {
+      "camionId": "2",
+      "comment": "",
+      "statusId": "",
+      "time": "",
+      "active": true,
+      "id": "IiPBR93"
+    },
+    {
+      "camionId": "33",
+      "comment": "dghouli khalid 1",
+      "statusId": "2",
+      "time": "",
+      "active": true,
+      "id": "rjn-o1V"
+    },
+    {
+      "camionId": "33",
+      "comment": "dghouli khalid 1",
+      "statusId": "2",
+      "time": "",
+      "active": false,
+      "id": "sj7TI_m"
+    },
+    {
+      "camionId": "33",
+      "comment": "dghouli khalid 2",
+      "statusId": "2",
+      "time": "",
+      "active": true,
+      "id": "H94dtWM"
+    },
+    {
+      "camionId": "33",
+      "comment": "khalid 1",
+      "statusId": "1",
+      "time": "",
+      "active": true,
+      "id": "0bX6kHL"
+    },
+    {
+      "camionId": "33",
+      "comment": "khalid 2",
+      "statusId": "1",
+      "time": "",
+      "active": true,
+      "id": "gC5XPRV"
+    },
+    {
+      "camionId": "33",
+      "comment": "jhjh",
+      "statusId": "1",
+      "time": "",
+      "active": true,
+      "id": "sh0uVp1"
+    },
+    {
+      "camionId": "33",
+      "comment": "",
+      "statusId": "",
+      "time": "",
+      "active": true,
+      "id": "Hs8sYTM"
+    },
+    {
+      "camionId": "1",
+      "comment": "dghouli khalid",
+      "statusId": "1",
+      "time": "",
+      "active": true,
+      "id": "WlyfCIh"
+    },
+    {
+      "camionId": "10",
+      "comment": "gggg",
+      "statusId": "2",
+      "time": "",
+      "active": false,
+      "id": "m3reXRd"
+    },
+    {
+      "camionId": "33",
+      "comment": ",hkjhkj",
+      "statusId": "",
+      "time": "",
+      "active": true,
+      "id": "MobmzBp"
+    },
+    {
+      "camionId": "6",
+      "comment": "ddddddddddddddd",
+      "statusId": "2",
+      "time": "",
+      "active": true,
+      "id": "ZPkE8dD"
+    },
+    {
+      "camionId": "6",
+      "comment": "ddsdsdsds",
+      "statusId": "0",
+      "time": "",
+      "active": true,
+      "id": "YUNOV3l"
+    },
+    {
+      "camionId": "10",
+      "comment": "",
+      "statusId": "1",
+      "time": "",
+      "active": true,
+      "id": "_aZZnto"
+    },
+    {
+      "camionId": "10",
+      "comment": "oolkkk",
+      "statusId": "",
+      "time": "",
+      "active": true,
+      "id": "N_e3Wi_"
+    },
+    {
+      "camionId": "55",
+      "comment": "sdasdasdasds",
+      "statusId": "1",
+      "time": "",
+      "active": true,
+      "id": "KUeou9k"
+    },
+    {
+      "camionId": "55",
+      "comment": "asdasdasdasdasdasdasd",
+      "statusId": "1",
+      "time": "",
+      "active": true,
+      "id": "VPtjpZt"
+    },
+    {
+      "camionId": "62",
+      "comment": "uhuhuhuhuh",
+      "statusId": "1",
+      "time": "",
+      "active": true,
+      "id": "FxnPs8q"
+    },
+    {
+      "camionId": "25",
+      "comment": "dfsdfsdfsf",
+      "statusId": "2",
+      "time": "",
+      "active": true,
+      "id": "mbS_bCS"
+    },
+    {
+      "camionId": "64",
+      "comment": "attention",
+      "statusId": "1",
+      "time": "",
+      "active": true,
+      "id": "WW82lDg"
+    },
+    {
+      "camionId": "52",
+      "comment": "oualo",
+      "statusId": "1",
+      "time": "",
+      "active": true,
+      "id": "YIN7aTd"
+    },
+    {
+      "camionId": "52",
+      "comment": "kjiuyhtgf",
+      "statusId": "",
+      "time": "",
+      "active": true,
+      "id": "Clrp59K"
+    },
+    {
+      "camionId": "55",
+      "comment": "sdfsddfsd",
+      "statusId": "2",
+      "time": "",
+      "active": true,
+      "id": "uz578hx"
+    },
+    {
+      "camionId": "3",
+      "comment": "xacsdcdscsdcsdc",
+      "statusId": "2",
+      "time": "",
+      "active": true,
+      "id": "cNru6qt"
+    },
+    {
+      "camionId": "101",
+      "comment": "sdfsdfsd",
+      "statusId": "1",
+      "time": "",
+      "active": true,
+      "id": "3Os499U"
+    },
+    {
+      "camionId": "101",
+      "comment": "sdfsdf",
+      "statusId": "1",
+      "time": "",
+      "active": true,
+      "id": "3_AOT2C"
+    },
+    {
+      "camionId": "101",
+      "comment": "gggg",
+      "statusId": "1",
+      "time": "",
+      "active": true,
+      "id": "SQZNQIc"
+    },
+    {
+      "camionId": "101",
+      "comment": "fffff",
+      "statusId": "2",
+      "time": "",
+      "active": true,
+      "id": "G4NKR_2"
+    },
+    {
+      "camionId": "101",
+      "comment": "ererer",
+      "statusId": "1",
+      "time": "2023-02-18T10:02:13.224Z",
+      "active": true,
+      "id": "BMFrb8J"
+    },
+    {
+      "camionId": "101",
+      "comment": "salam",
+      "statusId": "2",
+      "time": "Today is Saturday",
+      "active": true,
+      "id": "dlxfsOE"
     }
   ],
   "agences": [
@@ -2536,11 +3090,11 @@
     },
     {
       "id": "2",
-      "status": "en réparation"
+      "status": "En Panne"
     },
     {
       "id": "3",
-      "status": "en arrêt"
+      "status": "En réparation"
     },
     {
       "id": "4",
@@ -2553,6 +3107,1689 @@
     {
       "id": "6",
       "status": "carte grise"
+    }
+  ],
+  "vhls": [
+    {
+      "id": "1",
+      "agenceId": "2",
+      "statuId": "1",
+      "matricule": "10093-A-13",
+      "date": "6/20/05",
+      "marque": "RENAULT",
+      "intitule": "SCBG",
+      "visiteTechnique": "3/11/22",
+      "permisCirculation": "2/24/22",
+      "equipement": "MG2450",
+      "active": "true",
+      "etat": "Pb des papiers",
+      "categorieId": "1"
+    },
+    {
+      "id": "2",
+      "agenceId": "2",
+      "statuId": "1",
+      "matricule": "120-A-73",
+      "date": "7/5/04",
+      "marque": "ISUZU",
+      "intitule": "COBOMI",
+      "visiteTechnique": "6/17/22",
+      "permisCirculation": "3/8/22",
+      "active": "true",
+      "equipement": "MG10005",
+      "categorieId": "1"
+    },
+    {
+      "id": "3",
+      "agenceId": "6",
+      "statuId": "1",
+      "matricule": "13720-A-40",
+      "date": "5/6/96",
+      "marque": "RENAULT",
+      "intitule": "SCBG",
+      "visiteTechnique": "4/21/22",
+      "permisCirculation": "8/26/22",
+      "active": "false",
+      "equipement": "MG1765",
+      "etat": "salam",
+      "categorieId": "1"
+    },
+    {
+      "id": "4",
+      "agenceId": "2",
+      "statuId": "1",
+      "matricule": "14165-A-15666",
+      "date": "4/10/97",
+      "marque": "RENAULT",
+      "intitule": "CBGN",
+      "visiteTechnique": "5/27/22",
+      "permisCirculation": "12/14/21",
+      "active": "true",
+      "equipement": "MG4131",
+      "categorieId": "1"
+    },
+    {
+      "id": "5",
+      "agenceId": "7",
+      "statuId": "1",
+      "matricule": "16565-B-7",
+      "date": "4/18/19",
+      "marque": "FUSO",
+      "intitule": "TRANS OPTI FLUX",
+      "visiteTechnique": "2/17/22",
+      "permisCirculation": "3/3/23",
+      "active": "true",
+      "equipement": "VL0548",
+      "categorieId": "1"
+    },
+    {
+      "id": "6",
+      "agenceId": "2",
+      "statuId": "1",
+      "matricule": "16998-A-13",
+      "date": "7/2/08",
+      "marque": "MITSUBISHI",
+      "intitule": "SCBG",
+      "visiteTechnique": "3/10/22",
+      "permisCirculation": "8/30/22",
+      "active": "true",
+      "equipement": "MG2611",
+      "categorieId": "1"
+    },
+    {
+      "id": "7",
+      "agenceId": "7",
+      "statuId": "1",
+      "matricule": "17124-B-7",
+      "date": "4/25/19",
+      "marque": "MITSUBI",
+      "intitule": "TRANS OPTI FLUX",
+      "visiteTechnique": "2/21/22",
+      "permisCirculation": "3/30/23",
+      "active": "true",
+      "equipement": "VL0551",
+      "categorieId": "1"
+    },
+    {
+      "id": "8",
+      "agenceId": "6",
+      "statuId": "1",
+      "matricule": "31935-D-8",
+      "date": "12/13/19",
+      "marque": "IVECO",
+      "intitule": "STE LAGOUASSEM ",
+      "visiteTechnique": "10/27/22",
+      "active": "true",
+      "equipement": "VL0602",
+      "categorieId": "1"
+    },
+    {
+      "id": "9",
+      "agenceId": "7",
+      "statuId": "1",
+      "matricule": "31940-D-8",
+      "date": "12/13/19",
+      "marque": "IVECO",
+      "intitule": "STE LAGOUASSEM ",
+      "visiteTechnique": "10/27/21",
+      "permisCirculation": "10/30/21",
+      "active": "true",
+      "equipement": "VL0605",
+      "categorieId": "1"
+    },
+    {
+      "id": "10",
+      "agenceId": "1",
+      "statuId": "1",
+      "matricule": "32093-A-26",
+      "date": "6/30/04",
+      "marque": "Mitsubishi",
+      "intitule": "CBGS",
+      "visiteTechnique": "7/7/22",
+      "permisCirculation": "7/7/22",
+      "equipement": "MG7085",
+      "active": "true",
+      "etat": "Pb des papiers",
+      "categorieId": "1"
+    },
+    {
+      "id": "11",
+      "agenceId": "2",
+      "statuId": "1",
+      "matricule": "32724-A-13",
+      "date": "3/4/13",
+      "marque": "MITSUBISHI",
+      "intitule": "SCBG",
+      "visiteTechnique": "2/11/22",
+      "permisCirculation": "2/18/22",
+      "active": "true",
+      "equipement": "MG2685",
+      "categorieId": "1"
+    },
+    {
+      "id": "12",
+      "agenceId": "4",
+      "statuId": "1",
+      "matricule": "33248-A-13",
+      "date": "4/15/13",
+      "marque": "MITSUBI",
+      "intitule": "SCBG",
+      "visiteTechnique": "6/26/22",
+      "permisCirculation": "8/11/22",
+      "active": "true",
+      "equipement": "MG2698",
+      "categorieId": "1"
+    },
+    {
+      "id": "13",
+      "agenceId": "2",
+      "statuId": "1",
+      "matricule": "33250-A-13",
+      "date": "5/14/13",
+      "marque": "MITSUBISHI",
+      "intitule": "SCBG",
+      "visiteTechnique": "3/10/22",
+      "permisCirculation": "2/18/22",
+      "active": "true",
+      "equipement": "MG2700",
+      "categorieId": "1"
+    },
+    {
+      "id": "14",
+      "agenceId": "6",
+      "statuId": "1",
+      "matricule": "3543-A-26",
+      "date": "5/5/00",
+      "marque": "Isuzu",
+      "intitule": "CBGS",
+      "visiteTechnique": "3/11/22",
+      "permisCirculation": "7/5/22",
+      "active": "true",
+      "equipement": "MG7249",
+      "categorieId": "1"
+    },
+    {
+      "id": "15",
+      "agenceId": "6",
+      "statuId": "1",
+      "matricule": "3544-A-26",
+      "date": "5/5/00",
+      "marque": "ISUZU",
+      "intitule": "CBGS",
+      "visiteTechnique": "4/27/22",
+      "permisCirculation": "12/10/21",
+      "active": "true",
+      "equipement": "MG7214",
+      "categorieId": "1"
+    },
+    {
+      "id": "18",
+      "agenceId": "4",
+      "statuId": "1",
+      "matricule": "3551-A-26",
+      "date": "5/5/00",
+      "marque": "ISUZU",
+      "intitule": "CBGS",
+      "visiteTechnique": "5/26/22",
+      "permisCirculation": "7/5/22",
+      "active": "true",
+      "equipement": "MG7198",
+      "categorieId": "1"
+    },
+    {
+      "id": "20",
+      "agenceId": "4",
+      "statuId": "1",
+      "matricule": "3826-A-7",
+      "date": "5/15/00",
+      "marque": "RENAULT ",
+      "intitule": "SCBG",
+      "visiteTechnique": "3/11/22",
+      "permisCirculation": "10/22/21",
+      "active": "true",
+      "equipement": "MG2173",
+      "categorieId": "1"
+    },
+    {
+      "id": "21",
+      "agenceId": "4",
+      "statuId": "1",
+      "matricule": "3946-A-26",
+      "date": "6/13/00",
+      "marque": "MITSUBISHI",
+      "intitule": "CBGS",
+      "visiteTechnique": "6/6/22",
+      "permisCirculation": "9/5/22",
+      "active": "true",
+      "equipement": "MG7245",
+      "categorieId": "1"
+    },
+    {
+      "id": "22",
+      "agenceId": "7",
+      "statuId": "1",
+      "matricule": "3947-A-26",
+      "date": "6/13/00",
+      "marque": "MITSUBICHI FK",
+      "intitule": "CBGS",
+      "visiteTechnique": "4/18/21",
+      "active": "true",
+      "permisCirculation": "7/14/21",
+      "equipement": "MG7048",
+      "categorieId": "1"
+    },
+    {
+      "id": "23",
+      "agenceId": "6",
+      "statuId": "1",
+      "matricule": "4001-A-7",
+      "date": "6/5/00",
+      "marque": "ISUZU",
+      "intitule": "SCBG",
+      "visiteTechnique": "5/26/22",
+      "active": "true",
+      "equipement": "MG2184",
+      "categorieId": "1"
+    },
+    {
+      "id": "24",
+      "agenceId": "4",
+      "statuId": "1",
+      "matricule": "4007-A-7",
+      "date": "6/5/00",
+      "marque": "ISUZU",
+      "intitule": "SCBG",
+      "visiteTechnique": "5/3/22",
+      "permisCirculation": "12/31/21",
+      "active": "true",
+      "equipement": "MG2190",
+      "categorieId": "1"
+    },
+    {
+      "id": "25",
+      "agenceId": "2",
+      "statuId": "1",
+      "matricule": "43710-A-6",
+      "date": "11/9/99",
+      "marque": "RENAULT",
+      "intitule": "SCBG",
+      "visiteTechnique": "4/25/22",
+      "permisCirculation": "11/23/21",
+      "active": "true",
+      "equipement": "MG1921",
+      "categorieId": "1"
+    },
+    {
+      "id": "26",
+      "agenceId": "2",
+      "statuId": "1",
+      "matricule": "4614-A-15",
+      "date": "6/5/00",
+      "marque": "MITSUBISHI",
+      "intitule": "CBGN",
+      "visiteTechnique": "2/17/22",
+      "permisCirculation": "3/9/22",
+      "active": "true",
+      "equipement": "MG4046",
+      "categorieId": "1"
+    },
+    {
+      "id": "27",
+      "agenceId": "2",
+      "statuId": "1",
+      "matricule": "4632-A-15",
+      "date": "6/5/00",
+      "marque": "MITSIBISHI",
+      "intitule": "CBGN",
+      "visiteTechnique": "1/26/22",
+      "permisCirculation": "7/11/22",
+      "equipement": "MG4078",
+      "active": "true",
+      "etat": "Pb des papiers",
+      "categorieId": "1"
+    },
+    {
+      "id": "28",
+      "agenceId": "2",
+      "statuId": "1",
+      "matricule": "56169-E-6",
+      "date": "7/13/19",
+      "marque": "MITSUBICHI",
+      "intitule": "BM TRANS",
+      "visiteTechnique": "2/15/22",
+      "permisCirculation": "7/5/23",
+      "active": "true",
+      "equipement": "VL0569",
+      "categorieId": "1"
+    },
+    {
+      "id": "29",
+      "agenceId": "4",
+      "statuId": "1",
+      "matricule": "56172-E-6",
+      "date": "7/13/19",
+      "marque": "FUSO",
+      "intitule": "BM TRANS",
+      "active": "true",
+      "equipement": "VL0568",
+      "categorieId": "1"
+    },
+    {
+      "id": "30",
+      "agenceId": "7",
+      "statuId": "1",
+      "matricule": "56405-E-6",
+      "date": "7/2/19",
+      "marque": "FUSO",
+      "intitule": "BM TRANS",
+      "visiteTechnique": "12/17/21",
+      "permisCirculation": "7/12/23",
+      "active": "true",
+      "equipement": "VL0572",
+      "categorieId": "1"
+    },
+    {
+      "id": "31",
+      "agenceId": "4",
+      "statuId": "1",
+      "matricule": "56407-E-6",
+      "date": "7/2/19",
+      "marque": "FUSO",
+      "intitule": "BM TRANS",
+      "visiteTechnique": "6/15/22",
+      "permisCirculation": "6/29/22",
+      "active": "true",
+      "equipement": "VL0574",
+      "categorieId": "1"
+    },
+    {
+      "id": "32",
+      "agenceId": "4",
+      "statuId": "1",
+      "matricule": "56408-E-6",
+      "date": "7/2/19",
+      "marque": "FUSO",
+      "intitule": "BM TRANS",
+      "visiteTechnique": "6/15/22",
+      "permisCirculation": "6/29/22",
+      "active": "true",
+      "equipement": "VL0571",
+      "categorieId": "1"
+    },
+    {
+      "id": "33",
+      "agenceId": "7",
+      "statuId": "1",
+      "matricule": "56409-E-6",
+      "date": "7/2/19",
+      "marque": "FUSO",
+      "intitule": "BM TRANS",
+      "visiteTechnique": "11/7/22",
+      "permisCirculation": "6/14/23",
+      "active": "true",
+      "equipement": "VL0573",
+      "categorieId": "1"
+    },
+    {
+      "id": "34",
+      "agenceId": "6",
+      "statuId": "1",
+      "matricule": "5951-A-6",
+      "date": "3/22/00",
+      "marque": "RENAULT ",
+      "intitule": "COBOMI",
+      "visiteTechnique": "10/20/22",
+      "permisCirculation": "8/11/22",
+      "active": "true",
+      "equipement": "MG10008",
+      "categorieId": "1"
+    },
+    {
+      "id": "35",
+      "agenceId": "9",
+      "statuId": "1",
+      "matricule": "59749-E-6",
+      "date": "9/23/19",
+      "marque": "MITSUBICHI",
+      "intitule": "CHAABI TRUCKS",
+      "visiteTechnique": "7/7/22",
+      "permisCirculation": "8/12/23",
+      "active": "true",
+      "equipement": "VL0589",
+      "categorieId": "1"
+    },
+    {
+      "id": "36",
+      "agenceId": "4",
+      "statuId": "1",
+      "matricule": "59750-E-6",
+      "date": "9/23/19",
+      "marque": "FUSO",
+      "intitule": "CHAABI TRUCKS",
+      "visiteTechnique": "12/13/21",
+      "permisCirculation": "8/11/23",
+      "active": "true",
+      "equipement": "VL0586",
+      "categorieId": "1"
+    },
+    {
+      "id": "37",
+      "agenceId": "9",
+      "statuId": "1",
+      "matricule": "59751-E-6",
+      "date": "9/23/19",
+      "marque": "MITSUBICHI",
+      "intitule": "CHAABI TRUCKS",
+      "visiteTechnique": "7/7/22",
+      "permisCirculation": "8/12/23",
+      "active": "true",
+      "equipement": "VL0590",
+      "categorieId": "1"
+    },
+    {
+      "id": "38",
+      "agenceId": "9",
+      "statuId": "1",
+      "matricule": "59752-E-6",
+      "date": "9/23/19",
+      "marque": "MITSUBICHI",
+      "intitule": "CHAABI TRUCKS",
+      "visiteTechnique": "7/7/22",
+      "permisCirculation": "8/11/23",
+      "equipement": "VL0591",
+      "categorieId": "1"
+    },
+    {
+      "id": "39",
+      "agenceId": "9",
+      "statuId": "1",
+      "matricule": "59753-E-6",
+      "date": "9/23/19",
+      "marque": "MITSUBICHI",
+      "intitule": "CHAABI TRUCKS",
+      "visiteTechnique": "7/7/22",
+      "permisCirculation": "8/12/23",
+      "equipement": "VL0592",
+      "categorieId": "1"
+    },
+    {
+      "id": "40",
+      "agenceId": "7",
+      "statuId": "1",
+      "matricule": "59754-E-6",
+      "date": "9/23/19",
+      "marque": "FUSO",
+      "intitule": "CHAABI TRUCKS",
+      "visiteTechnique": "10/6/22",
+      "permisCirculation": "8/11/23",
+      "equipement": "VL0593",
+      "categorieId": "1"
+    },
+    {
+      "id": "41",
+      "agenceId": "7",
+      "statuId": "1",
+      "matricule": "59755-E-6",
+      "date": "9/23/19",
+      "marque": "MITSUBI",
+      "intitule": "CHAABI TRUCKS",
+      "visiteTechnique": "6/24/22",
+      "permisCirculation": "8/11/23",
+      "equipement": "VL0585",
+      "categorieId": "1"
+    },
+    {
+      "id": "42",
+      "agenceId": "9",
+      "statuId": "1",
+      "matricule": "60539-E-6",
+      "date": "9/23/19",
+      "marque": "MITSUBICHI",
+      "intitule": "CHAABI TRUCKS",
+      "visiteTechnique": "7/7/22",
+      "permisCirculation": "8/12/23",
+      "equipement": "VL0594",
+      "categorieId": "1"
+    },
+    {
+      "id": "43",
+      "agenceId": "2",
+      "statuId": "1",
+      "matricule": "60540-E-6",
+      "date": "9/23/19",
+      "marque": "MITSUBISHI",
+      "intitule": "CHAABI TRUCKS",
+      "visiteTechnique": "2/10/22",
+      "permisCirculation": "8/23/23",
+      "equipement": "VL0584",
+      "categorieId": "1"
+    },
+    {
+      "id": "44",
+      "agenceId": "4",
+      "statuId": "1",
+      "matricule": "60541-E-6-",
+      "date": "9/23/19",
+      "marque": "FUSO",
+      "intitule": "CHAABI TRUCKS",
+      "visiteTechnique": "6/14/22",
+      "permisCirculation": "8/23/23",
+      "equipement": "VL0583",
+      "categorieId": "1"
+    },
+    {
+      "id": "45",
+      "agenceId": "4",
+      "statuId": "1",
+      "matricule": "60542-E-6",
+      "date": "9/23/19",
+      "marque": "FUSO",
+      "intitule": "CHAABI TRUCKS",
+      "visiteTechnique": "6/14/22",
+      "permisCirculation": "8/23/23",
+      "equipement": "VL0581",
+      "categorieId": "1"
+    },
+    {
+      "id": "46",
+      "agenceId": "6",
+      "statuId": "1",
+      "matricule": "60543-E-6",
+      "date": "9/23/19",
+      "marque": "Mitsub",
+      "intitule": "CHAABI TRUCKS",
+      "visiteTechnique": "8/14/22",
+      "permisCirculation": "8/26/23",
+      "equipement": "VL0580",
+      "categorieId": "1"
+    },
+    {
+      "id": "47",
+      "agenceId": "7",
+      "statuId": "1",
+      "matricule": "60544-E-6",
+      "date": "9/23/19",
+      "marque": "FUSO",
+      "intitule": "CHAABI TRUCKS",
+      "visiteTechnique": "4/20/22",
+      "permisCirculation": "8/23/23",
+      "equipement": "VL0582",
+      "categorieId": "1"
+    },
+    {
+      "id": "48",
+      "agenceId": "6",
+      "statuId": "1",
+      "matricule": "6443-A-7",
+      "date": "9/20/00",
+      "marque": "RENAULT",
+      "intitule": "SCBG",
+      "visiteTechnique": "2/11/22",
+      "permisCirculation": "12/31/21",
+      "equipement": "MG2319",
+      "categorieId": "1"
+    },
+    {
+      "id": "49",
+      "agenceId": "2",
+      "statuId": "1",
+      "matricule": "64564-A-8",
+      "date": "1/25/02",
+      "marque": "RENAULT",
+      "intitule": "SCBG",
+      "visiteTechnique": "6/17/22",
+      "permisCirculation": "7/11/22",
+      "equipement": "MG2510",
+      "etat": "EN PANNE",
+      "categorieId": "1"
+    },
+    {
+      "id": "50",
+      "agenceId": "6",
+      "statuId": "1",
+      "matricule": "6658-A-2",
+      "date": "6/23/98",
+      "marque": "RENAULT",
+      "intitule": "SCBG",
+      "visiteTechnique": "5/2/22",
+      "permisCirculation": "12/31/21",
+      "equipement": "MG1743",
+      "categorieId": "1"
+    },
+    {
+      "id": "51",
+      "agenceId": "2",
+      "statuId": "1",
+      "matricule": "71130-A-26",
+      "date": "4/21/09",
+      "marque": "MITSUBUHI",
+      "intitule": "CBGS",
+      "visiteTechnique": "1/11/22",
+      "permisCirculation": "7/12/22",
+      "equipement": "MG7273",
+      "categorieId": "1"
+    },
+    {
+      "id": "52",
+      "agenceId": "9",
+      "statuId": "1",
+      "matricule": "71131-A-26",
+      "date": "4/21/09",
+      "marque": "Mitsubishi",
+      "intitule": "CBGS",
+      "visiteTechnique": "3/3/22",
+      "permisCirculation": "7/5/22",
+      "equipement": "MG7278",
+      "categorieId": "1"
+    },
+    {
+      "id": "53",
+      "agenceId": "7",
+      "statuId": "1",
+      "matricule": "81080-B-8",
+      "date": "6/9/14",
+      "marque": "MITSUBICHI ",
+      "intitule": "STE LAGOUASSEM ",
+      "visiteTechnique": "4/20/22",
+      "permisCirculation": "7/12/22",
+      "equipement": "VL0184",
+      "active": true,
+      "etat": "dddefr",
+      "categorieId": "1"
+    },
+    {
+      "id": "54",
+      "agenceId": "2",
+      "statuId": "1",
+      "matricule": "8380-A-13",
+      "date": "7/26/04",
+      "marque": "RENAULT",
+      "intitule": "SCBG",
+      "visiteTechnique": "2/22/22",
+      "permisCirculation": "2/18/22",
+      "equipement": "MG2398",
+      "etat": "Pb des papiers",
+      "categorieId": "1"
+    },
+    {
+      "id": "55",
+      "agenceId": "2",
+      "statuId": "1",
+      "matricule": "84691-B-8",
+      "date": "2/19/18",
+      "marque": "MITSUBISHI",
+      "intitule": "STE LAGOUASSEM",
+      "visiteTechnique": "9/21/22",
+      "permisCirculation": "10/14/21",
+      "equipement": "VL0529",
+      "categorieId": "1"
+    },
+    {
+      "id": "56",
+      "agenceId": "9",
+      "statuId": "1",
+      "matricule": "84705-A-26",
+      "date": "7/21/98",
+      "marque": "Isuzu",
+      "intitule": "CBGS",
+      "visiteTechnique": "11/27/21",
+      "permisCirculation": "7/27/21",
+      "equipement": "MG7001",
+      "categorieId": "1"
+    },
+    {
+      "id": "57",
+      "agenceId": "2",
+      "statuId": "1",
+      "matricule": "85241-B-8",
+      "date": "6/9/14",
+      "marque": "MITSUBISHI",
+      "intitule": "STE LAGOUASSEM",
+      "visiteTechnique": "4/1/22",
+      "permisCirculation": "2/20/22",
+      "equipement": "VL0174",
+      "categorieId": "1"
+    },
+    {
+      "id": "58",
+      "agenceId": "9",
+      "statuId": "1",
+      "matricule": "85251-B-8",
+      "date": "6/9/14",
+      "marque": "ISUZU",
+      "intitule": "STE LAGOUASSEM",
+      "visiteTechnique": "4/6/22",
+      "equipement": "VL0175",
+      "categorieId": "1"
+    },
+    {
+      "id": "59",
+      "agenceId": "4",
+      "statuId": "1",
+      "matricule": "85253-B-8",
+      "date": "6/9/14",
+      "marque": "ISUZU",
+      "intitule": "STE LAGOUASSEM",
+      "visiteTechnique": "5/6/22",
+      "permisCirculation": "7/15/22",
+      "equipement": "VL0176",
+      "categorieId": "1"
+    },
+    {
+      "id": "60",
+      "agenceId": "6",
+      "statuId": "1",
+      "matricule": "85260-B-8",
+      "date": "6/9/14",
+      "marque": "MITSUBISHI",
+      "intitule": "STE LAGOUASSEM ",
+      "visiteTechnique": "4/6/22",
+      "equipement": "VL0181",
+      "categorieId": "1"
+    },
+    {
+      "id": "61",
+      "agenceId": "7",
+      "statuId": "1",
+      "matricule": "86064-B-8",
+      "date": "8/5/14",
+      "marque": "MITSUBICHI ",
+      "intitule": "STE LAGOUASSEM ",
+      "visiteTechnique": "7/3/22",
+      "permisCirculation": "7/12/22",
+      "equipement": "VL0195",
+      "categorieId": "1"
+    },
+    {
+      "id": "62",
+      "agenceId": "4",
+      "statuId": "1",
+      "matricule": "86253-B-8",
+      "date": "8/9/14",
+      "marque": "ISUZU",
+      "intitule": "STE LAGOUASSEM",
+      "visiteTechnique": "5/18/22",
+      "permisCirculation": "7/6/22",
+      "equipement": "VL0199",
+      "categorieId": "1"
+    },
+    {
+      "id": "63",
+      "agenceId": "6",
+      "statuId": "1",
+      "matricule": "86255-B-8",
+      "date": "8/9/14",
+      "marque": "ISUZU",
+      "intitule": "STE LAGOUASSEM ",
+      "visiteTechnique": "5/5/22",
+      "equipement": "VL0200",
+      "categorieId": "1"
+    },
+    {
+      "id": "64",
+      "agenceId": "2",
+      "statuId": "1",
+      "matricule": "86567-B-8",
+      "date": "9/2/14",
+      "marque": "ISUZU",
+      "intitule": "STE LAGOUASSEM",
+      "visiteTechnique": "4/2/22",
+      "permisCirculation": "10/11/22",
+      "equipement": "VL0207",
+      "categorieId": "1"
+    },
+    {
+      "id": "65",
+      "agenceId": "6",
+      "statuId": "1",
+      "matricule": "88265-A-8",
+      "date": "3/13/03",
+      "marque": "RENAULT ",
+      "intitule": "SCBG",
+      "visiteTechnique": "6/6/22",
+      "permisCirculation": "9/5/22",
+      "equipement": "MG10033",
+      "categorieId": "1"
+    },
+    {
+      "id": "66",
+      "agenceId": "6",
+      "statuId": "1",
+      "matricule": "88274-A-8",
+      "date": "3/13/03",
+      "marque": "RENAULT ",
+      "intitule": "SCBG",
+      "visiteTechnique": "5/25/22",
+      "permisCirculation": "8/4/22",
+      "equipement": "MG10034",
+      "categorieId": "1"
+    },
+    {
+      "id": "67",
+      "agenceId": "1",
+      "statuId": "1",
+      "matricule": "92333-B-26",
+      "date": "1/15/97",
+      "marque": "Mitsubishi",
+      "intitule": "CBGS",
+      "visiteTechnique": "11/27/21",
+      "permisCirculation": "sans",
+      "equipement": "MG7261",
+      "Matricule": "",
+      "etat": "Rien à signler",
+      "categorieId": "1"
+    },
+    {
+      "id": "68",
+      "agenceId": "6",
+      "statuId": "1",
+      "matricule": "9978-A-13",
+      "date": "6/20/05",
+      "marque": "RENAULT ",
+      "intitule": "SCBG",
+      "visiteTechnique": "4/4/22",
+      "permisCirculation": "2/10/22",
+      "equipement": "MG2449",
+      "categorieId": "1"
+    },
+    {
+      "matricule": "ddddd",
+      "marque": "ddddd",
+      "statuId": "1",
+      "agenceId": "dddddd",
+      "id": "5KOPO-f",
+      "categorieId": "1"
+    },
+    {
+      "matricule": "hhhhh",
+      "marque": "hhhhh",
+      "agenceId": "hhhhh",
+      "statuId": "1",
+      "id": "qwLGvrQ",
+      "categorieId": "1"
+    },
+    {
+      "matricule": "ggggg",
+      "marque": "ggggg",
+      "agenceId": "ggggg",
+      "statuId": "1",
+      "id": "EAyQI3H",
+      "categorieId": "1"
+    },
+    {
+      "matricule": "wwwww",
+      "statuId": "1",
+      "marque": "wwwww",
+      "agenceId": "wwwww",
+      "id": "pIw9zMC",
+      "categorieId": "1"
+    },
+    {
+      "matricule": "dsf",
+      "marque": "sd",
+      "agenceId": "sdf",
+      "statuId": "1",
+      "id": "9Wk9QEk",
+      "categorieId": "1"
+    },
+    {
+      "matricule": "rrrr",
+      "marque": "rrrr",
+      "agenceId": "rrrrr",
+      "statuId": "1",
+      "id": "52LhJgK",
+      "categorieId": "1"
+    },
+    {
+      "matricule": "pppp",
+      "marque": "ppppp",
+      "agenceId": "pppp",
+      "statuId": "1",
+      "id": "h_NKp-9",
+      "categorieId": "1"
+    },
+    {
+      "matricule": "gggggg",
+      "marque": "gggggggggggg",
+      "statuId": "1",
+      "agenceId": "gggggg",
+      "id": "tPC68mE",
+      "categorieId": "1"
+    },
+    {
+      "matricule": "dsds",
+      "marque": "sdsd",
+      "agenceId": "sdsd",
+      "statuId": "1",
+      "id": "QBZqYdW",
+      "categorieId": "1"
+    },
+    {
+      "matricule": "wqw",
+      "marque": "wqqe",
+      "agenceId": "qwwqw",
+      "statuId": "1",
+      "id": "v7zmDBi",
+      "categorieId": "1"
+    },
+    {
+      "id": "101",
+      "agenceId": "2",
+      "matricule": "17088-B-72",
+      "DMC": "2,019",
+      "marque": "PEUGEOT 301",
+      "type": "ARVAL MAROC",
+      "conducteur": "REDOUANE NADMY",
+      "categorieId": "2"
+    },
+    {
+      "id": "1012",
+      "agenceId": "2",
+      "matricule": "26906-B-7",
+      "DMC": "2,020",
+      "marque": "DACIA LOGAN",
+      "type": "ESPACE DE LOCATION",
+      "conducteur": "ANEJAR RACHID",
+      "categorieId": "2"
+    },
+    {
+      "id": "1015",
+      "agenceId": "2",
+      "matricule": "34484-E-6",
+      "DMC": "2,019",
+      "marque": "FIAT DOBLO",
+      "type": "CHAABI LLD",
+      "conducteur": "JAMAL MOHAMED",
+      "categorieId": "2"
+    },
+    {
+      "id": "1017",
+      "agenceId": "2",
+      "matricule": "34757-E-6",
+      "DMC": "2,019",
+      "marque": "FIAT DOBLO",
+      "type": "CHAABI LLD",
+      "conducteur": "IDRISSI MOHAMED",
+      "categorieId": "2"
+    },
+    {
+      "id": "1018",
+      "agenceId": "2",
+      "matricule": "34758-E-6",
+      "DMC": "2,019",
+      "marque": "FIAT DOBLO",
+      "type": "CHAABI LLD",
+      "conducteur": "REDOUANE JAMAL",
+      "categorieId": "2"
+    },
+    {
+      "id": "1019",
+      "agenceId": "2",
+      "matricule": "34759-E-6",
+      "DMC": "2,019",
+      "marque": "FIAT DOBLO",
+      "type": "CHAABI LLD",
+      "conducteur": "JADIR ABDELATIF",
+      "categorieId": "2"
+    },
+    {
+      "id": "1030",
+      "agenceId": "2",
+      "matricule": "57365-E-6",
+      "DMC": "2,019",
+      "marque": "DACIA  LOGAN",
+      "type": "BM RENTAL",
+      "conducteur": "ZOUINI SALEH",
+      "categorieId": "2"
+    },
+    {
+      "id": "1033",
+      "agenceId": "2",
+      "matricule": "57368-E-6",
+      "DMC": "2,019",
+      "marque": "DACIA  LOGAN",
+      "type": "BM RENTAL",
+      "conducteur": "HOUMINI MOHAMED",
+      "categorieId": "2"
+    },
+    {
+      "id": "1044",
+      "agenceId": "2",
+      "matricule": "59021-E-6",
+      "DMC": "2,019",
+      "marque": "FIAT DOBLO",
+      "type": "BM RENTAL",
+      "conducteur": "YASSINE HAMIDA",
+      "categorieId": "2"
+    },
+    {
+      "id": "1048",
+      "agenceId": "2",
+      "matricule": "61336-E-6",
+      "DMC": "2,019",
+      "marque": "FIAT DOBLO",
+      "type": "BM RENTAL",
+      "conducteur": "BENAKA LAHCEN",
+      "categorieId": "2"
+    },
+    {
+      "id": "1051",
+      "agenceId": "2",
+      "matricule": "61339-E-6",
+      "DMC": "2,019",
+      "marque": "FIAT DOBLO",
+      "type": "BM RENTAL",
+      "conducteur": "MOUJIB MOHAMED",
+      "categorieId": "2"
+    },
+    {
+      "id": "1057",
+      "agenceId": "2",
+      "matricule": "83684-E-6",
+      "DMC": "2,020",
+      "marque": "Citroen Berlingo",
+      "type": "CHAABI LLD",
+      "conducteur": "AQUABA JAMAL",
+      "categorieId": "2"
+    },
+    {
+      "id": "1069",
+      "agenceId": "2",
+      "matricule": "85155-E-6",
+      "DMC": "2,020",
+      "marque": "Citroen Berlingo",
+      "type": "CHAABI LLD",
+      "conducteur": "HOUSNI MUSTAPHA",
+      "categorieId": "2"
+    },
+    {
+      "id": "1010",
+      "agenceId": "3",
+      "matricule": "26903-B-7",
+      "DMC": "2,020",
+      "marque": "DACIA  LOGAN",
+      "type": "ESPACE DE LOCATION",
+      "conducteur": "ELMILOUDI ABDELHAK",
+      "categorieId": "2"
+    },
+    {
+      "id": "1016",
+      "agenceId": "3",
+      "matricule": "34748-E-6",
+      "DMC": "2,019",
+      "marque": "FIAT DOBLO",
+      "type": "CHAABI LLD",
+      "conducteur": "BYJAOUANE MOHAMMED",
+      "categorieId": "2"
+    },
+    {
+      "id": "1061",
+      "agenceId": "3",
+      "matricule": "83688-E-6",
+      "DMC": "2,020",
+      "marque": "Citroen Berlingo",
+      "type": "CHAABI LLD",
+      "conducteur": "ABDELLAH DEBANI",
+      "categorieId": "2"
+    },
+    {
+      "id": "1043",
+      "agenceId": "7",
+      "matricule": "59020-E-6",
+      "DMC": "2,019",
+      "marque": "FIAT DOBLO",
+      "type": "BM RENTAL",
+      "conducteur": "BENSGHIR DRISS",
+      "categorieId": "2"
+    },
+    {
+      "id": "1054",
+      "agenceId": "7",
+      "matricule": "762-T-6",
+      "DMC": "2,021",
+      "marque": "DACIA LOGAN",
+      "type": "CHAABI LLD",
+      "conducteur": "EL HOUARI SAID",
+      "categorieId": "2"
+    },
+    {
+      "id": "1056",
+      "agenceId": "7",
+      "matricule": "83683-E-6",
+      "DMC": "2,020",
+      "marque": "Citroen Berlingo",
+      "type": "CHAABI LLD",
+      "conducteur": "NAFAA HAMID",
+      "categorieId": "2"
+    },
+    {
+      "id": "1062",
+      "agenceId": "7",
+      "matricule": "83939-E-6",
+      "DMC": "2,020",
+      "marque": "Citroen Berlingo",
+      "type": "CHAABI LLD",
+      "conducteur": "BOUZROUD OMAR",
+      "categorieId": "2"
+    },
+    {
+      "id": "1065",
+      "agenceId": "7",
+      "matricule": "84415-E-6",
+      "DMC": "2,020",
+      "marque": "Citroen Berlingo",
+      "type": "CHAABI LLD",
+      "conducteur": "TOUHAMI RACHID",
+      "categorieId": "2"
+    },
+    {
+      "id": "1020",
+      "agenceId": "6",
+      "matricule": "34921-E-6",
+      "DMC": "2,019",
+      "marque": "FIAT  DOBLO",
+      "type": "CHAABI LLD",
+      "conducteur": "OUALIJANE SAID",
+      "categorieId": "2"
+    },
+    {
+      "id": "1029",
+      "agenceId": "6",
+      "matricule": "57364-E-6",
+      "DMC": "2,019",
+      "marque": "DACIA LOGAN",
+      "type": "BM RENTAL",
+      "conducteur": "ELBASRI HICHAM",
+      "categorieId": "2"
+    },
+    {
+      "id": "1038",
+      "agenceId": "6",
+      "matricule": "57408-E-6",
+      "DMC": "2,019",
+      "marque": "DACIA LOGAN",
+      "type": "BM RENTAL",
+      "conducteur": "IDRISSI ABDELLATIF",
+      "categorieId": "2"
+    },
+    {
+      "id": "1049",
+      "agenceId": "6",
+      "matricule": "61337-E-6",
+      "DMC": "2,019",
+      "marque": "FIAT  DOBLO",
+      "type": "BM RENTAL",
+      "conducteur": "MOUTATTAHIR MOHAMMED",
+      "categorieId": "2"
+    },
+    {
+      "id": "1068",
+      "agenceId": "6",
+      "matricule": "85154-E-6",
+      "DMC": "2,020",
+      "marque": "Citroen Berlingo",
+      "type": "CHAABI LLD",
+      "conducteur": "JALAL KAMAL",
+      "categorieId": "2"
+    },
+    {
+      "id": "1070",
+      "agenceId": "6",
+      "matricule": "ww843715",
+      "DMC": "2,021",
+      "marque": "PEUGEOT 301",
+      "type": "ALD",
+      "conducteur": "ABOUZAID HICHAM",
+      "categorieId": "2"
+    },
+    {
+      "id": "103",
+      "agenceId": "1",
+      "matricule": "17865-B-72",
+      "DMC": "2,019",
+      "marque": "FIAT DOBLO",
+      "type": "ARVAL MAROC",
+      "conducteur": "AIT LEBIZ ABDERRAFIQ",
+      "categorieId": "2"
+    },
+    {
+      "id": "104",
+      "agenceId": "1",
+      "matricule": "17866-B-72",
+      "DMC": "2,019",
+      "marque": "FIAT DOBLO",
+      "type": "ARVAL MAROC",
+      "conducteur": "EZZEBDI ACHRAF",
+      "categorieId": "2"
+    },
+    {
+      "id": "105",
+      "agenceId": "1",
+      "matricule": "17870-B-72",
+      "DMC": "2,019",
+      "marque": "FIAT DOBLO",
+      "type": "ARVAL MAROC",
+      "conducteur": "ETTAZY ABDERRAHIM",
+      "categorieId": "2"
+    },
+    {
+      "id": "1013",
+      "agenceId": "1",
+      "matricule": "27135-B-7",
+      "DMC": "2,020",
+      "marque": "DACIA LOGAN",
+      "type": "ESPACE DE LOCATION",
+      "conducteur": "ALI BICHER HATTABOU",
+      "categorieId": "2"
+    },
+    {
+      "id": "1014",
+      "agenceId": "1",
+      "matricule": "34479-E-6",
+      "DMC": "2,019",
+      "marque": "FIAT DOBLO",
+      "type": "CHAABI LLD",
+      "conducteur": "MISSI MOHAMED",
+      "categorieId": "2"
+    },
+    {
+      "id": "1021",
+      "agenceId": "1",
+      "matricule": "36086-E-6",
+      "DMC": "2,019",
+      "marque": "FIAT DOBLO",
+      "type": "CHAABI LLD",
+      "conducteur": "LEHKIM ZAKARIA",
+      "categorieId": "2"
+    },
+    {
+      "id": "1024",
+      "agenceId": "1",
+      "matricule": "36180-E-6",
+      "DMC": "2,019",
+      "marque": "FIAT DOBLO",
+      "type": "CHAABI LLD",
+      "conducteur": "BENQARAACH MUSTAPHA",
+      "categorieId": "2"
+    },
+    {
+      "id": "1026",
+      "agenceId": "1",
+      "matricule": "36183-E-6",
+      "DMC": "2,019",
+      "marque": "FIAT DOBLO",
+      "type": "CHAABI LLD",
+      "conducteur": "BOURIDA MOHAMED",
+      "categorieId": "2"
+    },
+    {
+      "id": "1031",
+      "agenceId": "1",
+      "matricule": "57366-E-6",
+      "DMC": "2,019",
+      "marque": "DACIA LOGAN",
+      "type": "BM RENTAL",
+      "conducteur": "KARBOUAI YOUNESS",
+      "categorieId": "2"
+    },
+    {
+      "id": "1045",
+      "agenceId": "1",
+      "matricule": "59022-E-6",
+      "DMC": "2,019",
+      "marque": "FIAT DOBLO",
+      "type": "BM RENTAL",
+      "conducteur": "DAOUI YOUNESS",
+      "categorieId": "2"
+    },
+    {
+      "id": "1041",
+      "agenceId": "1",
+      "matricule": "58378-E-6",
+      "DMC": "2,019",
+      "marque": "DACIA LOGAN",
+      "type": "BM RENTAL",
+      "conducteur": "MOHAMED AMINE TLEMCENY",
+      "categorieId": "2"
+    },
+    {
+      "id": "1053",
+      "agenceId": "1",
+      "matricule": "761-T-6",
+      "DMC": "2,021",
+      "marque": "DACIA  LOGAN ",
+      "type": "CHAABI LLD",
+      "conducteur": "ISMAIL AITSGHIR ",
+      "categorieId": "2"
+    },
+    {
+      "id": "107",
+      "agenceId": "1",
+      "matricule": "19830-B-72",
+      "DMC": "2,019",
+      "marque": "DACIA LOGAN",
+      "type": "ARVAL MAROC",
+      "conducteur": "JAMAL BOUNAHR ",
+      "categorieId": "2"
+    },
+    {
+      "id": "1027",
+      "agenceId": "1",
+      "matricule": "55534-e-6",
+      "DMC": "2,019",
+      "marque": "PEUGEOT 301",
+      "type": "BM RENTAL",
+      "conducteur": "EL MAHDAOUY ABDELFATTAH ",
+      "categorieId": "2"
+    },
+    {
+      "id": "1037",
+      "agenceId": "1",
+      "matricule": "57374-E-6",
+      "DMC": "2,019",
+      "marque": "DACIA LOGAN",
+      "type": "BM RENTAL",
+      "conducteur": "EL KAILANI KHALID",
+      "categorieId": "2"
+    },
+    {
+      "id": "1040",
+      "agenceId": "1",
+      "matricule": "58362-E-6",
+      "DMC": "2,019",
+      "marque": "DACIA LOGAN",
+      "type": "BM RENTAL",
+      "conducteur": "HAMID EL MANDOUR",
+      "categorieId": "2"
+    },
+    {
+      "id": "1011",
+      "agenceId": "1",
+      "matricule": "26905-B-7",
+      "DMC": "2,020",
+      "marque": "DACIA LOGAN",
+      "type": "ESPACE DE LOCATION",
+      "conducteur": "MOURAD ABBOU",
+      "categorieId": "2"
+    },
+    {
+      "id": "1022",
+      "agenceId": "1",
+      "matricule": "36087-E-6",
+      "DMC": "2,019",
+      "marque": "FIAT DOBLO",
+      "type": "CHAABI LLD",
+      "conducteur": "RABIA BAIBY",
+      "categorieId": "2"
+    },
+    {
+      "id": "1025",
+      "agenceId": "1",
+      "matricule": "36181-E-6",
+      "DMC": "2,019",
+      "marque": "FIAT DOBLO",
+      "type": "CHAABI LLD",
+      "conducteur": "HAMID BADDOU",
+      "categorieId": "2"
+    },
+    {
+      "id": "1028",
+      "agenceId": "1",
+      "matricule": "55951-E-6",
+      "DMC": "2,019",
+      "marque": "PEUGEOT 301",
+      "type": "BM RENTAL",
+      "conducteur": "TIJANI MOHAMED",
+      "categorieId": "2"
+    },
+    {
+      "id": "1035",
+      "agenceId": "1",
+      "matricule": "57370-E-6",
+      "DMC": "2,019",
+      "marque": "DACIA LOGAN",
+      "type": "BM RENTAL",
+      "conducteur": "MOSSADEQ ANAS",
+      "categorieId": "2"
+    },
+    {
+      "id": "1036",
+      "agenceId": "1",
+      "matricule": "57371-E-6",
+      "DMC": "2,019",
+      "marque": "DACIA LOGAN",
+      "type": "BM RENTAL",
+      "conducteur": "LHOUCINE AIT DAOUD",
+      "categorieId": "2"
+    },
+    {
+      "id": "1050",
+      "agenceId": "1",
+      "matricule": "61338-E-6",
+      "DMC": "2,019",
+      "marque": "FIAT DOBLO",
+      "type": "BM RENTAL",
+      "conducteur": "MJID LAHJILI",
+      "categorieId": "2"
+    },
+    {
+      "id": "1055",
+      "agenceId": "1",
+      "matricule": "78975-E-6",
+      "DMC": "2,020",
+      "marque": "VOLGSWAGEN ARTEON",
+      "type": "CHAABI LLD",
+      "conducteur": "SOUANI ABDERRAHMAN",
+      "categorieId": "2"
+    },
+    {
+      "id": "1058",
+      "agenceId": "1",
+      "matricule": "83685-E-6",
+      "DMC": "2,020",
+      "marque": "Citroen Berlingo",
+      "type": "CHAABI LLD",
+      "conducteur": "EL BAOUI HASSAN",
+      "categorieId": "2"
+    },
+    {
+      "id": "1059",
+      "agenceId": "1",
+      "matricule": "83686-E-6",
+      "DMC": "2,020",
+      "marque": "Citroen Berlingo",
+      "type": "CHAABI LLD",
+      "conducteur": "SOUHDI MUSTAPHA",
+      "categorieId": "2"
+    },
+    {
+      "id": "1063",
+      "agenceId": "1",
+      "matricule": "83940-E-6",
+      "DMC": "2,020",
+      "marque": "Citroen Berlingo",
+      "type": "CHAABI LLD",
+      "conducteur": "SADIK ABDELAZIZ",
+      "categorieId": "2"
+    },
+    {
+      "id": "1064",
+      "agenceId": "1",
+      "matricule": "83941-E-6",
+      "DMC": "2,020",
+      "marque": "Citroen Berlingo",
+      "type": "CHAABI LLD",
+      "conducteur": "DEMHOUL HAMID",
+      "categorieId": "2"
+    },
+    {
+      "id": "1067",
+      "agenceId": "1",
+      "matricule": "85048-E-6",
+      "DMC": "2,020",
+      "marque": "Citroen Berlingo",
+      "type": "CHAABI LLD",
+      "conducteur": "ABDERRAHIM SEMLALY",
+      "categorieId": "2"
+    },
+    {
+      "id": "1072",
+      "agenceId": "1",
+      "matricule": "ww890795",
+      "DMC": "2,021",
+      "marque": "PEUGEOT 301",
+      "type": "ALD",
+      "conducteur": "OUGGAG MUSTAPHA",
+      "categorieId": "2"
+    },
+    {
+      "id": "102",
+      "agenceId": "9",
+      "matricule": "17858-B-72",
+      "DMC": "2,019",
+      "marque": "FIAT  DOBLO",
+      "type": "ARVAL MAROC",
+      "conducteur": "HASSAN MLY MEHZI",
+      "categorieId": "2"
+    },
+    {
+      "id": "108",
+      "agenceId": "9",
+      "matricule": "232-T-6",
+      "DMC": "2,021",
+      "marque": "FIAT  DOBLO",
+      "type": "ARVAL MAROC",
+      "conducteur": "LAHCEN ACHOUR",
+      "categorieId": "2"
+    },
+    {
+      "id": "1039",
+      "agenceId": "9",
+      "matricule": "57910-E-6",
+      "DMC": "2,019",
+      "marque": "DACIA  LOGAN",
+      "type": "CHAABI LLD",
+      "conducteur": "KHADMAOUI NOUREDDINE",
+      "categorieId": "2"
+    },
+    {
+      "id": "1046",
+      "agenceId": "9",
+      "matricule": "6008-T-6",
+      "DMC": "2,021",
+      "marque": "FIAT  DOBLO",
+      "type": "CHAABI LLD",
+      "conducteur": "AJDAR MUSTAPHAT",
+      "categorieId": "2"
+    },
+    {
+      "id": "1047",
+      "agenceId": "9",
+      "matricule": "6010-T-6",
+      "DMC": "2,021",
+      "marque": "FIAT  DOBLO",
+      "type": "CHAABI LLD",
+      "conducteur": "GHOUBY SMAIL",
+      "categorieId": "2"
+    },
+    {
+      "id": "1066",
+      "agenceId": "9",
+      "matricule": "85-T-6",
+      "DMC": "2,021",
+      "marque": "FIAT  DOBLO",
+      "type": "ARVAL MAROC",
+      "conducteur": "YOUSSEF ABDEDDINE",
+      "categorieId": "2"
+    },
+    {
+      "id": "109",
+      "agenceId": "4",
+      "matricule": "26902-B-7",
+      "DMC": "2,020",
+      "marque": "DACIA LOGAN",
+      "type": "ESPACE DE LOCATION",
+      "conducteur": "YOUNESS HAMLI",
+      "categorieId": "2"
+    },
+    {
+      "id": "1023",
+      "agenceId": "4",
+      "matricule": "36090-E-6",
+      "DMC": "2,019",
+      "marque": "FIAT DOBLO",
+      "type": "CHAABI LLD",
+      "conducteur": "GLABI  JAMAL",
+      "categorieId": "2"
+    },
+    {
+      "id": "1034",
+      "agenceId": "4",
+      "matricule": "57369-E-6",
+      "DMC": "2,019",
+      "marque": "DACIA LOGAN",
+      "type": "BM RENTAL",
+      "conducteur": "MAAROUF ABDELGHANI",
+      "categorieId": "2"
+    },
+    {
+      "id": "1060",
+      "agenceId": "4",
+      "matricule": "83687-E-6",
+      "DMC": "2,020",
+      "marque": "Citroen Berlingo",
+      "type": "CHAABI LLD",
+      "conducteur": "EL GOUNTARI HICHAM",
+      "categorieId": "2"
+    },
+    {
+      "id": "1071",
+      "agenceId": "4",
+      "matricule": "ww890793",
+      "DMC": "2,021",
+      "marque": "PEUGEOT 301",
+      "type": "ALD",
+      "conducteur": "SOBTI LAKBIR",
+      "categorieId": "2"
+    },
+    {
+      "id": "106",
+      "agenceId": "5",
+      "matricule": "17958-B-72",
+      "marque": "FIAT DOBLO",
+      "type": "Arval",
+      "conducteur": "SAISSI HASSAN",
+      "categorieId": "2"
+    },
+    {
+      "id": "1032",
+      "agenceId": "5",
+      "matricule": "57367-E-6",
+      "DMC": "2,019",
+      "marque": "DACIA LOGAN",
+      "type": "BM RENTAL",
+      "conducteur": "DRAI AZIZ",
+      "categorieId": "2"
+    },
+    {
+      "id": "1042",
+      "agenceId": "5",
+      "matricule": "59019-E-6",
+      "DMC": "2,019",
+      "marque": "FIAT DOBLO",
+      "type": "BM RENTAL",
+      "conducteur": "LAZSIRI AZIZ",
+      "categorieId": "2"
+    },
+    {
+      "id": "1052",
+      "agenceId": "5",
+      "matricule": "61340-E-6",
+      "DMC": "2,019",
+      "marque": "FIAT DOBLO",
+      "type": "BM RENTAL",
+      "conducteur": "ABBOUD EL MOSTAPHA",
+      "categorieId": "2"
     }
   ]
 }

@@ -1,4 +1,4 @@
-<script lang="js">
+<script >
 import Camions from "../components/camion/ListCamions.vue";
 
 

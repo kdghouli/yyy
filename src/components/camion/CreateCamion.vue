@@ -69,7 +69,7 @@ ajouterEquipe() {
             agenceId:this.agenceId
         };
         
-            fetch('http://localhost:3000/camion', {
+            fetch('http://localhost:3000/vhls', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json'},
                 body: JSON.stringify(camion)

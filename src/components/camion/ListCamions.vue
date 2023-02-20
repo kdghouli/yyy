@@ -1,81 +1,87 @@
 <template>
- 
-  <div class="table-responsive custom-table-responsive mt-3">
-    <table class="table custom-table">
-      <thead class="bg-success">
-        <tr>
-          <th scope="col">
-            <label class="control control--checkbox">
-              <input type="checkbox" class="js-check-all" />
-              <div class="control__indicator"></div>
-            </label>
-          </th>
+  
+  <div>
+      <div class="table-responsive custom-table-responsive mt-3">
+      <table class="table custom-table">
+        <thead class="bg-success">
+          <tr>
+            <th scope="col">
+              <label class="control control--checkbox">
+                <input type="checkbox" class="js-check-all" />
+                <div class="control__indicator"></div>
+              </label>
+            </th>
 
-          <th scope="col">ID</th>
-          <th scope="col">Agence</th>
-          <th scope="col">Vehicule</th>
-          <th scope="col">Contact</th>
-          <th scope="col">Etat</th>
-        </tr>
-      </thead>
+            <th scope="col">ID</th>
+            <th scope="col">Agence</th>
+            <th scope="col">Vehicule</th>
+            <th scope="col">Contact</th>
+            <th scope="col">Etat</th>
+          </tr>
+        </thead>
 
-      <tbody v-for="camion in camions" :key="camion.id">
-        <tr scope="row">
-          <th scope="row">
-            <label class="control control--checkbox">
-              <input type="checkbox" />
-              <div class="control__indicator"></div>
-            </label>
-          </th>
-          <td>{{ camion.id }}</td>
-          <td>
-            <router-link :to="{name:'CamionView',params:{id:camion.id}}">{{ camion.matricule }}</router-link>
-          </td>
-          <td>
-            {{ camion.marque }}
-            <small class="d-block"
-              > {{ camion.intitule }}</small
-            >
-          </td>
-          <td>+63 983 0962 971</td>
-          <td> {{ camion.date }}</td>
-        </tr>
-        <tr class="spacer">
-          <td colspan="100"></td>
-        </tr>
-      </tbody>
-    </table>
+        <tbody v-for="camion in getCamions" :key="camion.id">
+          <tr scope="row">
+            <th scope="row">
+              <label class="control control--checkbox">
+                <input type="checkbox" />
+                <div class="control__indicator"></div>
+              </label>
+            </th>
+            <td>{{ camion.id }}</td>
+            <td>
+              <router-link
+                :to="{ name: 'CamionView', params: { id: camion.id } }"
+              >
+                {{ camion.matricule }}</router-link
+              >
+            </td>
+            <td>
+              {{ camion.marque }}
+              <small class="d-block"> {{ camion.intitule }}</small>
+            </td>
+            <td>+63 983 0962 971</td>
+            <td>{{ camion.date }}</td>
+          </tr>
+          <tr class="spacer">
+            <td colspan="100"></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
   </div>
 </template>
 
 <script>
-import { useCamionStore } from "../../stores/camions.js";
+//import { useCamionStore } from "../../stores/camions.js";
+import { useBasesStore } from "../../stores/bases.js";
 
 export default {
   data() {
     return {
-      store: useCamionStore(),
-      agence: '',
+      //store: useCamionStore(),
+      base: useBasesStore(),
+      agence: "",
     };
   },
   computed: {
     getCamions() {
-      return this.store.getCamions;
+      console.log('getCamions ListCamions')
+      return this.base.getCamions;
     },
     camions() {
-      return this.store.camion;
+      return this.base.camions;
     },
   },
   mounted() {
-    this.store.fetchCamions();
-    // this.getCamions()
+    //this.store.fetchCamions();
+    this.base.fetchBase();
+
+    // this.getMatricule()
   },
-  methods: {
-    // getCamions() {
-    //     this.axios
-    //   .get('http://localhost:3000/camion')
-    //   .then(response => (this.camions = response.data))}
-  },
+
+
+  methods: {},
 };
 </script>
 

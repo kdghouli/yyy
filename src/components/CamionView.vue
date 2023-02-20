@@ -19,33 +19,49 @@
       <p>DMC : {{ vhl.date }}</p>
       <p >Chassis : {{ agenceName }}</p>
       <p v-for="comment in comments" :key="comment.index">Type : {{ comment.comment }}</p>
+
+      <router-link class="btn btn-warning float-end" :to="{name:'EditCamionView',params:{id:$route.params.id}}"> modifier </router-link> 
+      <button class="btn btn-danger me-2" @click="componentComment=!componentComment"> + Commentaire </button> 
+      <div v-if="componentComment">
+        <CreateCommentView :vhl="vhl" @closing="componentComment=false"/>
+      </div>
     </div>
   </div>
 </template>
 
-<script>
+<script> 
+
+import CreateCommentView from "./CreateCommentView.vue";
+
 export default {
+  components:{CreateCommentView},
+  
   data() {
     return {
       vhl: {},
       agenceName:'',
-      comments:{}
-    };
+      comments:{},
+      nbComments:'',
+      componentComment:false
+    }
   },
 
   methods: {
     Exit() {
       return this.$route.params.id;
     },
+    
   },
   async mounted() {
-    const d = await this.axios.get(
-      `http://localhost:3000/camions/${this.$route.params.id}?_expand=agence&_embed=comments`
+    const data = await this.axios.get(
+      `http://localhost:3000/vhls/${this.$route.params.id}?_expand=agence&_embed=comments`
     );
 
-    this.vhl = d.data;
+    this.vhl = data.data;
     this.agenceName=this.vhl.agence.agence
     this.comments=this.vhl.comments
+    this.nbComments=this.vhl.comments.length
+    console.log(this.nbComments)
   },
 };
 </script>
